@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "BlenderPro";
+  src: url("/static/fonts/BlenderPro-Medium.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("/static/fonts/NotoSansCJKsc-Medium.otf") format('otf');
+}
+
+$font-family: '"BlenderPro", "NotoSans", sans-serif';
+
+$theme-color: #E46857; //主题色
+$text-color: #f9f7ea; //字体颜色
+$bg-color: #121212; //背景色
+$bg-color-secondary: #282828; //另一个浅背景色
+$bg-color-tertiary: #3f3f3f; //另一个更浅的背景色
+$border-color: #524441; //边框颜色
+$box-shadow: #3c2d2a; //元素阴影色
+$card-shadow: #271800; //卡片阴影色

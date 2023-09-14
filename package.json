@@ -1,0 +1,24 @@
+{
+  "name": "simulatorx-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.67",
+    "@vuepress/plugin-git": "2.0.0-beta.67",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-plugin-search-pro": "2.0.0-beta.237"
+  },
+  "dependencies": {
+    "vuepress-plugin-copy-code2": "2.0.0-beta.237",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.237",
+    "vuepress-shared": "2.0.0-beta.237",
+    "vuepress-theme-hope": "2.0.0-beta.237",
+    "vuepress-vite": "2.0.0-beta.67"
+  }
+}
