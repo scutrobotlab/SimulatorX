@@ -1,0 +1,18 @@
+﻿        public static class //PALETTE_NAME//
+        {
+            private static EditorDataColorPalette s_colorPalette;
+            private static EditorDataColorPalette colorPalette =>
+                s_colorPalette != null
+                    ? s_colorPalette
+                    : s_colorPalette = EditorDataColorDatabase.GetColorPalette("//PALETTE_NAME//");
+            
+            public static Color GetColor(ColorName colorName) =>
+                colorPalette.GetColor(colorName.ToString());
+                
+            public enum ColorName
+            {
+//NAMES//
+            }
+            
+//CACHE//          
+        }

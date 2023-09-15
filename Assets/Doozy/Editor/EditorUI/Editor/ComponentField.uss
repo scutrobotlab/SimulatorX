@@ -1,0 +1,55 @@
+﻿.ComponentField#LayoutContainer {
+    flex-grow: 0;
+    flex-direction: row;
+    padding: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.ComponentField#icon {
+    position: absolute;
+}
+
+.ComponentField.Small#icon {
+    height: 38px;
+    width: 38px;
+    left: -2px;
+    top: 5px
+}
+
+.ComponentField.Large#icon {
+    height: 56px;
+    width: 56px;
+    left: -4px;
+    top: 8px
+}
+
+.ComponentField#NameAndFieldContainer {
+    flex-grow: 1;
+}
+
+.ComponentField.Small#NameAndFieldContainer {
+    flex-direction: row;
+}
+
+.ComponentField.Large#NameAndFieldContainer {
+    flex-direction: column;
+}
+
+.ComponentField#FieldName {
+    font-size: 10px;
+}
+
+.ComponentField.Small#FieldName {
+    margin-right: 3px;
+    align-self: center;
+}
+
+.ComponentField.Large#FieldName {
+    margin-bottom: 3px;
+}
+
+.ComponentField#FieldContent {
+    flex-grow: 1;
+    min-width: 40px;
+}

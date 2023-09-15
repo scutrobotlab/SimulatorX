@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Scrollbar - Simple Scrollbar
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4553500594054135776, guid: 2e1b66c2ed5bfaa4091ea91e776e865a, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Scrollbar
+  PrefabName: Simple Scrollbar
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - scrollbar
+  InfoTag: 
+  Icon: []

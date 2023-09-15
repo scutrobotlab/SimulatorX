@@ -1,0 +1,60 @@
+﻿#layoutContainer.FluidSideMenu {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.FluidSideMenu.OptionalContainer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+#headerContainer.FluidSideMenu {
+}
+
+#expandCollapseButtonContainer.FluidSideMenu {
+}
+
+#searchBoxContainer.FluidSideMenu {
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 24px;
+}
+
+#menuInfoContainer.FluidSideMenu {
+    display: none;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+}
+
+#menuInfoIcon.FluidSideMenu{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+#menuInfoLabel.FluidSideMenu{
+    font-size: 22px;
+    margin-left: 8px;
+    margin-bottom: -16px;
+}
+
+#toolbarContainer.FluidSideMenu {
+    align-items: center;
+}
+
+#buttonsScrollViewContainer.FluidSideMenu {
+    flex-grow: 1;
+    padding: 16px;
+}
+
+#buttonsScrollViewContainer.Fluid.ToggleButton.FluidSideMenu {
+    padding: 4px;
+}
+
+
+#footerContainer.FluidSideMenu {
+    margin-bottom: 0;
+}

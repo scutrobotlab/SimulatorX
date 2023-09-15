@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="Fluid ListView" name="layoutContainer">
+
+        <engine:VisualElement class="Fluid ListView" name="headerContainer">
+            <engine:Label class="Fluid ListView" name="listTitle"/>
+            <engine:Label class="Fluid ListView" name="listDescription"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="Fluid ListView" name="toolbarContainer"/>
+
+        <engine:VisualElement class="Fluid ListView" name="top"/>
+        
+        <engine:VisualElement class="Fluid ListView" name="listContainer">
+            <engine:VisualElement class="Fluid ListView" name="listHeaderContainer">
+                <engine:VisualElement class="Fluid ListView" name="columnNamesContainer"/>
+                <engine:VisualElement style="flex-grow: 1"/>
+                <engine:VisualElement class="Fluid ListView" name="addItemButtonContainer"/>
+            </engine:VisualElement>
+            <engine:VisualElement class="Fluid ListView" name="listViewContainer">
+                <engine:ListView class="Fluid ListView" name="listView"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="Fluid ListView" name="footerContainer">
+            <engine:Label class="Fluid ListView" name="footerLabel"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="Fluid ListView" name="bottom"/>
+
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="node-border">
+
+        <engine:VisualElement name="title">
+            
+            <engine:Image name="nodeIcon">
+                <engine:Image name="runningStateIconIndicator"/>
+            </engine:Image>
+            
+            <engine:Label name="title-label" class="unity-text-element unity-label"/>
+            <engine:VisualElement name="nodeInfo"/>
+            
+            <engine:VisualElement name="title-button-container">
+                <engine:VisualElement name="collapse-button">
+                    <engine:VisualElement name="icon"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+
+        <engine:Label name="nodeDescriptionLabel"/>
+
+        <engine:VisualElement name="nodeContent">
+            
+            <engine:Image name="activeStateLineIndicator"/>
+
+            <engine:VisualElement name="top">
+                <engine:VisualElement name="inputLayoutContainer">
+                    <engine:VisualElement name="input"/>
+                </engine:VisualElement>
+                <engine:VisualElement name="portDivider" class="vertical"/>
+                <engine:VisualElement name="outputLayoutContainer">
+                    <engine:VisualElement name="output"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+    <engine:VisualElement name="selection-border"/>
+    <engine:VisualElement name="activeStateBorder"/>
+    <engine:VisualElement name="pingBorder"/>
+</engine:UXML>

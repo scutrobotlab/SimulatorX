@@ -1,0 +1,550 @@
+fileFormatVersion: 2
+guid: aaf0205bbf9d1a4458899575eed1c962
+timeCreated: 1491445617
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Base_mesh
+    100002: Body_jnt
+    100004: BombDisposal_mesh
+    100006: Female_mesh
+    100008: FemaleMedic_mesh
+    100010: Foot_Left_jnt
+    100012: Foot_Right_jnt
+    100014: GasMask_mesh
+    100016: Hand_Left_jnt
+    100018: Hand_Right_jnt
+    100020: Hat_jnt
+    100022: Head_jnt
+    100024: Hips_jnt
+    100026: JungleCommando_mesh
+    100028: LowerArm_Left_jnt
+    100030: LowerArm_Right_jnt
+    100032: LowerLeg_Left_jnt
+    100034: LowerLeg_Right_jnt
+    100036: Medic_mesh
+    100038: Mercenary_mesh
+    100040: Officer_mesh
+    100042: Pilot_mesh
+    100044: Root_jnt
+    100046: //RootNode
+    100048: Soldier_01_mesh
+    100050: Soldier_02_mesh
+    100052: Soldier_03_mesh
+    100054: SpecialForces_01_mesh
+    100056: SpecialForces_02_mesh
+    100058: SpecialForces_03_mesh
+    100060: SpecialForces_04_mesh
+    100062: Spine_jnt
+    100064: Terrorist_01_mesh
+    100066: Terrorist_02_mesh
+    100068: Terrorist_03_mesh
+    100070: Terrorist_04_mesh
+    100072: UpperArm_Left_jnt
+    100074: UpperArm_Right_jnt
+    100076: UpperLeg_Left_jnt
+    100078: UpperLeg_Right_jnt
+    100080: Base
+    100082: Farmer
+    100084: FarmersDaughter
+    100086: FarmersWife
+    100088: Wrangler
+    100090: Arm_Left_jnt
+    100092: Arm_Right_jnt
+    100094: Chest_jnt
+    100096: Forearm_Left_jnt
+    100098: Forearm_Right_jnt
+    100100: Neck_jnt
+    100102: SF_Character_Farmer
+    100104: SF_Character_FarmersDaughter
+    100106: SF_Character_FarmersWife
+    100108: SF_Character_Wrangler
+    100110: Shoulder_Left_jnt
+    100112: Shoulder_Right_jnt
+    100114: Spine_jnt 1
+    100116: Toe_Left_jnt
+    100118: Toe_Right_jnt
+    400000: Base_mesh
+    400002: Body_jnt
+    400004: BombDisposal_mesh
+    400006: Female_mesh
+    400008: FemaleMedic_mesh
+    400010: Foot_Left_jnt
+    400012: Foot_Right_jnt
+    400014: GasMask_mesh
+    400016: Hand_Left_jnt
+    400018: Hand_Right_jnt
+    400020: Hat_jnt
+    400022: Head_jnt
+    400024: Hips_jnt
+    400026: JungleCommando_mesh
+    400028: LowerArm_Left_jnt
+    400030: LowerArm_Right_jnt
+    400032: LowerLeg_Left_jnt
+    400034: LowerLeg_Right_jnt
+    400036: Medic_mesh
+    400038: Mercenary_mesh
+    400040: Officer_mesh
+    400042: Pilot_mesh
+    400044: Root_jnt
+    400046: //RootNode
+    400048: Soldier_01_mesh
+    400050: Soldier_02_mesh
+    400052: Soldier_03_mesh
+    400054: SpecialForces_01_mesh
+    400056: SpecialForces_02_mesh
+    400058: SpecialForces_03_mesh
+    400060: SpecialForces_04_mesh
+    400062: Spine_jnt
+    400064: Terrorist_01_mesh
+    400066: Terrorist_02_mesh
+    400068: Terrorist_03_mesh
+    400070: Terrorist_04_mesh
+    400072: UpperArm_Left_jnt
+    400074: UpperArm_Right_jnt
+    400076: UpperLeg_Left_jnt
+    400078: UpperLeg_Right_jnt
+    400080: Base
+    400082: Farmer
+    400084: FarmersDaughter
+    400086: FarmersWife
+    400088: Wrangler
+    400090: Arm_Left_jnt
+    400092: Arm_Right_jnt
+    400094: Chest_jnt
+    400096: Forearm_Left_jnt
+    400098: Forearm_Right_jnt
+    400100: Neck_jnt
+    400102: SF_Character_Farmer
+    400104: SF_Character_FarmersDaughter
+    400106: SF_Character_FarmersWife
+    400108: SF_Character_Wrangler
+    400110: Shoulder_Left_jnt
+    400112: Shoulder_Right_jnt
+    400114: Spine_jnt 1
+    400116: Toe_Left_jnt
+    400118: Toe_Right_jnt
+    4300000: Base_mesh
+    4300002: Terrorist_04_mesh
+    4300004: Terrorist_03_mesh
+    4300006: Terrorist_02_mesh
+    4300008: Terrorist_01_mesh
+    4300010: Female_mesh
+    4300012: JungleCommando_mesh
+    4300014: FemaleMedic_mesh
+    4300016: GasMask_mesh
+    4300018: SpecialForces_04_mesh
+    4300020: SpecialForces_03_mesh
+    4300022: SpecialForces_02_mesh
+    4300024: SpecialForces_01_mesh
+    4300026: Pilot_mesh
+    4300028: Mercenary_mesh
+    4300030: Officer_mesh
+    4300032: Soldier_03_mesh
+    4300034: Soldier_02_mesh
+    4300036: Soldier_01_mesh
+    4300038: BombDisposal_mesh
+    4300040: Medic_mesh
+    4300042: Base
+    4300044: Wrangler
+    4300046: FarmersWife
+    4300048: Farmer
+    4300050: FarmersDaughter
+    4300052: SF_Character_Wrangler
+    4300054: SF_Character_FarmersWife
+    4300056: SF_Character_Farmer
+    4300058: SF_Character_FarmersDaughter
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Base_mesh
+    13700002: BombDisposal_mesh
+    13700004: Female_mesh
+    13700006: FemaleMedic_mesh
+    13700008: GasMask_mesh
+    13700010: JungleCommando_mesh
+    13700012: Medic_mesh
+    13700014: Mercenary_mesh
+    13700016: Officer_mesh
+    13700018: Pilot_mesh
+    13700020: Soldier_01_mesh
+    13700022: Soldier_02_mesh
+    13700024: Soldier_03_mesh
+    13700026: SpecialForces_01_mesh
+    13700028: SpecialForces_02_mesh
+    13700030: SpecialForces_03_mesh
+    13700032: SpecialForces_04_mesh
+    13700034: Terrorist_01_mesh
+    13700036: Terrorist_02_mesh
+    13700038: Terrorist_03_mesh
+    13700040: Terrorist_04_mesh
+    13700042: Base
+    13700044: Farmer
+    13700046: FarmersDaughter
+    13700048: FarmersWife
+    13700050: Wrangler
+    13700052: SF_Character_Farmer
+    13700054: SF_Character_FarmersDaughter
+    13700056: SF_Character_FarmersWife
+    13700058: SF_Character_Wrangler
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips_jnt
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_Left_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_Right_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_Left_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_Right_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_Left_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_Right_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_jnt 1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Left_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Right_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm_Left_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Forearm_Right_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_Left_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_Right_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_Left_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_Right_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_Left_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_Right_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: SimpleFarm_Characters(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips_jnt
+      position: {x: 3.62720075e-16, y: 1.04498756, z: -6.26920848e-18}
+      rotation: {x: 0, y: -0, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_jnt
+      position: {x: -.019048661, y: -5.15874299e-16, z: 6.26920848e-18}
+      rotation: {x: 1.49858581e-09, y: 6.77402969e-12, z: 7.86083438e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_jnt 1
+      position: {x: -.336072505, y: 3.72617417e-16, z: 2.36434647e-18}
+      rotation: {x: 0, y: -0, z: -1.61025707e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest_jnt
+      position: {x: -.334252745, y: -1.2999511e-15, z: -2.36434647e-18}
+      rotation: {x: -1.8029106e-41, y: -8.90385044e-42, z: -1.66533454e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck_jnt
+      position: {x: -.228951886, y: 4.22168632e-16, z: 5.66728424e-19}
+      rotation: {x: 0, y: -0, z: -1.66533454e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_jnt
+      position: {x: -.0816741735, y: -5.98022466e-16, z: -5.66728424e-19}
+      rotation: {x: -9.02296081e-42, y: 4.43651094e-42, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Shoulder_Left_jnt
+      position: {x: -.219108447, y: -.272741646, z: .00764304027}
+      rotation: {x: -.707106829, y: .707106829, z: -8.65956127e-17, w: -8.71576458e-33}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Left_jnt
+      position: {x: .292490333, y: 2.2737367e-15, z: .00764304027}
+      rotation: {x: 1, y: -2.66453526e-15, z: -4.58883292e-20, w: -6.12323426e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Forearm_Left_jnt
+      position: {x: .471188009, y: -2.84217088e-16, z: 5.77040997e-17}
+      rotation: {x: 0, y: -0, z: -2.3869795e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_Left_jnt
+      position: {x: .440299988, y: 0, z: 5.39208998e-17}
+      rotation: {x: 6.12323426e-17, y: 1, z: -6.12323426e-17, w: -2.28167848e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Shoulder_Right_jnt
+      position: {x: -.219108447, y: .272741646, z: -.00764304027}
+      rotation: {x: -.707106829, y: .707106829, z: -8.65956127e-17, w: -8.71576458e-33}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Right_jnt
+      position: {x: -.292490333, y: 1.70530253e-15, z: -.00764304027}
+      rotation: {x: -5.40452792e-21, y: 5.17011923e-19, z: -6.16368935e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Forearm_Right_jnt
+      position: {x: -.471189976, y: -2.84217077e-15, z: 7.25601088e-20}
+      rotation: {x: 6.11552494e-17, y: 6.13093366e-17, z: 4.71844785e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_Right_jnt
+      position: {x: -.440299988, y: -4.83169065e-15, z: 6.78032581e-20}
+      rotation: {x: 6.12323426e-17, y: 1, z: -6.12323426e-17, w: 1.83758927e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UpperLeg_Left_jnt
+      position: {x: .128917083, y: -.221588001, z: -.0178638734}
+      rotation: {x: -.0116954949, y: -.000402353326, z: .999931395, w: .000461650925}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LowerLeg_Left_jnt
+      position: {x: -.374521643, y: 7.1054272e-17, z: 1.110223e-18}
+      rotation: {x: -.707590222, y: 6.44689135e-06, z: -6.14591227e-06, w: .706623018}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_Left_jnt
+      position: {x: -.388743728, y: -1.7208457e-17, z: 7.34246431e-12}
+      rotation: {x: .506745458, y: .494267881, z: -.505197346, w: .493643671}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_Left_jnt
+      position: {x: -6.72411432e-12, y: -.149733499, z: .219697013}
+      rotation: {x: 6.17708306e-15, y: 1.46690582e-16, z: -2.00402569e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: UpperLeg_Right_jnt
+      position: {x: .128916636, y: .22158809, z: .0178638808}
+      rotation: {x: .999907792, y: .000580900698, z: -.0117083918, w: .00685805222}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LowerLeg_Right_jnt
+      position: {x: .374522001, y: 3.19744217e-16, z: -1.09874555e-12}
+      rotation: {x: -.704109967, y: -3.09605057e-05, z: 5.18196284e-05, w: .710090995}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_Right_jnt
+      position: {x: .388743997, y: 8.19713655e-12, z: -3.69074007e-11}
+      rotation: {x: .495834172, y: .506727397, z: -.492732584, w: .50456953}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_Right_jnt
+      position: {x: -3.4907971e-06, y: .149733305, z: -.219697013}
+      rotation: {x: 8.77322845e-15, y: 1.42353118e-17, z: -2.97588138e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SF_Character_Farmer
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SF_Character_FarmersDaughter
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SF_Character_FarmersWife
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: SF_Character_Wrangler
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

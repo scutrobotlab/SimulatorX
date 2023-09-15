@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Action - Users
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 5902205714827008069, guid: 08836d81005a9414fab5f05e8dc42800, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Action
+  PrefabName: Users
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - icon
+  - users
+  - action
+  - button
+  - multiplayer
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 425210a8daf1043408ea9fc9469b7666, type: 3}

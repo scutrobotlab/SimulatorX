@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Icons_Signals
+  m_EditorClassIdentifier: 
+  GroupCategory: Signals
+  GroupName: Icons
+  RemovePrefixFromTextureName: Icon
+  Textures:
+  - TextureName: MetaSignal
+    TextureReference: {fileID: 2800000, guid: 2cc08150bddbf3540952638d56fe7dd4, type: 3}
+  - TextureName: MultiSignalReceiver
+    TextureReference: {fileID: 2800000, guid: fecd04de9c7d7024fb324e25cc24018c, type: 3}
+  - TextureName: Signal
+    TextureReference: {fileID: 2800000, guid: 58d61274de9ff9548876ca57c4c9777c, type: 3}
+  - TextureName: SignalBroadcaster
+    TextureReference: {fileID: 2800000, guid: d1c057850f743f84ba2ffa850eb97199, type: 3}
+  - TextureName: SignalProvider
+    TextureReference: {fileID: 2800000, guid: f914a7da0660d4d449c482c82c7f7e38, type: 3}
+  - TextureName: SignalReceiver
+    TextureReference: {fileID: 2800000, guid: 967029b30d381ef4e8059a6f171bf929, type: 3}
+  - TextureName: SignalSender
+    TextureReference: {fileID: 2800000, guid: 3293ef52d636ebd438aaf0d0627abf42, type: 3}
+  - TextureName: SignalStream
+    TextureReference: {fileID: 2800000, guid: bbf69fc5f3b942e4ea8058008d5c31bb, type: 3}
+  - TextureName: StreamDatabase
+    TextureReference: {fileID: 2800000, guid: 81392438e9ff49a44804bf72f8b6d443, type: 3}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="WindowHeader" name="LayoutContainer">
+        <engine:Image class="WindowHeader" name="Icon"/>
+        <engine:VisualElement class="WindowHeader" name="TitleContainer">
+            <engine:Label class="WindowHeader" name="Title"/>
+            <engine:Label class="WindowHeader" name="Subtitle"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

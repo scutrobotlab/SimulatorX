@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Icons_EditorUI
+  m_EditorClassIdentifier: 
+  GroupCategory: EditorUI
+  GroupName: Icons
+  RemovePrefixFromTextureName: Icon
+  Textures:
+  - TextureName: ButtonClick
+    TextureReference: {fileID: 2800000, guid: e8a098f373b325548967f6bc806d331e, type: 3}
+  - TextureName: ButtonDoubleClick
+    TextureReference: {fileID: 2800000, guid: b82e6a81e3d2fe642a4f109ecc724454, type: 3}
+  - TextureName: ButtonLeftClick
+    TextureReference: {fileID: 2800000, guid: ab3abde1aca0525439dade9ed01c903b, type: 3}
+  - TextureName: ButtonLongClick
+    TextureReference: {fileID: 2800000, guid: 5a0f3c372dcbbb14eb7a4b328c9933f5, type: 3}
+  - TextureName: ButtonMiddleClick
+    TextureReference: {fileID: 2800000, guid: 853f35117da969c4bb69415d3b194035, type: 3}
+  - TextureName: ButtonRightClick
+    TextureReference: {fileID: 2800000, guid: aab8025c645b7914b901b6e8af8360a2, type: 3}
+  - TextureName: Copy
+    TextureReference: {fileID: 2800000, guid: 919205385134b6c46b2f02da0a4d4bfa, type: 3}
+  - TextureName: Cut
+    TextureReference: {fileID: 2800000, guid: 2592ae20ccc49f44c980accdfb183723, type: 3}
+  - TextureName: Deselected
+    TextureReference: {fileID: 2800000, guid: b35abc9be66300849a51b170132a1a37, type: 3}
+  - TextureName: EventsOnFinish
+    TextureReference: {fileID: 2800000, guid: 6f23ef7603b77a746b9d260d1b1cf651, type: 3}
+  - TextureName: EventsOnStart
+    TextureReference: {fileID: 2800000, guid: 73628197762a784448d0fa896f128ba5, type: 3}
+  - TextureName: Export
+    TextureReference: {fileID: 2800000, guid: 375c6f254ee86aa4c991129217aeba20, type: 3}
+  - TextureName: Filter
+    TextureReference: {fileID: 2800000, guid: 5e60e4881efadc94d8a2e8d3c2025487, type: 3}
+  - TextureName: FrameByFrameAnimation
+    TextureReference: {fileID: 2800000, guid: 6e47bf489f873364a9b14383d03fc3c3, type: 3}
+  - TextureName: FrameByFrameAnimator
+    TextureReference: {fileID: 2800000, guid: 2bfc826ab4a90ec4e86c2fc70bcea60f, type: 3}
+  - TextureName: GameObject
+    TextureReference: {fileID: 2800000, guid: 36d45fb74fde6ae45be505d68a1ad372, type: 3}
+  - TextureName: GenericDatabase
+    TextureReference: {fileID: 2800000, guid: 7f98c2d4b14169b4ba5f85d3afdedd36, type: 3}
+  - TextureName: Hourglass
+    TextureReference: {fileID: 2800000, guid: 9202b3d90a292234f9e803350ecf2dae, type: 3}
+  - TextureName: EditorColorPalette
+    TextureReference: {fileID: 2800000, guid: 776f14a911861c9439433d44e0e25fbc, type: 3}
+  - TextureName: EditorFontFamily
+    TextureReference: {fileID: 2800000, guid: 591a78df224673949a1e27398cc9fe43, type: 3}
+  - TextureName: EditorLayoutGroup
+    TextureReference: {fileID: 2800000, guid: 962f5915e010ba04690eb023fde4b233, type: 3}
+  - TextureName: EditorMicroAnimationGroup
+    TextureReference: {fileID: 2800000, guid: 0b58130ca6bb96445b365a330406421e, type: 3}
+  - TextureName: EditorSelectableColorPalette
+    TextureReference: {fileID: 2800000, guid: 73961b121e251634ca28d31d120b3175, type: 3}
+  - TextureName: EditorStyleGroup
+    TextureReference: {fileID: 2800000, guid: 37fc8253bc28ee14582d6b7b266237c1, type: 3}
+  - TextureName: EditorTextureGroup
+    TextureReference: {fileID: 2800000, guid: eacfb24c613374c44bd5bfa8f7872331, type: 3}
+  - TextureName: Import
+    TextureReference: {fileID: 2800000, guid: 6bec513977fe7d745874d33bc48fe04b, type: 3}
+  - TextureName: Location
+    TextureReference: {fileID: 2800000, guid: 9f78d8517734a4f40afe20e4676ab1e8, type: 3}
+  - TextureName: Locked
+    TextureReference: {fileID: 2800000, guid: 5ba49fdeb0cec354b8ea7ca18480beb7, type: 3}
+  - TextureName: Paste
+    TextureReference: {fileID: 2800000, guid: cdb3b0c377e69654a8042136d38c0206, type: 3}
+  - TextureName: PointerDown
+    TextureReference: {fileID: 2800000, guid: 75b32bf1a36140848b78ea7902afe49f, type: 3}
+  - TextureName: PointerEnter
+    TextureReference: {fileID: 2800000, guid: 7f2257d84b2f8ae48ae9880fd25e976e, type: 3}
+  - TextureName: PointerExit
+    TextureReference: {fileID: 2800000, guid: fee374cbb6682604d982756262ae1a5e, type: 3}
+  - TextureName: PointerUp
+    TextureReference: {fileID: 2800000, guid: 42e549e978172bd42868e73e3baca953, type: 3}
+  - TextureName: Prefab
+    TextureReference: {fileID: 2800000, guid: 3be2c879b47217d4d9a8ce0873c2c277, type: 3}
+  - TextureName: SelectableStates
+    TextureReference: {fileID: 2800000, guid: 92a92b9fade58bb479c3230dc0735367, type: 3}
+  - TextureName: Selected
+    TextureReference: {fileID: 2800000, guid: 0668be4f9ca439c41a5ba7db600a4c16, type: 3}
+  - TextureName: ToggleMixed
+    TextureReference: {fileID: 2800000, guid: e30300593727db6419c5921ab49c58ef, type: 3}
+  - TextureName: ToggleOFF
+    TextureReference: {fileID: 2800000, guid: 76de5c32b4c322c4b9a42d45ea26e786, type: 3}
+  - TextureName: ToggleON
+    TextureReference: {fileID: 2800000, guid: 82c8e79d53abe0f4f99d415591f06945, type: 3}
+  - TextureName: UIBehaviour
+    TextureReference: {fileID: 2800000, guid: f0d22fad39bfab644aa2b92d0dd619cd, type: 3}
+  - TextureName: UISelectable
+    TextureReference: {fileID: 2800000, guid: 7c26ee9519d72cd4d875d729ad9e5df4, type: 3}
+  - TextureName: Unity
+    TextureReference: {fileID: 2800000, guid: fdf36baf437e1d2419e4eae15d7d7949, type: 3}
+  - TextureName: UnityEvent
+    TextureReference: {fileID: 2800000, guid: 94e6b53c48a65444392c0df1a9013758, type: 3}
+  - TextureName: Unlocked
+    TextureReference: {fileID: 2800000, guid: 58a4776a16ec21f4c9ad12ef933de5dc, type: 3}
+  - TextureName: VisibilityChanged
+    TextureReference: {fileID: 2800000, guid: 5af681b4a0a8999489403e147d098c4c, type: 3}

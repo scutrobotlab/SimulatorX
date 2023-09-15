@@ -1,0 +1,23 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.202510665)
+
+newmtl 银矿
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl 边
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl 环形高地_ 面
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl 环形高地_边
+kd 0.8 0.8 0.8
+illum 1
+
+newmtl 灯条
+kd 0.8 0.8 0.8
+illum 1
+

@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Default
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 9aabd12c6a06b464ba68864f87a71c02,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enableDynamicUpdate
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: enableExtendedColorPicker
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: editorHints
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColorTint.r
+    value: 0.627451
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColorTint.g
+    value: 0.88235295
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColorTint.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColorTint.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundImage
+    value: 
+    objectReference: {fileID: 21300000, guid: 59da25cc8872f164da4db6b05ad99d57, type: 3}
+  - target: {fileID: 0}
+    propertyPath: backgroundVideo
+    value: 
+    objectReference: {fileID: 32900000, guid: 488f8fa32c1a5f24cbac413b5e63b1f6, type: 3}
+  - target: {fileID: 0}
+    propertyPath: backgroundPreserveAspect
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundSpeed
+    value: 1.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryColor.r
+    value: 0.3882353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryColor.g
+    value: 0.7764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryColor.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryColor.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryReversed.r
+    value: 0.1764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryReversed.g
+    value: 0.1764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryReversed.b
+    value: 0.1764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: primaryReversed.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: negativeColor.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: negativeColor.g
+    value: 0.43137255
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: negativeColor.b
+    value: 0.39215687
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: negativeColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColor.r
+    value: 0.09803922
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColor.g
+    value: 0.09803922
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColor.b
+    value: 0.09803922
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundColor.a
+    value: 0.9411765
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lightFont
+    value: 
+    objectReference: {fileID: 11400000, guid: 501c3584798b7544daed173223ef3afd, type: 2}
+  - target: {fileID: 0}
+    propertyPath: regularFont
+    value: 
+    objectReference: {fileID: 11400000, guid: baf5990ef136e594abc52299c06d9b48, type: 2}
+  - target: {fileID: 0}
+    propertyPath: mediumFont
+    value: 
+    objectReference: {fileID: 11400000, guid: b04f3173f946b754db673ac13842f4c1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: semiBoldFont
+    value: 
+    objectReference: {fileID: 11400000, guid: 581c047ed60765249b12f37ff2895497, type: 2}
+  - target: {fileID: 0}
+    propertyPath: boldFont
+    value: 
+    objectReference: {fileID: 11400000, guid: 194c956b3d864664890e731c63fd4a02, type: 2}
+  - target: {fileID: 0}
+    propertyPath: gameLogo
+    value: 
+    objectReference: {fileID: 21300000, guid: 6ac53f15ba5fce14596a41cdaff66b16, type: 3}
+  - target: {fileID: 0}
+    propertyPath: logoColor.r
+    value: 0.3882353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: logoColor.g
+    value: 0.7764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: logoColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: logoColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: particleColor.r
+    value: 0.3882353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: particleColor.g
+    value: 0.7764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: particleColor.b
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: particleColor.a
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: backgroundMusic
+    value: 
+    objectReference: {fileID: 8300000, guid: 7ac1670904bb1624b87dc52bc71f00bc, type: 3}
+  - target: {fileID: 0}
+    propertyPath: hoverSound
+    value: 
+    objectReference: {fileID: 8300000, guid: a6473f5264a14804e992a7a4a29cd744, type: 3}
+  - target: {fileID: 0}
+    propertyPath: clickSound
+    value: 
+    objectReference: {fileID: 8300000, guid: bfc5803fa8fa8924bbeaa34f4f689bb1, type: 3}

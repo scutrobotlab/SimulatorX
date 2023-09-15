@@ -1,0 +1,107 @@
+﻿.ListView#LayoutContainer {
+    border-radius: 6px;
+    overflow: hidden;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.ListView#HeaderContainer {
+    flex-grow: 0;
+}
+
+.ListView#NameAndDescription {
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.ListView#Name {
+    font-size: 16px;
+    padding: 0;
+}
+
+.ListView#Description {
+    font-size: 10px;
+    white-space: normal;
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.ListView#Toolbar {
+    margin-bottom: 3px;
+    height: 32px;
+    flex-grow: 1;
+    flex-direction: row;
+    border-radius: 6px;
+    padding-right: 6px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ListView#ToolbarIconButton {
+    width: 26px;
+    height: 26px;
+    margin-left: 6px;
+}
+
+.ListView#IconButton {
+    width: 20px;
+    height: 20px;
+}
+
+.ListView#ListContainer {
+    flex-direction: column;
+}
+
+
+.ListView#ListHeader {
+    flex-direction: row;
+    height: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    justify-content: flex-end;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+.ListView#ColumnNamesContainer {
+    flex-grow: 1;
+    display: none;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.ListView#ColumnName {
+    font-size: 10px;
+    -unity-text-align: middle-left;
+}
+
+.ListView#PlusButtonContainer {
+    justify-content: center;
+    padding-left: 4px;
+    width: 32px;
+    flex-shrink: 0;
+}
+
+.ListView#ListContent {
+    overflow: hidden;
+}
+
+.ListView#EmptyStatePlaceholder {
+    align-self: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.ListView#FooterContainer {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 4px 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.ListView#FooterLabel {
+    font-size: 10px;
+}

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb8e764fd22413493ff9a0053f321d0, type: 3}
+  m_Name: _ColorPalette_Nody
+  m_EditorClassIdentifier: 
+  PaletteName: Nody
+  Colors:
+  - ColorName: StateRunning
+    ThemeColor:
+      ColorOnDark: {r: 0.86666673, g: 0.4431373, b: 0.6431373, a: 1}
+      ColorOnLight: {r: 0.5294118, g: 0.2784314, b: 0.4156863, a: 1}
+  - ColorName: BackFlow
+    ThemeColor:
+      ColorOnDark: {r: 0.56078434, g: 0.38823533, b: 0.95294124, a: 1}
+      ColorOnLight: {r: 0.56078434, g: 0.38823533, b: 0.95294124, a: 1}
+  - ColorName: Color
+    ThemeColor:
+      ColorOnDark: {r: 0.43921572, g: 0.5294118, b: 0.9803922, a: 1}
+      ColorOnLight: {r: 0.21960786, g: 0.27058825, b: 0.6, a: 1}
+  - ColorName: Output
+    ThemeColor:
+      ColorOnDark: {r: 0.43921572, g: 0.7019608, b: 0.98823535, a: 1}
+      ColorOnLight: {r: 0.2784314, g: 0.45882356, b: 0.6, a: 1}
+  - ColorName: StateActive
+    ThemeColor:
+      ColorOnDark: {r: 0.54901963, g: 0.89019614, b: 0.5058824, a: 1}
+      ColorOnLight: {r: 0.30980393, g: 0.5019608, b: 0.2784314, a: 1}
+  - ColorName: StartNode
+    ThemeColor:
+      ColorOnDark: {r: 0.77647066, g: 1, b: 0, a: 1}
+      ColorOnLight: {r: 0.77647066, g: 1, b: 0, a: 1}
+  - ColorName: Input
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 0.7686275, b: 0, a: 1}
+      ColorOnLight: {r: 0.6, g: 0.43137258, b: 0, a: 1}
+  - ColorName: StickyNote
+    ThemeColor:
+      ColorOnDark: {r: 0.9450981, g: 0.6862745, b: 0.015686275, a: 1}
+      ColorOnLight: {r: 0.9960785, g: 0.8470589, b: 0.003921569, a: 1}
+  - ColorName: Selection
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 0.6, b: 0, a: 0.5019608}
+      ColorOnLight: {r: 0.6603774, g: 0.4049484, b: 0.021804927, a: 0.5019608}
+  - ColorName: ExitNode
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 0.38602686, b: 0, a: 1}
+      ColorOnLight: {r: 1, g: 0.38431376, b: 0, a: 1}
+  - ColorName: GridBackground
+    ThemeColor:
+      ColorOnDark: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 1}
+      ColorOnLight: {r: 0, g: 0, b: 0, a: 0}
+  - ColorName: LineColor
+    ThemeColor:
+      ColorOnDark: {r: 0, g: 0, b: 0, a: 0.18039216}
+      ColorOnLight: {r: 0, g: 0, b: 0, a: 0.101960786}
+  - ColorName: MiniMapBackground
+    ThemeColor:
+      ColorOnDark: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 0.5019608}
+      ColorOnLight: {r: 0.098039225, g: 0.098039225, b: 0.098039225, a: 0.5019608}
+  - ColorName: NodeBackground
+    ThemeColor:
+      ColorOnDark: {r: 0.1137255, g: 0.1137255, b: 0.1137255, a: 0.8039216}
+      ColorOnLight: {r: 0.1137255, g: 0.1137255, b: 0.1137255, a: 0.8039216}
+  - ColorName: NodeIcon
+    ThemeColor:
+      ColorOnDark: {r: 0.8235295, g: 0.8235295, b: 0.8235295, a: 0.1254902}
+      ColorOnLight: {r: 0.8235295, g: 0.8235295, b: 0.8235295, a: 1}
+  - ColorName: NodeTitle
+    ThemeColor:
+      ColorOnDark: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 0.5019608}
+      ColorOnLight: {r: 0.7686275, g: 0.7686275, b: 0.7686275, a: 1}
+  - ColorName: StateIdle
+    ThemeColor:
+      ColorOnDark: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
+      ColorOnLight: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - ColorName: ThickLineColor
+    ThemeColor:
+      ColorOnDark: {r: 0, g: 0, b: 0, a: 0.28235295}
+      ColorOnLight: {r: 0, g: 0, b: 0, a: 0.14901961}

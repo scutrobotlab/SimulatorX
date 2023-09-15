@@ -1,0 +1,43 @@
+﻿.ListViewItem#LayoutContainer{
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 0;
+}
+
+.ListViewItem#IndexLabel{
+    font-size: 12px;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+    width: 32px;
+    padding: 2px;
+}
+
+.ListViewItem#ItemLayout{
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.ListViewItem#TopToolbar{
+    
+}
+
+.ListViewItem#ItemContent{
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.ListViewItem#ItemProperty
+{
+    flex-grow: 1;
+}
+
+.ListViewItem#BottomToolbar{
+    
+}
+
+.ListViewItem#MinusButtonContainer{
+    width: 32px;
+    padding: 4px;
+    justify-content: center;
+    flex-shrink: 0;
+}

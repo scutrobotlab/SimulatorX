@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9937cebd907c456f9b7a33d00b2e6219, type: 3}
+  m_Name: EditorDataMicroAnimationDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor MicroAnimations
+  DatabaseDescription: Collection of MicroAnimations used in the Editor
+  Database:
+  - {fileID: 11400000, guid: 2f2876f4e567cdf4a87e95fcfd60de1b, type: 2}
+  - {fileID: 11400000, guid: bd79faf3c48e6db4095c6cb04f39de05, type: 2}
+  - {fileID: 11400000, guid: 64076713bc8977a4faa471e988be841a, type: 2}
+  - {fileID: 11400000, guid: f5cc58fca1823b848870482a0a6c12df, type: 2}
+  - {fileID: 11400000, guid: 618aa98d6713f5e4fa369f5f37b0cf81, type: 2}
+  - {fileID: 11400000, guid: 1abbb7fe8053fcb4b8465a2fb137c69f, type: 2}
+  - {fileID: 11400000, guid: 8c89cd2394d97184f94870abc72cc94c, type: 2}
+  - {fileID: 11400000, guid: 4cfbaea5dfa95f14195d0031e32a6f9f, type: 2}
+  - {fileID: 11400000, guid: e520e0116c6e9664a8eaa415fbdcd2c1, type: 2}
+  - {fileID: 11400000, guid: dd99896f1dcf493498e437ded3bafed3, type: 2}
+  - {fileID: 11400000, guid: 06babeb5572a52c49aa309248da08d76, type: 2}
+  - {fileID: 11400000, guid: f5a05bc2d7d0f0949af9ec90f3c549f4, type: 2}
+  - {fileID: 11400000, guid: 866045154c3085e4a8dafa7491b7774a, type: 2}
+  - {fileID: 11400000, guid: 68ad8c5fb665a5749ba87e2ab9252ecd, type: 2}
+  - {fileID: 11400000, guid: 6150f1abed244884080f39f4d6c69af8, type: 2}

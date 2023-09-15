@@ -1,0 +1,53 @@
+﻿// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using System;
+using System.Collections.Generic;
+
+namespace Doozy.Runtime.Mody
+{
+	public static class TriggerFactory
+	{
+		private static readonly HashSet<TriggerAttributes> globalTriggers =
+			new HashSet<TriggerAttributes>
+			{
+//GLOBAL_TRIGGERS//
+			};
+
+		private static readonly HashSet<TriggerAttributes> localTriggers =
+			new HashSet<TriggerAttributes>
+			{
+//LOCAL_TRIGGERS//
+			};
+
+		public static Type GetTriggerType(TriggerId id)
+		{
+			switch (id.TypeOfTrigger)
+			{
+				case TriggerType.Local:
+					foreach (TriggerAttributes localTrigger in localTriggers)
+						if (id.Equals(localTrigger.TriggerId))
+							return localTrigger.ClassType;
+					break;
+				case TriggerType.Global:
+					foreach (TriggerAttributes globalTrigger in globalTriggers)
+						if (id.Equals(globalTrigger.TriggerId))
+							return globalTrigger.ClassType;
+					break;
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
+
+			Doozy.Runtime.Common.Debugger.LogError($"{id.ToString()} not found! " +
+			                                       $"Run -> 'Doozy/Mody/Refresh Triggers' from the toolbar, to update the triggers factory.");
+			return null;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Icons_Reactor
+  m_EditorClassIdentifier: 
+  GroupCategory: Reactor
+  GroupName: Icons
+  RemovePrefixFromTextureName: 
+  Textures:
+  - TextureName: AnimatorProgressTarget
+    TextureReference: {fileID: 2800000, guid: 54547439a17a81e4aa44851301e4d293, type: 3}
+  - TextureName: AudioMixerProgressTarget
+    TextureReference: {fileID: 2800000, guid: 97fdb8d381715c74d8c6b915fa207a77, type: 3}
+  - TextureName: ColorAnimation
+    TextureReference: {fileID: 2800000, guid: c56bf735c98a6534a9d24e435b3ff1ed, type: 3}
+  - TextureName: ColorAnimator
+    TextureReference: {fileID: 2800000, guid: b5f6691e622bf5f4c8ed60787da29c08, type: 3}
+  - TextureName: ColorTarget
+    TextureReference: {fileID: 2800000, guid: 648f843874d18524e93598557d49cbb6, type: 3}
+  - TextureName: EditorHeartbeat
+    TextureReference: {fileID: 2800000, guid: ae06930c151a49a4eba852cb158bfda7, type: 3}
+  - TextureName: FrameByFrameAnimation
+    TextureReference: {fileID: 2800000, guid: 3db50c5a35fedc44ba589a17fab1d5f0, type: 3}
+  - TextureName: FrameByFrameAnimator
+    TextureReference: {fileID: 2800000, guid: 994bcdf8fb954f548880bafef1412f65, type: 3}
+  - TextureName: Heartbeat
+    TextureReference: {fileID: 2800000, guid: 296863b0445e71d4c871f55cb4c16d6a, type: 3}
+  - TextureName: ImageProgressTarget
+    TextureReference: {fileID: 2800000, guid: 2e92306ced0b18641b52389fc7b23d20, type: 3}
+  - TextureName: ProgressTarget
+    TextureReference: {fileID: 2800000, guid: 13bd619e14a0c6a42a3ab6b172d404a2, type: 3}
+  - TextureName: Reactor
+    TextureReference: {fileID: 2800000, guid: a32ed71e42a079c4dbcc6c4c46edfa0c, type: 3}
+  - TextureName: SignalProgressTarget
+    TextureReference: {fileID: 2800000, guid: 24f75f15e67467c46877bdb249f6cc26, type: 3}
+  - TextureName: SpriteAnimation
+    TextureReference: {fileID: 2800000, guid: 740c354f1a4990642a98f589b3a93aaa, type: 3}
+  - TextureName: SpriteAnimator
+    TextureReference: {fileID: 2800000, guid: f8e323be10a1c254fa9d18b1fdcebd63, type: 3}
+  - TextureName: SpriteTarget
+    TextureReference: {fileID: 2800000, guid: 17e8579f5df142247a573a28f706ba42, type: 3}
+  - TextureName: TextMeshProProgressTarget
+    TextureReference: {fileID: 2800000, guid: cecc02372ea0b524fb350607453e12dd, type: 3}
+  - TextureName: TextProgressTarget
+    TextureReference: {fileID: 2800000, guid: 72f94d000a86b76458bedfbf8cff548a, type: 3}
+  - TextureName: UIAnimation
+    TextureReference: {fileID: 2800000, guid: ee028ef3d8f97374191accbebfb50665, type: 3}
+  - TextureName: UIAnimationData
+    TextureReference: {fileID: 2800000, guid: 7b37d319add05ee44811f6f0984d4788, type: 3}
+  - TextureName: UIAnimator
+    TextureReference: {fileID: 2800000, guid: b36d8b8f0da38bf4d920697885348250, type: 3}
+  - TextureName: UnityEventProgressTarget
+    TextureReference: {fileID: 2800000, guid: 977f9ca7a8a267d43b60a82903b830c9, type: 3}

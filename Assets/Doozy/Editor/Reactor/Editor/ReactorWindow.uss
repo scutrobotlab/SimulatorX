@@ -1,0 +1,11 @@
+﻿.Reactor.Window#LayoutContainer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.Reactor.Window#SideMenuContainer {
+}
+
+.Reactor.Window#ContentContainer {
+    flex-grow: 1;
+}

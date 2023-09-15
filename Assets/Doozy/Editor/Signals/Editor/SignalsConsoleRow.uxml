@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="layoutContainer" class="SignalsConsoleRow">
+        <engine:Label name="timestampLabel"/>
+        <engine:VisualElement name="detailsContainer">
+            <engine:VisualElement name="signalInfoContainer" class="RowContainer">
+
+                <engine:Image name="signalIcon" class="Icon"/>
+
+                <engine:VisualElement name="sourceGameObjectContainer" class="InfoContainer">
+                    <engine:Label text="Source GameObject" class="TitleLabel"/>
+                    <engine:VisualElement style="flex-direction: row; align-items: center">
+                        <engine:Label name="sourceGameObjectLabel" class="InfoLabel"/>
+                        <engine:VisualElement class="PingButtonContainer"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="signalProviderContainer" class="InfoContainer">
+                    <engine:Label text="Signal Provider" class="TitleLabel"/>
+                    <engine:VisualElement style="flex-direction: row; align-items: center">
+                        <engine:Label name="signalProviderLabel" class="InfoLabel"/>
+                        <engine:VisualElement class="PingButtonContainer"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="signalSenderObjectContainer" class="InfoContainer">
+                    <engine:Label text="Sender Object" class="TitleLabel"/>
+                    <engine:VisualElement style="flex-direction: row; align-items: center">
+                        <engine:Label name="signalSenderObjectLabel" class="InfoLabel"/>
+                        <engine:VisualElement class="PingButtonContainer"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="messageContainer" class="InfoContainer">
+                    <engine:Label text="Signal Message" class="TitleLabel"/>
+                    <engine:Label name="messageLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="signalValueTypeContainer" class="InfoContainer">
+                    <engine:Label text="Value Type" class="TitleLabel"/>
+                    <engine:Label name="signalValueTypeLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="signalValueContainer" class="InfoContainer">
+                    <engine:Label text="Value" class="TitleLabel"/>
+                    <engine:Label name="signalValueLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+            </engine:VisualElement>
+
+            <engine:VisualElement name="streamInfoContainer" class="RowContainer">
+
+                <engine:Image name="streamIcon" class="Icon"/>
+
+                <engine:VisualElement name="streamSignalProviderContainer" class="InfoContainer">
+                    <engine:Label text="Stream Provider" class="TitleLabel"/>
+                    <engine:VisualElement style="flex-direction: row; align-items: center">
+                        <engine:Label name="streamSignalProviderLabel" class="InfoLabel"/>
+                        <engine:VisualElement class="PingButtonContainer"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamSignalProviderGameObjectContainer" class="InfoContainer">
+                    <engine:Label text="Provider GameObject" class="TitleLabel"/>
+                    <engine:Label name="streamSignalProviderGameObjectLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamCategoryContainer" class="InfoContainer">
+                    <engine:Label text="Stream Category" class="TitleLabel"/>
+                    <engine:Label name="streamCategoryLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamNameContainer" class="InfoContainer">
+                    <engine:Label text="Stream Name" class="TitleLabel"/>
+                    <engine:Label name="streamNameLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamReceiversCountContainer" class="InfoContainer">
+                    <engine:Label text="Receivers" class="TitleLabel"/>
+                    <engine:Label name="streamReceiversCountLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamInfoMessageContainer" class="InfoContainer">
+                    <engine:Label text="Info Message" class="TitleLabel"/>
+                    <engine:Label name="streamInfoMessageLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamGuidContainer" class="InfoContainer">
+                    <engine:Label text="Stream Key (Guid)" class="TitleLabel"/>
+                    <engine:Label name="streamGuidLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+            </engine:VisualElement>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+</engine:UXML>

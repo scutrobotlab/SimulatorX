@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cab4e994137470bb284175feb36c9d7, type: 3}
+  m_Name: _FontFamily_Inter
+  m_EditorClassIdentifier: 
+  FontName: Inter
+  Fonts:
+  - FontReference: {fileID: 12800000, guid: 7d5ab3cf44939d64fb38cc116c71c6c0, type: 3}
+    Weight: 100
+  - FontReference: {fileID: 12800000, guid: db24a0a641b28194f9433ee57dd230ef, type: 3}
+    Weight: 200
+  - FontReference: {fileID: 12800000, guid: fe77d1dc79e978541ab7be0bfbf99854, type: 3}
+    Weight: 300
+  - FontReference: {fileID: 12800000, guid: 0a8559e64776cbb489061842410a9308, type: 3}
+    Weight: 400
+  - FontReference: {fileID: 12800000, guid: cfd1735e6919856448fee7d1e7c3ef7c, type: 3}
+    Weight: 500
+  - FontReference: {fileID: 12800000, guid: b45a86e31f34d65489249366a199c075, type: 3}
+    Weight: 600
+  - FontReference: {fileID: 12800000, guid: 4c2b38b05368f1c4fbdf9b356e6df015, type: 3}
+    Weight: 700
+  - FontReference: {fileID: 12800000, guid: b0a1088b8ceaa02409db493d59b9cade, type: 3}
+    Weight: 800
+  - FontReference: {fileID: 12800000, guid: 77c7b0d2c317e7d46958345b2c3e764f, type: 3}
+    Weight: 900

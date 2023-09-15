@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="ESColorInfo" name="LayoutContainer">
+
+        <engine:VisualElement class="ESColorInfo ColorNameContainer">
+            <engine:Label class="ESColorInfo StateLabel" text="Selectable Color Name"/>
+            <engine:TextField class="ESColorInfo" name="ColorName" binding-path="ColorName"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="ESColorInfo InfoContainer">
+
+            <engine:VisualElement class="ESColorInfo ThemeLabelsContainer">
+                <engine:VisualElement class="ESColorInfo StateLabel"/>
+                <engine:Label class="ESColorInfo ThemeLabel" name="OnDark" text="OnDark"/>
+                <engine:Label class="ESColorInfo ThemeLabel" name="OnLight" text="OnLight"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ESColorInfo ColorContainer">
+                <engine:Label class="ESColorInfo StateLabel" text="Normal"/>
+                <editor:ColorField class="ESColorInfo" name="NormalOnDark" binding-path="Normal.ColorOnDark"/>
+                <editor:ColorField class="ESColorInfo" name="NormalOnLight" binding-path="Normal.ColorOnLight"/>
+            </engine:VisualElement>
+            
+            <engine:VisualElement>
+                <engine:VisualElement class="ESColorInfo StateLabel"/>
+                <engine:VisualElement class="ESColorInfo ColorGeneratorButtonContainer" name="OnDarkColorGeneratorButtonContainer"/>
+                <engine:VisualElement class="ESColorInfo ColorGeneratorButtonContainer" name="OnLightColorGeneratorButtonContainer"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ESColorInfo ColorContainer">
+                <engine:Label class="ESColorInfo StateLabel" text="Highlighted"/>
+                <editor:ColorField class="ESColorInfo" name="HighlightedOnDark" binding-path="Highlighted.ColorOnDark"/>
+                <editor:ColorField class="ESColorInfo" name="HighlightedOnLight" binding-path="Highlighted.ColorOnLight"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ESColorInfo ColorContainer">
+                <engine:Label class="ESColorInfo StateLabel" text="Pressed"/>
+                <editor:ColorField class="ESColorInfo" name="PressedOnDark" binding-path="Pressed.ColorOnDark"/>
+                <editor:ColorField class="ESColorInfo" name="PressedOnLight" binding-path="Pressed.ColorOnLight"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ESColorInfo ColorContainer">
+                <engine:Label class="ESColorInfo StateLabel" text="Selected"/>
+                <editor:ColorField class="ESColorInfo" name="SelectedOnDark" binding-path="Selected.ColorOnDark"/>
+                <editor:ColorField class="ESColorInfo" name="SelectedOnLight" binding-path="Selected.ColorOnLight"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ESColorInfo ColorContainer">
+                <engine:Label class="ESColorInfo StateLabel" text="Disabled"/>
+                <editor:ColorField class="ESColorInfo" name="DisabledOnDark" binding-path="Disabled.ColorOnDark"/>
+                <editor:ColorField class="ESColorInfo" name="DisabledOnLight" binding-path="Disabled.ColorOnLight"/>
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+</engine:UXML>

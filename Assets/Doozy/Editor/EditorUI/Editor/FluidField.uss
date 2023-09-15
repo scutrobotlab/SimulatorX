@@ -1,0 +1,142 @@
+﻿#layoutContainer.Fluid.Field {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+    padding: 4px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#iconContainer.Fluid.Field {
+    display: none;
+    padding-right: 4px;
+    justify-content: center;
+}
+
+
+#fieldContainer.Fluid.Field {
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+#fieldContainer.Tiny.Fluid.Field {
+    flex-direction: row;
+    min-width: 80px;
+    align-self: center;
+}
+
+#fieldContainer.Small.Fluid.Field {
+    flex-direction: column;
+    min-width: 40px;
+}
+
+#fieldContainer.Normal.Fluid.Field {
+    flex-direction: row;
+    min-width: 80px;
+    align-self: center;
+}
+
+#fieldContainer.Large.Fluid.Field {
+    flex-direction: column;
+    min-width: 40px;
+}
+
+#fieldIcon.Fluid.Field {
+    align-self: center;
+}
+
+/*** ANIMATED fieldIcon ***/
+
+#fieldIcon.Tiny.Animated.Fluid.Field {
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    left: 1px;
+}
+
+#fieldIcon.Small.Animated.Fluid.Field {
+    width: 28px;
+    height: 28px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+
+#fieldIcon.Normal.Animated.Fluid.Field {
+    width: 36px;
+    height: 36px;
+}
+
+#fieldIcon.Large.Animated.Fluid.Field {
+    width: 42px;
+    height: 42px;
+}
+
+/*** STATIC fieldIcon ***/
+
+#fieldIcon.Static.Fluid.Field {
+    margin-left: 6px;
+    margin-right: 4px;
+}
+
+#fieldIcon.Tiny.Static.Fluid.Field {
+    width: 14px;
+    height: 14px;
+}
+
+#fieldIcon.Small.Static.Fluid.Field {
+    width: 16px;
+    height: 16px;
+}
+
+#fieldIcon.Normal.Static.Fluid.Field {
+    width: 20px;
+    height: 20px;
+}
+
+#fieldIcon.Large.Static.Fluid.Field {
+    width: 24px;
+    height: 24px;
+}
+
+
+#fieldLabel.Fluid.Field {
+    display: none;
+    margin: 0;
+    padding: 0;
+    -unity-text-align: middle-left;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+#fieldLabel.Tiny.Fluid.Field {
+    padding-right: 6px;
+    font-size: 10px;
+}
+
+#fieldLabel.Small.Fluid.Field {
+    padding-bottom: 4px;
+    font-size: 10px;
+}
+
+#fieldLabel.Normal.Fluid.Field {
+    padding-right: 6px;
+    font-size: 11px;
+}
+
+#fieldLabel.Large.Fluid.Field {
+    padding-bottom: 4px;
+    font-size: 11px;
+}
+
+#fieldContent.Fluid.Field {
+    display: none;
+    flex-grow: 1;
+}
+
+#nodeInfo.Fluid.Field {
+    display: none;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}

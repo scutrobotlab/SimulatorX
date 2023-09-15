@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_UIMenu_UIMenuIcons
+  m_EditorClassIdentifier: 
+  GroupCategory: UIMenuIcons
+  GroupName: UIMenu
+  RemovePrefixFromTextureName: 
+  Textures:
+  - TextureName: Button
+    TextureReference: {fileID: 2800000, guid: e5c11d1c27027bf4190cd007bb020995, type: 3}
+  - TextureName: Checkbox
+    TextureReference: {fileID: 2800000, guid: 9cc7829fdf68ac143b2f0d4ce7adfe23, type: 3}
+  - TextureName: Component
+    TextureReference: {fileID: 2800000, guid: 504c117a5001b1e41bf54dd80dd388ba, type: 3}
+  - TextureName: Container
+    TextureReference: {fileID: 2800000, guid: a934cdee0b6b9c142884d8a31ec8d27c, type: 3}
+  - TextureName: Content
+    TextureReference: {fileID: 2800000, guid: 11b7f90fd4ef16e4b8769fe2e2c6d195, type: 3}
+  - TextureName: Custom
+    TextureReference: {fileID: 2800000, guid: d57bf7ec9dc0fd048893ca5eb26618ff, type: 3}
+  - TextureName: Dropdown
+    TextureReference: {fileID: 2800000, guid: f84155799bacea148aa9ab51049adabd, type: 3}
+  - TextureName: GridLayout
+    TextureReference: {fileID: 2800000, guid: 2690fdc30f2164b4a9f4278db3ed961b, type: 3}
+  - TextureName: HorizontalLayout
+    TextureReference: {fileID: 2800000, guid: 11778cb882c0d1e4581d2036be7d65cf, type: 3}
+  - TextureName: InputField
+    TextureReference: {fileID: 2800000, guid: 1e66212a7ee0b4446b037925af6afd04, type: 3}
+  - TextureName: RadialLayout
+    TextureReference: {fileID: 2800000, guid: fb6ec2c2b0bcc9e478b2481f0efac50e, type: 3}
+  - TextureName: RadioButton
+    TextureReference: {fileID: 2800000, guid: 71d488b786669b940af7981c7158c6d1, type: 3}
+  - TextureName: Scollbar
+    TextureReference: {fileID: 2800000, guid: e202adc51bd7ddf40a35073fae4f493d, type: 3}
+  - TextureName: ScrollView
+    TextureReference: {fileID: 2800000, guid: 263ccb0769a37b4429f509f93c320205, type: 3}
+  - TextureName: Slider
+    TextureReference: {fileID: 2800000, guid: ee61639b6831ebc4c92ef130be68e5a9, type: 3}
+  - TextureName: Switch
+    TextureReference: {fileID: 2800000, guid: 6c701fb2a848d0c4a974c0da040361ef, type: 3}
+  - TextureName: TabButtonBottomLeft
+    TextureReference: {fileID: 2800000, guid: 2eac77b74476a9b4b9c620524a5f54fd, type: 3}
+  - TextureName: TabButtonBottomRight
+    TextureReference: {fileID: 2800000, guid: 9cfc47469e392fe4395c0de66cd2b0f7, type: 3}
+  - TextureName: TabButtonLeftBottom
+    TextureReference: {fileID: 2800000, guid: 688b0d5ff42f7c84ea79345a048b05cc, type: 3}
+  - TextureName: TabButtonLeftFloating
+    TextureReference: {fileID: 2800000, guid: 7277240f1d9a28f46ad26433dd2b3d99, type: 3}
+  - TextureName: TabButtonLeftTop
+    TextureReference: {fileID: 2800000, guid: cbb07a165f2d8164b88bdda1c4b03f45, type: 3}
+  - TextureName: TabButtonMiddleBottom
+    TextureReference: {fileID: 2800000, guid: e6d8ee146af90ea4eaddaead90aea3ad, type: 3}
+  - TextureName: TabButtonMiddleFloating
+    TextureReference: {fileID: 2800000, guid: df76d9d4faf62a240ab63e549b0bb661, type: 3}
+  - TextureName: TabButtonMiddleLeft
+    TextureReference: {fileID: 2800000, guid: e39710a2c85d777409a72400a24cd9d9, type: 3}
+  - TextureName: TabButtonMiddleRight
+    TextureReference: {fileID: 2800000, guid: a3306b9fe4b182b42b7dce972b3ed1a5, type: 3}
+  - TextureName: TabButtonMiddleTop
+    TextureReference: {fileID: 2800000, guid: 1e19fb60f11197e49b8652fc0d0ed48e, type: 3}
+  - TextureName: TabButtonRightBottom
+    TextureReference: {fileID: 2800000, guid: 55fd16376e3a8de41ad721b1d88745cb, type: 3}
+  - TextureName: TabButtonRightFloating
+    TextureReference: {fileID: 2800000, guid: ff9d2cbf5805c784e8bc172418a1d1fc, type: 3}
+  - TextureName: TabButtonRightTop
+    TextureReference: {fileID: 2800000, guid: 644afaae17b292749ae9d6fee1121342, type: 3}
+  - TextureName: TabButtonTopLeft
+    TextureReference: {fileID: 2800000, guid: ee847074ee0a95342bc5cce575501e6f, type: 3}
+  - TextureName: TabButtonTopRight
+    TextureReference: {fileID: 2800000, guid: f824347a8c88f9644879f7c451e50c74, type: 3}
+  - TextureName: UIMenuHeader128x32
+    TextureReference: {fileID: 2800000, guid: 0939f059dee80784eb4f7ced22a0e5e2, type: 3}
+  - TextureName: VerticalLayout
+    TextureReference: {fileID: 2800000, guid: a4608547b7838d94e8d2b44fa59caee4, type: 3}

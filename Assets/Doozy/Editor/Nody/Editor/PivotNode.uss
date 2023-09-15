@@ -1,0 +1,36 @@
+#node-border {
+    min-width: auto;
+    max-width: auto;
+    padding: 4px;
+}
+
+#title {
+    display: none;
+}
+
+#nodeContent {
+    margin: 0;
+}
+
+#activeStateLineIndicator {
+    display: none;
+    height: 0;
+}
+
+#input {
+    padding: 0;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+#output {
+    padding: 0;
+    border-width: 1px;
+    border-radius: 12px;
+}
+
+#portDivider {
+    width: 0;
+    height: 0;
+    display: none;
+}

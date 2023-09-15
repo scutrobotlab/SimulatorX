@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="Fluid Button" name="layoutContainer">
+        <engine:VisualElement class="Fluid Button" name="buttonContainer">
+            <engine:Image class="Fluid FieldIcon" name="buttonIcon"/>
+            <engine:Label class="Fluid FieldName" name="buttonLabel"/>
+            <engine:VisualElement class="Fluid Button" name="infoContainer"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

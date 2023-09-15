@@ -1,0 +1,11 @@
+﻿.Signals.Window#LayoutContainer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.Signals.Window#SideMenuContainer {
+}
+
+.Signals.Window#ContentContainer {
+    flex-grow: 1;
+}

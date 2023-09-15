@@ -1,0 +1,72 @@
+﻿.ETextureInfo#LayoutContainer {
+    padding: 6px;
+    border-radius: 6px;
+    border-width: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.ETextureInfo#ContentContainer {
+    flex-direction: row;
+}
+
+.ETextureInfo#PreviewImageContainer {
+    width: 73px;
+    height: 73px;
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.ETextureInfo#PreviewImage {
+    width: 57px;
+    height: 57px;
+    align-self: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ETextureInfo#DetailsContainer {
+    flex-grow: 1;
+    margin-left: 4px;
+    flex-direction: column;
+}
+
+.ETextureInfo#TextureName {
+    margin: 0;
+    padding: 0;
+}
+
+.ETextureInfo#TextureReferenceContainer {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+}
+
+.ETextureInfo#TextureReference {
+    margin: 0;
+    padding: 0;
+    margin-top: 2px;
+}
+
+
+.ETextureInfo#TextureSize {
+    font-size: 9px;
+    -unity-text-align: upper-right;
+}
+
+.ETextureInfo#Path {
+    font-size: 8px;
+    -unity-text-align: middle-left;
+    margin: 0;
+    padding: 0;
+    margin-top: 4px;
+}
+
+.ETextureInfo.FieldName{
+    font-size: 8px;
+    -unity-text-align: middle-left;
+    padding: 0;
+    margin: 0;
+}

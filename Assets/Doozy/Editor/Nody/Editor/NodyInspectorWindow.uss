@@ -1,0 +1,12 @@
+#layoutContainer.NodyInspector {
+    flex-grow: 1;
+}
+
+#inspectorScrollView.NodyInspector {
+    padding: 8px;
+}
+
+#placeholderContainer.NodyInspector{
+    justify-content: center;
+    flex-grow: 1;
+}

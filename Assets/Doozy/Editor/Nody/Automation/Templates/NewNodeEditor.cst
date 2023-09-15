@@ -1,0 +1,44 @@
+// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+using System.Collections.Generic;
+using Doozy.Editor.EditorUI;
+using Doozy.Editor.Nody.Nodes.Internal;
+using Doozy.Runtime.Nody.Nodes;
+using UnityEditor;
+using UnityEngine;
+namespace Doozy.Editor.Nody.Nodes
+{
+    [CustomEditor(typeof(//NodeName//))]
+    public class //NodeEditorName// : FlowNodeEditor
+    {
+        public override IEnumerable<Texture2D> nodeIconTextures => EditorMicroAnimations.Nody.Icons.CustomNode; //custom animated icon
+
+        protected override void InitializeEditor()
+        {
+            base.InitializeEditor();
+
+            componentHeader.SetComponentNameText(ObjectNames.NicifyVariableName(nameof(//NodeName//))); //node name
+            
+            // componentHeader.SetIcon(EditorMicroAnimations.Nody.Icons.Infinity);                     //custom animated icon
+            // componentHeader.SetIcon(EditorTextures.Nody.Icons.Infinity);                            //custom static icon
+            
+            // componentHeader.SetSecondaryIcon(EditorMicroAnimations.Nody.Icons.One);                 //custom secondary animated icon
+            // componentHeader.SetSecondaryIcon(EditorTextures.Nody.Icons.One);                        //custom secondary static icon
+            
+            // componentHeader.SetAccentColor(EditorColors.Nody.Color);                                //custom color
+            // componentHeader.AddManualButton("www.bit.ly/DoozyKnowledgeBase");                       //custom manual link
+            // componentHeader.AddYouTubeButton("www.youtube.com/c/DoozyEntertainment");               //custom video link
+
+
+            // usage example
+            // componentHeader
+            //     .SetComponentNameText("Component Name")
+            //     .SetComponentTypeText("Nody Node")
+            //     .SetIcon(EditorMicroAnimations.Nody.Icons.Nody)
+            //     .SetSecondaryIcon(EditorMicroAnimations.Nody.Icons.Infinity)
+            //     .SetAccentColor(EditorColors.EditorUI.Amber);
+        }
+    }
+}

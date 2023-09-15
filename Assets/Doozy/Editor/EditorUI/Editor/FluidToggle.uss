@@ -1,0 +1,71 @@
+﻿#layoutContainer.FluidToggle {
+    flex-direction: row;
+    padding: 4px;
+}
+
+#leftLabel {
+    -unity-text-align: middle-left;
+    padding-left: 4px;
+    padding-right: 6px;
+    display: none;
+}
+
+#rightLabel {
+    -unity-text-align: middle-left;
+    padding-left: 6px;
+    padding-right: 4px;
+    display: none;
+}
+
+/** ICON CONTAINER **/
+
+#iconContainer {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+#iconContainer.ToggleCheckbox {
+    width: 16px;
+    border-radius: 2px;
+}
+
+#iconContainer.ToggleSwitch {
+    width: 22px;
+    border-radius: 8px;
+}
+
+#iconContainer.ToggleRadio {
+    width: 16px;
+    border-radius: 8px;
+}
+
+/** ICON **/
+
+#icon {
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    align-self: center;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+}
+
+#icon.ToggleCheckbox {
+    width: 14px;
+}
+
+#icon.ToggleSwitch {
+    width: 19px;
+}
+
+#icon.ToggleRadio {
+    width: 10px;
+    height: 10px;
+}
+
+#icon.MixedValues {
+    width: 10px;
+}

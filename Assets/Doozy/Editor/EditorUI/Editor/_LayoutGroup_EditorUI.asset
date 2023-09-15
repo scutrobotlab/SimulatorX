@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bc019f47b0491b90c5b4ce696fa31d, type: 3}
+  m_Name: _LayoutGroup_EditorUI
+  m_EditorClassIdentifier: 
+  GroupName: EditorUI
+  Layouts:
+  - UxmlReference: {fileID: 9197481963319205126, guid: 3509a216cd22d4146948961b3506103e, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: efc1f6827bfc20d42acefbcac8415221, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 42831d78baadbb34bbbe22d03a075c4b, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 305ddd819aef7da4885317a9b87c559c, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: f939dda0618aa3e47b4b056315b2ae33, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: cd603cf9e859f8f45a09e21d3dc3f876, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 06663ce545e68b043987d83aa9de680f, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 3890d5d9cf4308c44b05ef36b37110ac, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 39e6f58c9cc2dce4b8f2b0d91ae21065, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 9ab7e0a43c5dde34185bc1373ae8b0bc, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: f8cb92cea2fcd28409e25580f5e31991, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: a12b061795688cd45b3469f702c92ecb, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: c830d173221f9d044ad8cf0dfc13aa1c, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 9fbca415c32d7b049b1f4776f9aa89fe, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 2e371c4a8c4939242abb1e68bbd0e762, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 347107a7cd6980f4499cb890cf4c605a, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: d3de18b7909829742b5ed2a20deb7e70, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 9e3c7c24f9bdb104ebd2b21f14076683, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 037ac08b3f724a8458e6290bc269a363, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: a6d9b71abb3f8ff45a5f5346c32ee9d4, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 2430e4642fda9184884978c58ef37c14, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: aa7892aa4cc1a2348b6b93464b47e6bc, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 6d14deb22eed72749ab56f7cff83fad6, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 04cd3738e44e59a4e8690f2e5ef1917d, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 5d5e216726829154b981f0c0a8afbe74, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 6ebb78b7f6bd4b1684f706f4128497eb, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: b634f980fc0b920408b7b01f8a67df12, type: 3}

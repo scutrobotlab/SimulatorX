@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cab4e994137470bb284175feb36c9d7, type: 3}
+  m_Name: _FontFamily_Ubuntu
+  m_EditorClassIdentifier: 
+  FontName: Ubuntu
+  Fonts:
+  - FontReference: {fileID: 12800000, guid: 5f9a93ec7b851c04fac7299a88d98874, type: 3}
+    Weight: 300
+  - FontReference: {fileID: 12800000, guid: 6712d440f3a7ef64eaf42892109ff2cf, type: 3}
+    Weight: 400
+  - FontReference: {fileID: 12800000, guid: 48f55fd50654097478f5107072378a7d, type: 3}
+    Weight: 500
+  - FontReference: {fileID: 12800000, guid: 8b9a378ff5660614cba6cf51e6f246d7, type: 3}
+    Weight: 700

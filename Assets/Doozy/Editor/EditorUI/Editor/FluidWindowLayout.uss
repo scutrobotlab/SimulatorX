@@ -1,0 +1,24 @@
+﻿.FluidWindowLayout#LayoutContainer {
+    flex-grow: 1;
+}
+
+.FluidWindowLayout#MenuContainer {
+}
+
+
+.FluidWindowLayout#ContentContainer {
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.FluidWindowLayout#FooterContainer {
+    flex-shrink: 0;
+    height: 20px;
+    display: none;
+}
+
+.Fluid#FooterLabel {
+    flex-grow: 1;
+    -unity-text-align: middle-left;
+    margin-left: 4px;
+}

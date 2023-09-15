@@ -1,0 +1,28 @@
+﻿.Fluid.Window#WindowLayoutContainer {
+    flex-grow: 1;
+}
+
+.Fluid.Window#Header{
+    min-height: 88px;
+}
+
+
+.Fluid.Window#Content {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.Fluid.Window#Menu {
+    padding: 4px;
+    width: 128px;
+}
+
+.Fluid.Window#ContentScrollView {
+    padding: 4px;
+    flex-grow: 1;
+}
+
+.Fluid.Window#Footer {
+    padding: 4px;
+    height: 40px;
+}

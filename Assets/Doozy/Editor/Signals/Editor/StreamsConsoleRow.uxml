@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="layoutContainer" class="StreamsConsoleRow">
+
+        <engine:Label name="signalsCounterLabel"/>
+        <engine:Image name="signalIcon" class="Icon"/>
+        <engine:Image name="streamIcon" class="Icon"/>
+
+        <engine:VisualElement name="detailsContainer">
+            <engine:VisualElement name="detailsTopRow" class="RowContainer">
+
+                <engine:VisualElement name="streamSignalProviderContainer" class="InfoContainer">
+                    <engine:Label text="Stream Provider" class="TitleLabel"/>
+                    <engine:VisualElement style="flex-direction: row; align-items: center">
+                        <engine:Label name="streamSignalProviderLabel" class="InfoLabel"/>
+                        <engine:VisualElement class="PingButtonContainer"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+
+                <engine:VisualElement name="streamSignalProviderGameObjectContainer" class="InfoContainer">
+                    <engine:Label text="Provider GameObject" class="TitleLabel"/>
+                    <engine:Label name="streamSignalProviderGameObjectLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+
+                <engine:VisualElement name="streamCategoryContainer" class="InfoContainer">
+                    <engine:Label text="Stream Category" class="TitleLabel"/>
+                    <engine:Label name="streamCategoryLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+                <engine:VisualElement name="streamNameContainer" class="InfoContainer">
+                    <engine:Label text="Stream Name" class="TitleLabel"/>
+                    <engine:Label name="streamNameLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+
+                <engine:VisualElement name="streamReceiversCountContainer" class="InfoContainer">
+                    <engine:Label text="Receivers" class="TitleLabel"/>
+                    <engine:Label name="streamReceiversCountLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+
+            </engine:VisualElement>
+
+            <engine:VisualElement name="detailsBottomRow" class="RowContainer">
+
+                <engine:VisualElement name="streamInfoMessageContainer" class="InfoContainer">
+                    <engine:Label text="Info Message" class="TitleLabel"/>
+                    <engine:Label name="streamInfoMessageLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+
+                <engine:VisualElement name="streamGuidContainer" class="InfoContainer">
+                    <engine:Label text="Stream Key (Guid)" class="TitleLabel"/>
+                    <engine:Label name="streamGuidLabel" class="InfoLabel"/>
+                </engine:VisualElement>
+                
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

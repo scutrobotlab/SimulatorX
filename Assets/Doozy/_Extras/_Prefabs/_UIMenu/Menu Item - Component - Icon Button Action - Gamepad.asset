@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Action - Gamepad
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1615151463615351712, guid: 65d165846452e284f9daf7e67df66cc8, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Action
+  PrefabName: Gamepad
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - icon
+  - controller
+  - gamepad
+  - button
+  - action
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 8f8e63b8e7ceeec4bbd0608a87cbf12e, type: 3}

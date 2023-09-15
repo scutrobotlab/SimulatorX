@@ -1,0 +1,7 @@
+﻿.FieldInfoLabel.unity-label {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    font-size: 8px;
+    -unity-text-align: middle-right;
+}

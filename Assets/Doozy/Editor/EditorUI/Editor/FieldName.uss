@@ -1,0 +1,21 @@
+﻿.FieldName.Fluid {
+    padding: 0;
+    margin: 0;
+    -unity-text-align: middle-left;
+}
+
+.Tiny.FieldName.Fluid {
+    font-size: 9px;
+}
+
+.Small.FieldName.Fluid {
+    font-size: 10px;
+}
+
+.Normal.FieldName.Fluid {
+    font-size: 12px;
+}
+
+.Large.FieldName.Fluid {
+    font-size: 14px;
+}

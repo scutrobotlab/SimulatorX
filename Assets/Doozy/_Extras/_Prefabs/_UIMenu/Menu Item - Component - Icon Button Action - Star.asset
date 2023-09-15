@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Action - Star
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4602540820342763426, guid: 305029972e907094ab4b3e3c33cda7e6, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Action
+  PrefabName: Star
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - icon
+  - action
+  - button
+  - rate
+  - rating
+  - star
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 50ac276349038b94fac3f33df2d1df5e, type: 3}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="Fluid Field" name="layoutContainer">
+        <engine:VisualElement class="Fluid Field" name="iconContainer">
+            <engine:Image class="Fluid Field" name="fieldIcon"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="Fluid Field" name="fieldContainer">
+            <engine:Label class="Fluid Field" name="fieldLabel"/>
+            <engine:VisualElement class="Fluid Field" name="fieldContent"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="Fluid Field" name="infoContainer"/>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,18 @@
+﻿            public static class //GROUP_NAME//
+            {
+                private static EditorDataTextureGroup s_textureGroup;
+                private static EditorDataTextureGroup textureGroup =>
+                    s_textureGroup
+                        ? s_textureGroup
+                        : s_textureGroup = EditorDataTextureDatabase.GetTextureGroup("//GROUP_CATEGORY//","//GROUP_NAME//");
+
+                public static Texture2D GetTexture2D(TextureName textureName) =>
+                    textureGroup.GetTexture(textureName.ToString());
+
+                public enum TextureName
+                {
+//NAMES//
+                }
+                
+//CACHE//                
+            }

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="layoutContainer" class="ModyActionRunner">
+
+        <engine:VisualElement name="moduleRow" class="ModyActionRunner Row">
+            <engine:Label name="moduleNameLabel"/>
+            <editor:ObjectField name="moduleObjectField"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement name="actionRow" class="ModyActionRunner Row">
+            
+            <engine:VisualElement name="actionNameColumn" class="ModyActionRunner Column">
+                <engine:Label text="Action Name" name="actionNameLabel" class="ModyActionRunner FieldName"/>
+                <engine:VisualElement name="actionNameContainer"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement name="valueColumn" class="ModyActionRunner Column">
+                <engine:Label text="Value" name="valueLabel" class="ModyActionRunner FieldName"/>
+                <engine:VisualElement name="valueContainer"/>
+            </engine:VisualElement>
+            
+            <engine:VisualElement name="runColumn" class="ModyActionRunner Column">
+                <engine:Label text="Run" name="runLabel" class="ModyActionRunner FieldName"/>
+                <editor:EnumField name="runEnumField"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement  name="ignoreCooldownColumn" class="ModyActionRunner Column">
+                <engine:Label text="Ignore Cooldown" name="ignoreCooldownLabel" class="ModyActionRunner FieldName"/>
+                <engine:VisualElement name="ignoreCooldownContainer"/>
+            </engine:VisualElement>
+            
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+</engine:UXML>

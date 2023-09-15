@@ -1,0 +1,18 @@
+﻿            public static class //GROUP_NAME//
+            {
+                private static EditorDataMicroAnimationGroup s_animationGroup;
+                private static EditorDataMicroAnimationGroup animationGroup =>
+                    s_animationGroup != null
+                        ? s_animationGroup
+                        : s_animationGroup = EditorDataMicroAnimationDatabase.GetMicroAnimationGroup("//GROUP_CATEGORY//", "//GROUP_NAME//");
+
+                public static List<Texture2D> GetTextures(AnimationName animationName) =>
+                    animationGroup.GetTextures(animationName.ToString());
+
+                public enum AnimationName
+                {
+//NAMES//
+                }
+
+//CACHE//
+            }

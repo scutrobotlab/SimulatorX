@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Content - Product Card - Product Card 05
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4462940935456275469, guid: 5ff85c4c8f4e0a540aa628fdd345343f, type: 3}
+  PrefabType: 2
+  PrefabTypeName: Content
+  PrefabCategory: Product Card
+  PrefabName: Product Card 05
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - card
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: e9db11ec13c03e243ba03b202f1bcb6c, type: 3}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Content - Basic - Dark Overlay
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6551670947480931334, guid: 143faaf0e1e2b574e90e9ea51d314367, type: 3}
+  PrefabType: 2
+  PrefabTypeName: Content
+  PrefabCategory: Basic
+  PrefabName: Dark Overlay
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - overlay
+  InfoTag: 
+  Icon: []

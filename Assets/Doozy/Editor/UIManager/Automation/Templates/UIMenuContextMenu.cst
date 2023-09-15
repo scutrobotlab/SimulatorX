@@ -1,0 +1,21 @@
+﻿// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using UnityEditor;
+// ReSharper disable All
+namespace Doozy.Editor.UIManager.UIMenu
+{
+    public static class UIMenuContextMenu
+    {
+        private const int MENU_ITEM_PRIORITY = 11;
+        private const string MENU_PATH = "GameObject/Doozy";
+//MENU//        
+    }
+}

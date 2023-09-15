@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="ETextureInfo" name="LayoutContainer">
+
+        <engine:VisualElement class="ETextureInfo" name="ContentContainer">
+
+            <engine:Image class="ETextureInfo" name="PreviewImageContainer">
+                <engine:Image class="ETextureInfo" name="PreviewImage"/>
+            </engine:Image>
+
+            <engine:VisualElement class="ETextureInfo" name="DetailsContainer">
+
+                <engine:VisualElement style="flex-direction: row; justify-content: space-between">
+                    <engine:VisualElement class="ETextureInfo" name="TextureNameContainer">
+                        <engine:Label class="ETextureInfo FieldName" text="Texture Name"/>
+                        <engine:Label class="ETextureInfo" name="TextureName" binding-path="TextureName"/>
+                    </engine:VisualElement>
+                    <engine:VisualElement style="flex-direction: column">
+                        <engine:Label class="ETextureInfo" name="TextureSize"/>
+                    </engine:VisualElement>
+                </engine:VisualElement>
+
+                <engine:VisualElement class="ETextureInfo" name="TextureReferenceContainer">
+                    <engine:Label class="ETextureInfo FieldName" text="Texture Reference"/>
+                    <editor:ObjectField class="ETextureInfo" name="TextureReference" binding-path="TextureReference"/>
+                </engine:VisualElement>
+
+                <engine:Label class="ETextureInfo" name="Path"/>
+                
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb8e764fd22413493ff9a0053f321d0, type: 3}
+  m_Name: _ColorPalette_EditorUI
+  m_EditorClassIdentifier: 
+  PaletteName: EditorUI
+  Colors:
+  - ColorName: Red
+    ThemeColor:
+      ColorOnDark: {r: 0.85, g: 0.31, b: 0.45, a: 1}
+      ColorOnLight: {r: 0.51, g: 0.14, b: 0.17, a: 1}
+  - ColorName: Pink
+    ThemeColor:
+      ColorOnDark: {r: 0.87, g: 0.44, b: 0.64, a: 1}
+      ColorOnLight: {r: 0.52, g: 0.23, b: 0.4, a: 1}
+  - ColorName: Purple
+    ThemeColor:
+      ColorOnDark: {r: 0.71, g: 0.33, b: 0.94, a: 1}
+      ColorOnLight: {r: 0.42, g: 0.14, b: 0.6, a: 1}
+  - ColorName: DeepPurple
+    ThemeColor:
+      ColorOnDark: {r: 0.52, g: 0.44, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.22, g: 0.16, b: 0.6, a: 1}
+  - ColorName: Indigo
+    ThemeColor:
+      ColorOnDark: {r: 0.44, g: 0.53, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.22, g: 0.27, b: 0.6, a: 1}
+  - ColorName: Blue
+    ThemeColor:
+      ColorOnDark: {r: 0.38, g: 0.57, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.23, g: 0.33, b: 0.6, a: 1}
+  - ColorName: LightBlue
+    ThemeColor:
+      ColorOnDark: {r: 0.44, g: 0.7, b: 0.99, a: 1}
+      ColorOnLight: {r: 0.28, g: 0.46, b: 0.6, a: 1}
+  - ColorName: Cyan
+    ThemeColor:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 1, a: 1}
+      ColorOnLight: {r: 0.29, g: 0.46, b: 0.45, a: 1}
+  - ColorName: Teal
+    ThemeColor:
+      ColorOnDark: {r: 0.56, g: 0.9, b: 0.73, a: 1}
+      ColorOnLight: {r: 0.31, g: 0.51, b: 0.4, a: 1}
+  - ColorName: Green
+    ThemeColor:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 0.51, a: 1}
+      ColorOnLight: {r: 0.31, g: 0.5, b: 0.27, a: 1}
+  - ColorName: LightGreen
+    ThemeColor:
+      ColorOnDark: {r: 0.76, g: 0.98, b: 0.29, a: 1}
+      ColorOnLight: {r: 0.38, g: 0.5, b: 0.15, a: 1}
+  - ColorName: Lime
+    ThemeColor:
+      ColorOnDark: {r: 0.9, g: 0.99, b: 0.33, a: 1}
+      ColorOnLight: {r: 0.48, g: 0.51, b: 0.14, a: 1}
+  - ColorName: Yellow
+    ThemeColor:
+      ColorOnDark: {r: 0.97, g: 0.91, b: 0.25, a: 1}
+      ColorOnLight: {r: 0.53, g: 0.48, b: 0.13, a: 1}
+  - ColorName: Amber
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 0.77, b: 0, a: 1}
+      ColorOnLight: {r: 0.6, g: 0.43, b: 0, a: 1}
+  - ColorName: Orange
+    ThemeColor:
+      ColorOnDark: {r: 0.89, g: 0.58, b: 0.16, a: 1}
+      ColorOnLight: {r: 0.54, g: 0.33, b: 0.09, a: 1}
+  - ColorName: DeepOrange
+    ThemeColor:
+      ColorOnDark: {r: 0.86, g: 0.36, b: 0.33, a: 1}
+      ColorOnLight: {r: 0.55, g: 0.18, b: 0.05, a: 1}
+  - ColorName: Black
+    ThemeColor:
+      ColorOnDark: {r: 0, g: 0, b: 0, a: 1}
+      ColorOnLight: {r: 0, g: 0, b: 0, a: 1}
+  - ColorName: White
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 1, b: 1, a: 1}
+      ColorOnLight: {r: 1, g: 1, b: 1, a: 1}
+  - ColorName: Gray
+    ThemeColor:
+      ColorOnDark: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+      ColorOnLight: {r: 0.54, g: 0.54, b: 0.54, a: 1}

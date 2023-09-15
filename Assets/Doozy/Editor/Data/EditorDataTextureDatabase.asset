@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fc05b8c3184348817771eea6894b3a, type: 3}
+  m_Name: EditorDataTextureDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor Textures
+  DatabaseDescription: Collection of Textures used in the Editor
+  Database:
+  - {fileID: 11400000, guid: b4142c3bc2d62984fa63e559281341f1, type: 2}
+  - {fileID: 11400000, guid: 4c1fd4d11c7c75e45afbc8b41b237054, type: 2}
+  - {fileID: 11400000, guid: 4f97aa475b8966d42b6ac317f6341d6d, type: 2}
+  - {fileID: 11400000, guid: aaabd14c1c4a82d43a8fc799c3a4fc3f, type: 2}
+  - {fileID: 11400000, guid: 7ac801d84ab92884ba941b0b7d26278b, type: 2}
+  - {fileID: 11400000, guid: 99fa6d1415031d44eae9a243679d08d5, type: 2}
+  - {fileID: 11400000, guid: 342e4f962ac71ef45a4365be80ad0721, type: 2}
+  - {fileID: 11400000, guid: 46d15572a0255f44d8dc9571a57ed8e0, type: 2}
+  - {fileID: 11400000, guid: 821e42e22f9bb824cb0a33129c6a3a59, type: 2}
+  - {fileID: 11400000, guid: 32cc7b0682f8d0349afaf97df07f6986, type: 2}
+  - {fileID: 11400000, guid: 34ae48c4110448546bb0413a96f03cae, type: 2}
+  - {fileID: 11400000, guid: 1c11dd9f49d1c2444bc72051736df7bb, type: 2}

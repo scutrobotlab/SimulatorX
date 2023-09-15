@@ -1,0 +1,41 @@
+﻿#layoutContainer.FluidContainer {
+    padding: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#headerContainer.FluidContainer {
+    flex-direction: row;
+    align-items: center;
+}
+
+#icon.FluidContainer {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+#title.FluidContainer {
+    display: none;
+}
+
+#headerContent.FluidContainer {
+    display: none;
+}
+
+#fluidContainer.FluidContainer {
+    margin-top: 4px;
+}
+
+#fluidContent.FluidContainer {
+    padding: 4px;
+}
+
+#footerContainer.FluidContainer {
+    display: none;
+    margin-top: 4px;
+}
+
+#footerContent.FluidContainer {
+}

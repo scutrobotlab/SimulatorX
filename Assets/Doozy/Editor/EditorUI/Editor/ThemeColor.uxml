@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="EditorThemeColor" name="LayoutContainer">
+        <editor:ColorField class="EditorThemeColor" name="Color" binding-path="ColorOnDark"/>
+        <editor:ColorField class="EditorThemeColor" name="Color" binding-path="ColorOnLight"/>
+    </engine:VisualElement>
+</engine:UXML>

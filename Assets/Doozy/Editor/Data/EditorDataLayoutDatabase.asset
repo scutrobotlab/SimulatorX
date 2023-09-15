@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01275baf5f004aaa97096478ab410195, type: 3}
+  m_Name: EditorDataLayoutDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor Layouts (UXML)
+  DatabaseDescription: Collections of UXML layouts used in the Editor
+  Database:
+  - {fileID: 11400000, guid: 29d1594583f1f624a95cf410d06eb763, type: 2}
+  - {fileID: 11400000, guid: 5477aea886cea044e88dfab3f8f6ff71, type: 2}
+  - {fileID: 11400000, guid: bb4d4a10acfc17a4e95b7b6dada0f24e, type: 2}
+  - {fileID: 11400000, guid: 8a7fe9ff4d06f474582be4989d149cf9, type: 2}
+  - {fileID: 11400000, guid: 42cec47246a9ae8488a38201ad059b89, type: 2}
+  - {fileID: 11400000, guid: 5534b79099001a3479f97083eebd5599, type: 2}
+  - {fileID: 11400000, guid: 6959b867fdf8ce841b16c8127e516ffc, type: 2}

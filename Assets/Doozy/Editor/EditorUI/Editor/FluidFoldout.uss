@@ -1,0 +1,99 @@
+﻿.Fluid.FluidFoldoutButton {
+    border-radius: 4px;
+}
+
+
+.Fluid.FluidFoldout#Header {
+}
+
+#ContentLayoutContainer {
+    overflow: hidden;
+    border-width: 1px;
+}
+
+#ContentContainer {
+    display: flex;
+}
+
+.Fluid.FluidFoldout#Footer {
+    flex-direction: row;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 2px;
+}
+
+
+/*** ANIMATED ICON ***/
+
+.Tiny.Animated.FieldIcon.Fluid.FluidFoldout {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+}
+
+.Small.Animated.FieldIcon.Fluid.FluidFoldout {
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    margin-left: 0;
+}
+
+.Normal.Animated.FieldIcon.Fluid.FluidFoldout {
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+    margin-left: -2px;
+    margin-right: 0;
+}
+
+.Large.Animated.FieldIcon.Fluid.FluidFoldout {
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    margin-left: -4px;
+    margin-right: -2px;
+}
+
+
+/*** STATIC ICON ***/
+
+.Tiny.Static.FieldIcon.Fluid {
+    margin: 2px;
+}
+
+.Small.Static.FieldIcon.Fluid {
+    margin: 2px;
+}
+
+.Normal.Static.FieldIcon.Fluid {
+    margin: 3px;
+}
+
+.Large.Static.FieldIcon.Fluid {
+    margin: 4px;
+}
+
+
+/* LABEL */
+
+.FieldName.Fluid {
+    -unity-text-align: middle-left;
+    /*flex-grow: 1;*/
+    flex-shrink: 0;
+}
+
+.Tiny.FieldName.Fluid {
+    padding: 1px 4px;
+}
+
+.Small.FieldName.Fluid {
+    padding: 1px 4px;
+}
+
+.Normal.FieldName.Fluid {
+    padding: 2px 6px;
+}
+
+.Large.FieldName.Fluid {
+    padding: 4px 8px;
+}

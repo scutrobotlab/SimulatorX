@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="CategoryNameItem NameRow" name="layoutContainer">
+        <engine:VisualElement class="CategoryNameItem NameRow" name="leftContainer"/>
+        <engine:VisualElement class="CategoryNameItem NameRow" name="middleContainer">
+            <engine:Label class="CategoryNameItem NameRow" name="nameLabel"/>
+            <engine:TextField class="CategoryNameItem NameRow" name="nameTextField"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="CategoryNameItem NameRow" name="rightContainer"/>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,59 @@
+﻿#layoutContainer.UIMenuItemButton {
+    border-radius: 6px;
+    margin: 4px;
+    width: 96px;
+    height: 96px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#backgroundTexture.UIMenuItemButton{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.2);
+}
+
+#fluidContent.UIMenuItemButton {
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 18px;
+}
+
+#previewImage.UIMenuItemButton {
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    border-radius: 6px;
+}
+
+#prefabNameLabel.UIMenuItemButton {
+    align-self: center;
+    font-size: 9px;
+    padding: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    -unity-text-align: middle-center;
+}
+
+#lockedIcon.UIMenuItemButton {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 80px;
+}
+
+#infoTag.UIMenuItemButton {
+    -unity-text-align: middle-center;
+    height: 16px;
+    font-size: 9px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+    border-bottom-right-radius: 6px;
+    position: absolute;
+}
