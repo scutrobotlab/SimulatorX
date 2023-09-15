@@ -1,0 +1,18 @@
+﻿        public static class //FONT_NAME//
+        {
+            private static EditorDataFontFamily s_fontFamily;
+            private static EditorDataFontFamily fontFamily =>
+                  s_fontFamily != null
+                     ? s_fontFamily
+                     : s_fontFamily = EditorDataFontDatabase.GetFontFamily("//FONT_NAME//");
+
+            public static Font GetFont(FontWeight weight) =>
+                fontFamily.GetFont((int) weight);
+
+            public enum FontWeight
+            {
+//WEIGHTS//                
+            }
+            
+//CACHE//            
+        }

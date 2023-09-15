@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="TickerVisualizer" name="LayoutContainer">
+        <engine:VisualElement class="TickerVisualizer" name="ReactorIconContainer">
+            <engine:Image class="TickerVisualizer" name="ReactorIcon"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="TickerVisualizer" name="HeartIconContainer">
+            <engine:Image class="TickerVisualizer" name="HeartIcon"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="TickerVisualizer" name="LabelsContainer">
+            <engine:Label class="TickerVisualizer" name="TickerName"/>
+            <engine:Label class="TickerVisualizer" name="State"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

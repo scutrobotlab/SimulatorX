@@ -1,0 +1,59 @@
+﻿#layoutContainer.ModyActionRunner {
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px 4px;
+    overflow: hidden;
+}
+
+.Row.ModyActionRunner {
+    flex-direction: row;
+}
+
+.Column.ModyActionRunner {
+    flex-direction: column;
+}
+
+#moduleNameLabel {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    margin-right: 8px;
+    -unity-text-align: middle-left;
+}
+
+#moduleRow {
+    margin-bottom: 8px;
+}
+
+#actionNameColumn {
+    margin-right: 8px;
+    flex-grow: 1;
+    max-width: 200px;
+}
+
+#valueColumn {
+    margin-right: 8px;
+    flex-grow: 1;
+    display: none;
+}
+
+#runColumn {
+    margin-right: 8px;
+    display: none;
+}
+
+#runEnumField {
+    padding: 0;
+    margin: 0;
+}
+
+#actionNameContainer {
+    padding: 0;
+    margin: 0;
+    min-width: 120px;
+}
+
+.FieldName.ModyActionRunner {
+    font-size: 10px;
+    margin-bottom: 2px;
+}

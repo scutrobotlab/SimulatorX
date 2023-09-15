@@ -1,0 +1,49 @@
+﻿.AnimationPreview#LayoutContainer {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 256px;
+    overflow: hidden;
+}
+
+.AnimationPreview#EasedPointerContainer {
+    margin-left: -5px;
+}
+
+.AnimationPreview#EasedPointer {
+    width: 10px;
+    height: 10px;
+}
+
+.AnimationPreview#ProgressBarContainer {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.AnimationPreview#ProgressBar {
+    height: 1px;
+}
+
+.AnimationPreview#LinearPointerContainer {
+    margin-left: -4px;
+}
+
+.AnimationPreview#LinearPointer {
+    width: 8px;
+    height: 8px;
+}
+
+.AnimationPreview.PointerLabel {
+    font-size: 9px;
+    padding: 0;
+    -unity-text-align: middle-left;
+    margin-left: 16px;
+}
+
+.AnimationPreview#EasedPointerLabel {
+    margin-top: -10px;
+}
+
+.AnimationPreview#LinearPointerLabel {
+    margin-bottom: -10px;
+}

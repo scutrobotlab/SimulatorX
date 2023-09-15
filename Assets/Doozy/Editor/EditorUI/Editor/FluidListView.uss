@@ -1,0 +1,81 @@
+﻿.Fluid.ListView#layoutContainer {
+    flex-grow: 1;
+}
+
+.Fluid.ListView#top {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 6px;
+}
+
+.Fluid.ListView#bottom {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 6px;
+}
+
+.Fluid.ListView#headerContainer {
+    display: none;
+    margin-bottom: 4px;
+}
+
+.Fluid.ListView#listTitle {
+    display: none;
+    font-size: 16px;
+    padding: 0;
+}
+
+.Fluid.ListView#listDescription {
+    display: none;
+    font-size: 10px;
+    white-space: normal;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.Fluid.ListView#toolbarContainer {
+    display: none;
+    margin-bottom: 4px;
+    flex-direction: row;
+    border-radius: 6px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.Fluid.ListView#listContainer {
+    flex-direction: column;
+  
+    flex-grow: 1;
+}
+
+.Fluid.ListView#listHeaderContainer {
+    flex-direction: row;
+    padding-left: 6px;
+    padding-right: 2px;
+}
+
+.Fluid.ListView#columnNamesContainer {
+    display: none;
+}
+
+.Fluid.ListView#addItemButtonContainer {
+}
+
+.Fluid.ListView#listViewContainer {
+    padding: 2px;
+    flex-grow: 1;
+}
+
+.Fluid.ListView#listView {
+}
+
+.Fluid.ListView#footerContainer {
+    padding: 4px 8px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.Fluid.ListView#footerLabel {
+    display: none;
+    font-size: 10px;
+}

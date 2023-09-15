@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Pointers_EditorUI
+  m_EditorClassIdentifier: 
+  GroupCategory: EditorUI
+  GroupName: Pointers
+  RemovePrefixFromTextureName: Icon
+  Textures:
+  - TextureName: PointerDown
+    TextureReference: {fileID: 2800000, guid: e2ad42eb73458fe4c9d2b2ad96d15183, type: 3}
+  - TextureName: PointerLeft
+    TextureReference: {fileID: 2800000, guid: b3957dfdeb473244ba03f6154c28dbdc, type: 3}
+  - TextureName: PointerRight
+    TextureReference: {fileID: 2800000, guid: f0d7f4bc5835a4245bb1f4fa7399886f, type: 3}
+  - TextureName: PointerUp
+    TextureReference: {fileID: 2800000, guid: 0d8178aad1fa1154b931d601ed61ee7e, type: 3}

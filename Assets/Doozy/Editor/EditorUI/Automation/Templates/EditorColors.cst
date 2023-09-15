@@ -1,0 +1,53 @@
+﻿// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using System;
+using System.Diagnostics.CodeAnalysis;
+using Doozy.Editor.EditorUI.ScriptableObjects.Colors;
+using Doozy.Runtime.Colors;
+using UnityEngine;
+
+namespace Doozy.Editor.EditorUI
+{
+    [SuppressMessage("ReSharper", "InconsistentNaming")]
+    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
+    [SuppressMessage("ReSharper", "UnusedMember.Local")]
+    public static class EditorColors
+    {
+        public static class Unity
+        {
+            public static Color GetColor(ColorName colorName)
+            {
+                switch (colorName)
+                {
+                    case ColorName.Dark:
+                        return new Color().From256(56, 56, 56);
+                    case ColorName.Light:
+                        return new Color().From256(194, 194, 194);
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(colorName), colorName, null);
+                }
+            }
+
+            public enum ColorName
+            {
+                Dark,
+                Light
+            }
+
+            private static Color? s_Dark;
+            private static Color Dark => (Color)(s_Dark = s_Dark ?? GetColor(ColorName.Dark));
+            private static Color? s_Light;
+            private static Color Light => (Color)(s_Light = s_Light ?? GetColor(ColorName.Light));
+        }
+    
+//CONTENT//
+    }
+}

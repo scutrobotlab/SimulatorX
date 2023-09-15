@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26093705498149a9832bce6be963f2cf, type: 3}
+  m_Name: Loop_Fade_10
+  m_EditorClassIdentifier: 
+  Category: Fade
+  PresetName: 10
+  Settings:
+    AnimationType: 2
+    MoveEnabled: 1
+    MoveFromReferenceValue: 0
+    MoveToReferenceValue: 0
+    MoveFromCustomValue: {x: 0, y: 0, z: 0}
+    MoveToCustomValue: {x: 0, y: 0, z: 0}
+    MoveFromOffset: {x: 0, y: -10, z: 0}
+    MoveToOffset: {x: 0, y: 10, z: 0}
+    MoveFromDirection: 13
+    MoveToDirection: 13
+    MoveReactionSettings:
+      PlayMode: 1
+      EaseMode: 0
+      Ease: 7
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+      Loops: -1
+      LoopDelay: 0
+      UseRandomStartDelay: 0
+      UseRandomDuration: 0
+      UseRandomLoops: 0
+      UseRandomLoopDelay: 0
+      RandomStartDelay:
+        MIN: 0
+        MAX: 1
+      RandomDuration:
+        MIN: 0
+        MAX: 1
+      RandomLoops:
+        MIN: 0
+        MAX: 1
+      RandomLoopDelay:
+        MIN: 0
+        MAX: 1
+      Strength: 1
+      Vibration: 8
+      Elasticity: 1
+      FadeOutShake: 0
+    RotateEnabled: 0
+    RotateFromReferenceValue: 0
+    RotateToReferenceValue: 0
+    RotateFromCustomValue: {x: 0, y: 0, z: 0}
+    RotateToCustomValue: {x: 0, y: 0, z: 0}
+    RotateFromOffset: {x: 0, y: 0, z: 0}
+    RotateToOffset: {x: 0, y: 0, z: 30}
+    RotateReactionSettings:
+      PlayMode: 1
+      EaseMode: 0
+      Ease: 4
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+      Loops: -1
+      LoopDelay: 0
+      UseRandomStartDelay: 0
+      UseRandomDuration: 0
+      UseRandomLoops: 0
+      UseRandomLoopDelay: 0
+      RandomStartDelay:
+        MIN: 0
+        MAX: 1
+      RandomDuration:
+        MIN: 0
+        MAX: 1
+      RandomLoops:
+        MIN: 0
+        MAX: 1
+      RandomLoopDelay:
+        MIN: 0
+        MAX: 1
+      Strength: 1
+      Vibration: 8
+      Elasticity: 1
+      FadeOutShake: 0
+    ScaleEnabled: 0
+    ScaleFromReferenceValue: 0
+    ScaleToReferenceValue: 2
+    ScaleFromCustomValue: {x: 0, y: 0, z: 0}
+    ScaleToCustomValue: {x: 0.2, y: 0.2, z: 0}
+    ScaleFromOffset: {x: 0, y: 0, z: 0}
+    ScaleToOffset: {x: 0, y: 0, z: 0}
+    ScaleReactionSettings:
+      PlayMode: 1
+      EaseMode: 0
+      Ease: 31
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 3
+      Loops: -1
+      LoopDelay: 0
+      UseRandomStartDelay: 0
+      UseRandomDuration: 0
+      UseRandomLoops: 0
+      UseRandomLoopDelay: 0
+      RandomStartDelay:
+        MIN: 0
+        MAX: 1
+      RandomDuration:
+        MIN: 0
+        MAX: 1
+      RandomLoops:
+        MIN: 0
+        MAX: 1
+      RandomLoopDelay:
+        MIN: 0
+        MAX: 1
+      Strength: 1
+      Vibration: 8
+      Elasticity: 1
+      FadeOutShake: 0
+    FadeEnabled: 1
+    FadeFromReferenceValue: 0
+    FadeToReferenceValue: 2
+    FadeFromCustomValue: 0
+    FadeToCustomValue: 0
+    FadeFromOffset: 0
+    FadeToOffset: 0
+    FadeReactionSettings:
+      PlayMode: 1
+      EaseMode: 0
+      Ease: 4
+      Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+      Loops: -1
+      LoopDelay: 0
+      UseRandomStartDelay: 0
+      UseRandomDuration: 0
+      UseRandomLoops: 0
+      UseRandomLoopDelay: 0
+      RandomStartDelay:
+        MIN: 0
+        MAX: 1
+      RandomDuration:
+        MIN: 0
+        MAX: 1
+      RandomLoops:
+        MIN: 0
+        MAX: 1
+      RandomLoopDelay:
+        MIN: 0
+        MAX: 1
+      Strength: 1
+      Vibration: 8
+      Elasticity: 1
+      FadeOutShake: 0

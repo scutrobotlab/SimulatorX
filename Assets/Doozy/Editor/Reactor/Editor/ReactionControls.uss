@@ -1,0 +1,11 @@
+﻿.ReactionControls#LayoutContainer {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.ReactionControls#Content {
+    padding: 4px 8px;
+    border-radius: 8px;
+    flex-direction: row;
+    align-self: center;
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Media - Pause
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4893211436703287603, guid: 8167cc30b2662fc42b20911703c68edc, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Media
+  PrefabName: Pause
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - icon
+  - pause
+  - button
+  - media
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 30418dbaacb4d2a4bbdd83718e4d0ee5, type: 3}

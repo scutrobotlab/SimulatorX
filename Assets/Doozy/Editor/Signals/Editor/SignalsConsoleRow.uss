@@ -1,0 +1,63 @@
+#layoutContainer.SignalsConsoleRow {
+    height: 64px;
+    border-radius: 6px;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 4px 8px;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+
+#timestampLabel {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 80px;
+    align-self: center;
+    -unity-text-align: middle-left;
+    font-size: 8px;
+    margin-right: 8px;
+}
+
+.TitleLabel {
+    -unity-text-align: middle-left;
+    font-size: 8px;
+}
+
+.InfoLabel {
+    -unity-text-align: middle-left;
+    font-size: 10px;
+}
+
+#detailsContainer {
+    flex-grow: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.RowContainer {
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.InfoContainer {
+    align-self: center;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+.Icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.PingButtonContainer {
+    margin: -4px;
+}
+

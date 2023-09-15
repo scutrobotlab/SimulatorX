@@ -1,0 +1,13 @@
+﻿.Fluid.LayoutContainer {
+    /*flex-grow: 1;*/
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.Fluid.Button.LayoutContainer {
+    border-radius: 4px;
+}
+
+.Fluid.Toggle.LayoutContainer {
+    border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cab4e994137470bb284175feb36c9d7, type: 3}
+  m_Name: _FontFamily_Sansation
+  m_EditorClassIdentifier: 
+  FontName: Sansation
+  Fonts:
+  - FontReference: {fileID: 12800000, guid: b3483489b392f724992142b2b9377a17, type: 3}
+    Weight: 300
+  - FontReference: {fileID: 12800000, guid: d57075202c7e5964a98af7c6d32bbbc9, type: 3}
+    Weight: 400
+  - FontReference: {fileID: 12800000, guid: 63a48173f4a3f0748b94dc4310b99ba0, type: 3}
+    Weight: 700

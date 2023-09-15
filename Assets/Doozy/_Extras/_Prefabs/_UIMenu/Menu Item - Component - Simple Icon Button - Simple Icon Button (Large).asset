@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Simple Icon Button - Simple Icon Button (Large)
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 385052949098141727, guid: 7b38fa2ef59bfe747afae02b1491e67a, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Simple Icon Button
+  PrefabName: Simple Icon Button (Large)
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - large
+  - icon
+  - button
+  InfoTag: Large
+  Icon:
+  - {fileID: 2800000, guid: b42a2f62b102e5d488f1c8cd4ff5af4e, type: 3}

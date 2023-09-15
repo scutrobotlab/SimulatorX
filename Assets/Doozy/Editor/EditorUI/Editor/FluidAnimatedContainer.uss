@@ -1,0 +1,8 @@
+﻿.Fluid.AnimatedContainer#layoutContainer {
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.Fluid.AnimatedContainer#fluidContainer {
+    flex-grow: 1;
+}

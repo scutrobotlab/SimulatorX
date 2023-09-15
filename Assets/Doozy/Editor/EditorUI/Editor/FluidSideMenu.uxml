@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="layoutContainer" class="FluidSideMenu">
+        <engine:VisualElement name="headerContainer" class="FluidSideMenu OptionalContainer"/>
+        <engine:VisualElement name="expandCollapseButtonContainer" class="FluidSideMenu OptionalContainer"/>
+        <engine:VisualElement name="searchBoxContainer" class="FluidSideMenu OptionalContainer"/>
+        <engine:VisualElement name="menuInfoContainer" class="FluidSideMenu">
+            <engine:Image name="menuInfoIcon" class="FluidSideMenu"/>
+            <engine:Label name="menuInfoLabel" class="FluidSideMenu"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="toolbarContainer" class="FluidSideMenu OptionalContainer"/>
+        <engine:ScrollView name="buttonsScrollViewContainer" class="FluidSideMenu"/>
+        <engine:VisualElement name="footerContainer" class="FluidSideMenu OptionalContainer"/>
+    </engine:VisualElement>
+</engine:UXML>

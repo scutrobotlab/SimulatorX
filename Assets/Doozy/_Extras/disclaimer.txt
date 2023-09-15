@@ -1,0 +1,3 @@
+﻿All media inside this folder are not to be used in your projects due to copyright. 
+They are intended for prototypes and to teach you how to assemble prefabs and layouts. 
+You are not allowed to use them in projects made for your company or for an end-client.

@@ -1,0 +1,176 @@
+#node-border {
+    border-width: 1px;
+    border-radius: 6px;
+    padding-bottom: 6px;
+    overflow: hidden;
+    min-width: 120px;
+    max-width: 320px;
+}
+
+/*title container*/
+#title {
+    min-height: 32px;
+    flex-direction: row;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-width: 1px;
+    padding-right: 4px;
+    overflow: hidden;
+}
+
+#nodeIcon {
+    flex-shrink: 0;
+    position: relative;
+    height: 24px;
+    width: 24px;
+    margin-left: 4px;
+}
+
+#nodeInfo {
+    align-self: center;
+}
+
+#runningStateIconIndicator {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 34px;
+    height: 35px;
+    left: -5px;
+    top: -5px;
+    display: none;
+}
+
+#activeStateLineIndicator {
+    margin: 0;
+    padding: 0;
+    height: 1px;
+    flex-grow: 1;
+    top: -7px;
+    display: none;
+}
+
+#activeStateBorder {
+    border-width: 1px;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 8px;
+    margin: 1px;
+}
+
+#pingBorder {
+    border-width: 1px;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 9px;
+    margin: 1px;
+}
+
+/*title label*/
+#title-label {
+    padding: 6px 6px 6px 2px;
+    font-size: 12px;
+    /*white-space: normal;*/
+    flex-wrap: wrap;
+    -unity-text-align: middle-left;
+}
+
+#nodeDescriptionLabel {
+    padding: 6px;
+    opacity: 0.4;
+    font-size: 8px;
+    display: none;
+    border-bottom-width: 1px;
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
+/*title container - buttons*/
+#title-button-container {
+
+}
+
+/*hidden*/
+#collapse-button {
+    display: none;
+}
+
+/*contents container*/
+#nodeContent {
+    margin-top: 6px;
+}
+
+/*contents top container - contains input and output containers*/
+#top {
+    flex-direction: row;
+}
+
+/*inputs container*/
+#input {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-width: 1px;
+    border-left-width: 0;
+    margin: 0;
+    padding: 4px 4px 4px 0;
+    min-width: 22px;
+    display: none;
+}
+
+#portDivider {
+    min-width: 6px;
+    flex-grow: 1;
+}
+
+/*outputs container*/
+#output {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-width: 1px;
+    border-right-width: 0;
+    margin: 0;
+    padding: 4px 0 4px 4px;
+    min-width: 22px;
+    display: none;
+}
+
+/*selection border*/
+#selection-border {
+
+    border-width: 0;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 7px;
+    margin: 1px;
+}
+
+:hover > #selection-border {
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-width: 1px;
+}
+
+:hover:selected > #selection-border {
+    left: -4px;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+:selected > #selection-border {
+    border-width: 1px;
+}

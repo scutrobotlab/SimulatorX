@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1c0d906c1b4c38a942b24123bc716d, type: 3}
+  m_Name: EditorDataColorDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor Colors
+  DatabaseDescription: Collections of Colors used in the Editor
+  Database:
+  - {fileID: 11400000, guid: c22609bfe63e3a74681c85c4119d0eae, type: 2}
+  - {fileID: 11400000, guid: 5e576459bef7bde408e40affc1fa0898, type: 2}
+  - {fileID: 11400000, guid: c6cda8f879189d24dbde39b29bbc49d0, type: 2}
+  - {fileID: 11400000, guid: 04074e268a6805f43b96062b0094cd66, type: 2}
+  - {fileID: 11400000, guid: 1266caa45597d8a45a108143e34617b3, type: 2}
+  - {fileID: 11400000, guid: ed0965bdca9f8ae46998c1febb8b20df, type: 2}
+  - {fileID: 11400000, guid: 2e6af9a8d5f66da45bcf38449daea187, type: 2}

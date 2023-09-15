@@ -1,0 +1,126 @@
+﻿// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+// ReSharper disable RedundantNameQualifier
+// ReSharper disable MemberCanBePrivate.Global
+// ReSharper disable ConvertSwitchStatementToSwitchExpression
+
+namespace Doozy.Runtime.Signals
+{
+    public abstract partial class SignalProvider
+    {
+        public static IEnumerable<string> GetProviderCategories(ProviderType providerType)
+        {
+            return providerType switch
+                   {
+                       ProviderType.Global => Global.GetProviderCategories(),
+                       ProviderType.Local  => Local.GetProviderCategories(),
+                       _                   => throw new ArgumentOutOfRangeException(nameof(providerType), providerType, null)
+                   };
+        }
+
+        public static IEnumerable<string> GetProviderNames(ProviderType providerType, string category)
+        {
+            return providerType switch
+                   {
+                       ProviderType.Global => Global.GetProviderNames(category),
+                       ProviderType.Local  => Local.GetProviderNames(category),
+                       _                   => throw new ArgumentOutOfRangeException(nameof(providerType), providerType, null)
+                   };
+        }
+
+        public static Type GetProviderType(ProviderId providerId)
+        {
+            switch (providerId.Type)
+            {
+                case ProviderType.Global:
+                    IEnumerable<ProviderAttributes> globalAttributes = Global.GetAttributesList(providerId.Category).Where(a => a.id == providerId);
+                    return globalAttributes.First().typeOfProvider;
+                case ProviderType.Local:
+                    IEnumerable<ProviderAttributes> localAttributes = Local.GetAttributesList(providerId.Category).Where(a => a.id == providerId);
+                    return localAttributes.First().typeOfProvider;
+                default:
+                    throw new Exception($"There is no {providerId.Category} {providerId.Name} {nameof(SignalProvider)} registered in the {nameof(SignalProvider)}");
+            }
+
+        }
+
+        public static class Local
+        {
+            public const ProviderType k_ProviderType = ProviderType.Local;
+
+            public static IEnumerable<string> GetProviderCategories() =>
+                new List<string>
+                {
+//Local_GetProviderCategories//
+                };
+
+            public static IEnumerable<string> GetProviderNames(string category)
+            {
+                switch (category)
+                {
+//Local_GetProviderNames//
+                }
+
+                throw new Exception($"There is no {k_ProviderType} {nameof(SignalProvider)} '{category}' category registered in the {nameof(SignalProvider)}");
+            }
+
+            public static IEnumerable<ProviderAttributes> GetAttributesList(string category)
+            {
+                switch (category)
+                {
+//Local_GetAttributesList//
+                }
+                
+                throw new Exception($"There is no {k_ProviderType} {nameof(SignalProvider)} '{category}' category registered in the {nameof(SignalProvider)}");
+            }
+            
+//Local_Providers//
+        }
+
+        public static class Global
+        {
+            public const ProviderType k_ProviderType = ProviderType.Global;
+
+            public static IEnumerable<string> GetProviderCategories() =>
+                new List<string>
+                {
+//Global_GetProviderCategories//                     
+                };
+
+            public static IEnumerable<string> GetProviderNames(string category)
+            {
+                switch (category)
+                {
+//Global_GetProviderNames//                       
+                }
+
+                throw new Exception($"There is no {k_ProviderType} {nameof(SignalProvider)} '{category}' category registered in the {nameof(SignalProvider)}");
+            }
+
+            public static IEnumerable<ProviderAttributes> GetAttributesList(string category)
+            {
+                switch (category)
+                {
+//Global_GetAttributesList//                       
+                }
+                
+                throw new Exception($"There is no {k_ProviderType} {nameof(SignalProvider)} '{category}' category registered in the {nameof(SignalProvider)}");
+            }
+
+//Global_Providers//            
+           
+        }
+    }
+}

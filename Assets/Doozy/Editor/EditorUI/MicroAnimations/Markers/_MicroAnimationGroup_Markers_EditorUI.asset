@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94087bd7a2546bc94c3596839dca04a, type: 3}
+  m_Name: _MicroAnimationGroup_Markers_EditorUI
+  m_EditorClassIdentifier: 
+  GroupCategory: EditorUI
+  GroupName: Markers
+  MicroAnimations:
+  - AnimationName: CaretDownToRight
+    Textures:
+    - {fileID: 2800000, guid: 9ecc7110fa78f4b4c9c85c097cb4fb24, type: 3}
+    - {fileID: 2800000, guid: 96e24057c29f0f64f8a0c0c1fdd4d900, type: 3}
+    - {fileID: 2800000, guid: 19520bdf3938ebc498ecfa9be9a60cac, type: 3}
+    - {fileID: 2800000, guid: 58f3fb7eb9803c64391bb7a734bb26f0, type: 3}
+    - {fileID: 2800000, guid: 6db1a1eab0ffc1141a52a0b30c8c462d, type: 3}
+    - {fileID: 2800000, guid: 01694b656d7a3bc48a2a43e8fe723d85, type: 3}
+    - {fileID: 2800000, guid: 26cc0805909c35c4eaa9802410b773d2, type: 3}
+    - {fileID: 2800000, guid: 24555c79b5de9594e8feab518fc35e8b, type: 3}
+    - {fileID: 2800000, guid: f84bc52cd83e9ca4da88459c02e13536, type: 3}
+    - {fileID: 2800000, guid: e985107ae08da2d45872b37854c30120, type: 3}
+    - {fileID: 2800000, guid: 8a2395a3b6322774785c52818e8024ea, type: 3}
+    - {fileID: 2800000, guid: d46633899cc19a045ba7a7fc45ac4d53, type: 3}
+    - {fileID: 2800000, guid: c7de6bcf0a21b2849ba45e24649abc5a, type: 3}
+    - {fileID: 2800000, guid: a8771370dc48c9d4c9c4204f293f212b, type: 3}
+    - {fileID: 2800000, guid: 40e054a9579b38c44a393437975f0a32, type: 3}
+  - AnimationName: CircleToCaretDown
+    Textures:
+    - {fileID: 2800000, guid: 4723b7dca2e9e6c4fbe8ed6dcdbfd41d, type: 3}
+    - {fileID: 2800000, guid: 39c27172c5877aa49b6dd8fe4ca8d72e, type: 3}
+    - {fileID: 2800000, guid: f5e3534559b49684fa422409c313d04d, type: 3}
+    - {fileID: 2800000, guid: d69ebb7670ed8d94a85a01226975b007, type: 3}
+    - {fileID: 2800000, guid: 7cef1e2d17ec098418431c20242c1167, type: 3}
+    - {fileID: 2800000, guid: aca202f88293a4a45bed6126a5515fde, type: 3}
+    - {fileID: 2800000, guid: c3d5e42ace034224da54f3bef97187ef, type: 3}
+    - {fileID: 2800000, guid: ed9ed717b67632642ab5c9200cfbd613, type: 3}
+    - {fileID: 2800000, guid: 682ec8eebbcb9114689c113d4932ad96, type: 3}
+    - {fileID: 2800000, guid: aaeb270c7b09464458357c4f59e29231, type: 3}
+    - {fileID: 2800000, guid: d6eafb630bbf34c4abb3f484f7a09897, type: 3}
+    - {fileID: 2800000, guid: 62e62193528720241aaff4df3445528b, type: 3}
+    - {fileID: 2800000, guid: aa4498a1383477d42891fd23306acfa9, type: 3}
+    - {fileID: 2800000, guid: 934868083a056124598b046ff19b8262, type: 3}
+  - AnimationName: CircleToCaretLeft
+    Textures:
+    - {fileID: 2800000, guid: 8b2f8249672c2e14ab359ac1f79ef88e, type: 3}
+    - {fileID: 2800000, guid: db3d11f5b3db6a543aba9b728fb9d174, type: 3}
+    - {fileID: 2800000, guid: ce100a046a15a3d41a21533ebc8f2f46, type: 3}
+    - {fileID: 2800000, guid: 326252b1cbefb9e468ffb87dae89f7cb, type: 3}
+    - {fileID: 2800000, guid: ab4cfbb533935d14b82911db8cb8bef6, type: 3}
+    - {fileID: 2800000, guid: 78ee4665e24c9db4789a0f2697e2350b, type: 3}
+    - {fileID: 2800000, guid: 10d64d5cd0306114daf4ffcdcc95baa1, type: 3}
+    - {fileID: 2800000, guid: b7fa79b74bff7aa46918fdb4fe4cf03a, type: 3}
+    - {fileID: 2800000, guid: 7dd8cbd669d2a1c49bed812f411e9e70, type: 3}
+    - {fileID: 2800000, guid: eb99aa2a92a498d41853b553985cc423, type: 3}
+    - {fileID: 2800000, guid: a0e63b68eb2b8894b8be0571603b8432, type: 3}
+    - {fileID: 2800000, guid: 3ad8d25043ac02846b690edfdfab5785, type: 3}
+    - {fileID: 2800000, guid: c145a102e9de9c843a2a0007d6b83054, type: 3}
+    - {fileID: 2800000, guid: 82dcd7efda43f114ab64cfadf5e9905a, type: 3}
+  - AnimationName: CircleToCaretRight
+    Textures:
+    - {fileID: 2800000, guid: 5dd6581dd3e2280478a855e8bcc8d1f5, type: 3}
+    - {fileID: 2800000, guid: 5c244922f9f7cff4da310c595c22d7dc, type: 3}
+    - {fileID: 2800000, guid: 4950440a8c4deca43be7f42268bd71b4, type: 3}
+    - {fileID: 2800000, guid: 3dd370f8d00c9b2458eb26793cea43dc, type: 3}
+    - {fileID: 2800000, guid: e166169509b1e5648a1e23c828dbdcf3, type: 3}
+    - {fileID: 2800000, guid: 23caca58a6e1dd141ad505c37242312c, type: 3}
+    - {fileID: 2800000, guid: 53e1362b37456cd44bb49ef7347e2573, type: 3}
+    - {fileID: 2800000, guid: 47b2d0be172f07846834cf1f0a5482f3, type: 3}
+    - {fileID: 2800000, guid: 2d4aef36c97abd5439d85a7d2e1365d0, type: 3}
+    - {fileID: 2800000, guid: e4debb975ec6ca74aae0035764de639c, type: 3}
+    - {fileID: 2800000, guid: 6be834c52ae69824ab310b0adc044e6f, type: 3}
+    - {fileID: 2800000, guid: 4c0e38f4df6fbea48afbd24c9569ea50, type: 3}
+    - {fileID: 2800000, guid: 8ce3414767daf8d409c0b2ddf08dff6d, type: 3}
+    - {fileID: 2800000, guid: 8785456123d01674184b468530b30797, type: 3}
+  - AnimationName: CircleToCaretUp
+    Textures:
+    - {fileID: 2800000, guid: 261c799527cecd4439357412e0b35eac, type: 3}
+    - {fileID: 2800000, guid: c84e77e44dc2504469247192ccdd2c40, type: 3}
+    - {fileID: 2800000, guid: eef00cf96b4321143a1da3ba13cbaf10, type: 3}
+    - {fileID: 2800000, guid: 3503b90ae7e73384d999b16c99d46ac8, type: 3}
+    - {fileID: 2800000, guid: b537ab36a6129dd43bb75f807c37ae91, type: 3}
+    - {fileID: 2800000, guid: 929543141bea6d54db3992f1c0b2a002, type: 3}
+    - {fileID: 2800000, guid: 9eb737dbf7a645c42a38d5116da97837, type: 3}
+    - {fileID: 2800000, guid: cf5678d194473a442b936f19efbb5d7e, type: 3}
+    - {fileID: 2800000, guid: 3422488fda46d9743bf1a55f6feb3e9e, type: 3}
+    - {fileID: 2800000, guid: 4968a244282054b448e7cb2cb98446e8, type: 3}
+    - {fileID: 2800000, guid: 4be35f27bc37e144c91a232c0e49dda2, type: 3}
+    - {fileID: 2800000, guid: a0bcc5e5a1b694f468fe35e99d8e6822, type: 3}
+    - {fileID: 2800000, guid: e2d500cbb0c1505429bfe2ee58f4a982, type: 3}
+    - {fileID: 2800000, guid: 36df505a46879d847a93b14cce0541aa, type: 3}
+  - AnimationName: CircleToHorizontalCircleLine
+    Textures:
+    - {fileID: 2800000, guid: 48fe95ece5e59da42bf2d542a630771f, type: 3}
+    - {fileID: 2800000, guid: 162bcd467d870df48a3c6729a16e53a7, type: 3}
+    - {fileID: 2800000, guid: fb631921c45331844abdb333863a4fb3, type: 3}
+    - {fileID: 2800000, guid: 97e0ecef492b996499931ae8c7872fd7, type: 3}
+    - {fileID: 2800000, guid: 632e06398b595cb43b5fe368977a38d4, type: 3}
+    - {fileID: 2800000, guid: 9487fcef3b915ed428f2d313f169549c, type: 3}
+    - {fileID: 2800000, guid: a9f9fd114583d604bba1d1c7faadfea7, type: 3}
+    - {fileID: 2800000, guid: 4ce79319a3884df44bf67801056ec618, type: 3}
+    - {fileID: 2800000, guid: c190473f95c1ede4fa61b12ca50064a7, type: 3}
+    - {fileID: 2800000, guid: 25932852795a3834887d74415a1a9feb, type: 3}
+    - {fileID: 2800000, guid: 1ab8294d4921ab34c89d8565ec6589ff, type: 3}
+    - {fileID: 2800000, guid: 415c195e3560ccb41801a2622da41589, type: 3}
+    - {fileID: 2800000, guid: 66289b66d8a24154985b759ba91d9d0c, type: 3}
+    - {fileID: 2800000, guid: bfbce54f2796d394299c8bb579be7759, type: 3}
+  - AnimationName: CircleToHorizontalRoundedSquare
+    Textures:
+    - {fileID: 2800000, guid: e697603ed8c7c7e4e99ac20d6f8c67b6, type: 3}
+    - {fileID: 2800000, guid: c9e3c9e4cef08a64bbad272062c8eb48, type: 3}
+    - {fileID: 2800000, guid: 25d1190a5fa505a4289720aa1376c779, type: 3}
+    - {fileID: 2800000, guid: f88f1bbff48a92b4186628062bc28d78, type: 3}
+    - {fileID: 2800000, guid: 366379f05c6af3f4e8dbedd1e21e1824, type: 3}
+    - {fileID: 2800000, guid: f033833556f3ce14eaf7eef7fb557c6d, type: 3}
+    - {fileID: 2800000, guid: daadb5aaeb8c4fd4d866bec80beb1cb2, type: 3}
+    - {fileID: 2800000, guid: ec1a8d93f918df346b3d94d86dd3f91f, type: 3}
+    - {fileID: 2800000, guid: dd71d12ed7bfbd74a9eb30456fce9fb6, type: 3}
+    - {fileID: 2800000, guid: 1d719ccdc8f5d704a842e97b3559ad8f, type: 3}
+    - {fileID: 2800000, guid: e8dd911115876424d907c152f4340fd4, type: 3}
+    - {fileID: 2800000, guid: aee74fc1b3db7b448ab5049112fcc787, type: 3}
+    - {fileID: 2800000, guid: 111452d096c4ed8469a8e7ccec7479c8, type: 3}
+    - {fileID: 2800000, guid: 738cae95ffee80e459e06d2ceea63c55, type: 3}
+  - AnimationName: CircleToVerticalCircleLine
+    Textures:
+    - {fileID: 2800000, guid: 74ce11f615fa8b64db20359fbaca3c9b, type: 3}
+    - {fileID: 2800000, guid: e5036f1d004caed489b284abbc91dcf5, type: 3}
+    - {fileID: 2800000, guid: 98081c630dd64eb49a1b237eccce7537, type: 3}
+    - {fileID: 2800000, guid: 0a366b93bda8c614386aea72727567c9, type: 3}
+    - {fileID: 2800000, guid: 5ddc864be309903419cb54e053de4d8c, type: 3}
+    - {fileID: 2800000, guid: 5a699aefad6348045a6ed1d04fbb9e14, type: 3}
+    - {fileID: 2800000, guid: 38fcbf33bfb7dd9418b32e17914e690d, type: 3}
+    - {fileID: 2800000, guid: 84b825729f72a27429901e20b8902fc2, type: 3}
+    - {fileID: 2800000, guid: b77434ccbd4845443bd752d2b351e2ed, type: 3}
+    - {fileID: 2800000, guid: 83dbd5a924a6ee7448b621a17f40cea4, type: 3}
+    - {fileID: 2800000, guid: 9982869ec034ba74885bb1a63431de60, type: 3}
+    - {fileID: 2800000, guid: 242712daf485d3d4eafff87592881dbe, type: 3}
+    - {fileID: 2800000, guid: 5316c6f063b7c054cacacb8611cda42f, type: 3}
+    - {fileID: 2800000, guid: e85b8e4b500357542b5426327c8af725, type: 3}
+  - AnimationName: CircleToVerticalRoundedSquare
+    Textures:
+    - {fileID: 2800000, guid: e0aafd90fc04319419bc8f025a9f7a75, type: 3}
+    - {fileID: 2800000, guid: 7b8c5147a8c1eec48a1dbd9dc4d7e6b1, type: 3}
+    - {fileID: 2800000, guid: 30597f02f69d0684f9b595cb1b00565e, type: 3}
+    - {fileID: 2800000, guid: af071067a8a4c484aa5bf111909be6d5, type: 3}
+    - {fileID: 2800000, guid: 28fbee5cff8c18d46ad451fae5b13e37, type: 3}
+    - {fileID: 2800000, guid: f6e221f99a334444f945240ebd65b98b, type: 3}
+    - {fileID: 2800000, guid: bae0541b35bb916499c5c262d4ccdd24, type: 3}
+    - {fileID: 2800000, guid: ae50d2c380817e34b8263a14efb0c183, type: 3}
+    - {fileID: 2800000, guid: ff05cab77d4fb1942bb582b306cf4f83, type: 3}
+    - {fileID: 2800000, guid: 20d13911d9cc07e4e9570c2c33551792, type: 3}
+    - {fileID: 2800000, guid: 557a2196121e9b94aa42b6c608c2b7fe, type: 3}
+    - {fileID: 2800000, guid: b24de0bcb7e991446b08b40c8cf75242, type: 3}
+    - {fileID: 2800000, guid: 848bb4932330bab4d8a55ea7a0af76cd, type: 3}
+    - {fileID: 2800000, guid: e96b5fc591a47db48af60403c01ab6df, type: 3}

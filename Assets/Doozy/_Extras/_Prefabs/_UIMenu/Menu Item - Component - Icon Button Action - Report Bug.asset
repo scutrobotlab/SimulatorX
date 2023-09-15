@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Action - Report Bug
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1274854024929475843, guid: 688c841c71d725d4bbba381712dfca81, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Action
+  PrefabName: Report Bug
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 1
+  Tags:
+  - icon
+  - report
+  - bug
+  - support
+  - button
+  - action
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 1c6a6c213c3cd9543a8b6636a8ac6ceb, type: 3}

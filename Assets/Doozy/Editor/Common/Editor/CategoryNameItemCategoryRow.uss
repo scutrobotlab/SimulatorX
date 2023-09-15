@@ -1,0 +1,20 @@
+﻿.CategoryNameItem.CategoryRow#layoutContainer {
+    flex-direction: row;
+    margin-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    flex-shrink: 0;
+}
+
+.CategoryNameItem.CategoryRow#nameLabel {
+    flex-shrink: 0;
+    font-size: 18px;
+    align-self: center;
+}
+
+.CategoryNameItem.CategoryRow#buttonsContainer {
+    flex-grow: 1;
+    margin-left: 16px;
+    align-items: flex-end;
+    justify-content: center;
+}

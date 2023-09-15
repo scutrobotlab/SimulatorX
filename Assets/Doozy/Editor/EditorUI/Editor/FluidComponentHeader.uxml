@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement name="layoutContainer" class="Fluid ComponentHeader">
+        <engine:VisualElement name="iconContainer" class="Fluid ComponentHeader">
+            <engine:Image name="icon" class="Fluid ComponentHeader"/>
+        </engine:VisualElement>
+        <engine:VisualElement name="barContainer" class="Fluid ComponentHeader">
+            <engine:VisualElement name="barLeftContainer" class="Fluid ComponentHeader">
+                <engine:Image name="secondaryIcon" class="Fluid ComponentHeader"/>
+                <engine:Label name="componentNameLabel" class="Fluid ComponentHeader"/>
+                <engine:Label name="componentTypeLabel" class="Fluid ComponentHeader"/>
+                <engine:VisualElement style="flex-grow: 1"/>
+                <engine:Image name="rotatedIcon" class="Fluid ComponentHeader"/>
+            </engine:VisualElement>
+            <engine:VisualElement name="barRightContainer" class="Fluid ComponentHeader"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

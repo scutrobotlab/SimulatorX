@@ -1,0 +1,18 @@
+﻿#layoutContainer.Fluid.Placeholder {
+    flex-shrink: 0;
+    align-self: center;
+}
+
+#placeholderImage.Fluid.Placeholder {
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: center;
+}
+
+#placeholderLabel.Fluid.Placeholder {
+    align-self: center;
+    -unity-text-align: middle-center;
+    font-size: 16px;
+    margin-top: 8px;
+    display: none;
+}

@@ -1,0 +1,16 @@
+.Nody.Window#layoutContainer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.Nody.Window#sideMenuContainer {
+}
+
+.Nody.Window#graphContainer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.Nody.Window#graphView {
+    flex-grow: 1;
+}

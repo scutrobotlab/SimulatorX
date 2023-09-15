@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d19a77c26f45f481ad1515a10e5bcf, type: 3}
+  m_Name: EditorDataStyleDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor Styles (USS)
+  DatabaseDescription: Collections of USS styles used in the Editor
+  Database:
+  - {fileID: 11400000, guid: 2f63f60f2439d29409bb5707fa049c50, type: 2}
+  - {fileID: 11400000, guid: 77081e768e9095f42af5695aa85ae413, type: 2}
+  - {fileID: 11400000, guid: 94ebcb82b12f1d24dace8703367799ee, type: 2}
+  - {fileID: 11400000, guid: 5804a7a5447fcf8458a4096ea25869fa, type: 2}
+  - {fileID: 11400000, guid: 6c9860f584c0c3c42bcf59b0467df895, type: 2}
+  - {fileID: 11400000, guid: 932d9007aa985714ba6ce9f811444cb1, type: 2}
+  - {fileID: 11400000, guid: 4c007acea13cc2248a37f23211a222d7, type: 2}

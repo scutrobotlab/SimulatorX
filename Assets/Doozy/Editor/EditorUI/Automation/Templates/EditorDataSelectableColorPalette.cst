@@ -1,0 +1,24 @@
+﻿        public static class //PALETTE_NAME//
+        {
+            private static EditorDataSelectableColorPalette s_selectableColorPalette;
+            private static EditorDataSelectableColorPalette selectableColorPalette =>
+                s_selectableColorPalette != null
+                    ? s_selectableColorPalette
+                    : s_selectableColorPalette = EditorDataSelectableColorDatabase.GetSelectableColorPalette("//PALETTE_NAME//");
+
+            public static Color GetColor(ColorName colorName, SelectionState state) =>
+                selectableColorPalette.GetColor(colorName.ToString(), state);
+
+            public static EditorThemeColor GetThemeColor(ColorName colorName, SelectionState state) =>
+                selectableColorPalette.GetThemeColor(colorName.ToString(), state);
+
+            public static EditorSelectableColorInfo GetSelectableColorInfo(ColorName colorName) =>
+                selectableColorPalette.GetSelectableColorInfo(colorName.ToString());
+            
+            public enum ColorName
+            {
+//NAMES//
+            }
+            
+//CACHE//            
+        }

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aabd12c6a06b464ba68864f87a71c02, type: 3}
+  m_Name: Shift UI Manager
+  m_EditorClassIdentifier: 
+  enableDynamicUpdate: 1
+  enableExtendedColorPicker: 0
+  editorHints: 1
+  backgroundColorTint: {r: 0.5176471, g: 0, b: 0.06666667, a: 1}
+  backgroundType: 1
+  backgroundImage: {fileID: 21300000, guid: 59da25cc8872f164da4db6b05ad99d57, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 488f8fa32c1a5f24cbac413b5e63b1f6, type: 3}
+  backgroundPreserveAspect: 0
+  backgroundSpeed: 1.25
+  primaryColor: {r: 1, g: 0.3647059, b: 0.3254902, a: 1}
+  secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  primaryReversed: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 1}
+  negativeColor: {r: 1, g: 0.43137255, b: 0.39215687, a: 1}
+  backgroundColor: {r: 0.09803922, g: 0.09803922, b: 0.09803922, a: 0.9411765}
+  lightFont: {fileID: 11400000, guid: eccbef43b71c36d4f8e4584bcbe34be6, type: 2}
+  regularFont: {fileID: 11400000, guid: eb45f77f5cbb25a4c95667b4bc3eef79, type: 2}
+  mediumFont: {fileID: 11400000, guid: eb45f77f5cbb25a4c95667b4bc3eef79, type: 2}
+  semiBoldFont: {fileID: 11400000, guid: be7497cfc470b1544b463037087fba7f, type: 2}
+  boldFont: {fileID: 11400000, guid: be7497cfc470b1544b463037087fba7f, type: 2}
+  gameLogo: {fileID: 21300000, guid: 6ac53f15ba5fce14596a41cdaff66b16, type: 3}
+  logoColor: {r: 0.3882353, g: 0.7764706, b: 1, a: 1}
+  particleColor: {r: 0.34901962, g: 0, b: 0.047058824, a: 1}
+  backgroundMusic: {fileID: 8300000, guid: 7ac1670904bb1624b87dc52bc71f00bc, type: 3}
+  hoverSound: {fileID: 8300000, guid: a6473f5264a14804e992a7a4a29cd744, type: 3}
+  clickSound: {fileID: 8300000, guid: bfc5803fa8fa8924bbeaa34f4f689bb1, type: 3}

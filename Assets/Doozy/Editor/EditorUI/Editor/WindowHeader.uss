@@ -1,0 +1,37 @@
+﻿.WindowHeader#LayoutContainer
+{
+    min-height: 88px;
+    border-width: 1px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.WindowHeader#Icon
+{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: -32px;
+    top: -16px;
+    right: 0;
+    bottom: 0;
+}
+
+.WindowHeader#TitleContainer
+{
+    margin-left: 120px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.WindowHeader#Title
+{
+    font-size: 28px;
+    margin: 0;
+}
+
+.WindowHeader#Subtitle
+{
+    font-size: 16px;
+    margin: 2px 0 0;
+}

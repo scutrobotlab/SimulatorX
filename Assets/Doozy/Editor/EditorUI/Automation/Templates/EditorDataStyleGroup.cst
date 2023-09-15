@@ -1,0 +1,18 @@
+﻿        public static class //GROUP_NAME//
+        {
+            private static EditorDataStyleGroup s_styleGroup;
+            private static EditorDataStyleGroup styleGroup =>
+                s_styleGroup != null
+                    ? s_styleGroup
+                    : s_styleGroup = EditorDataStyleDatabase.GetStyleGroup("//GROUP_NAME//");
+
+            public static StyleSheet GetStyleSheet(StyleName styleName) =>
+                styleGroup.GetStyleSheet(styleName.ToString());
+
+            public enum StyleName
+            {
+//NAMES//
+            }
+            
+//CACHE//            
+        }

@@ -1,0 +1,131 @@
+﻿#layoutContainer.Fluid.ToggleButton {
+    border-radius: 6px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+#buttonContainer {
+    overflow: hidden;
+    padding: 2px;
+}
+
+#buttonContainer.Horizontal {
+    flex-direction: row;
+}
+
+#buttonContainer.Vertical {
+    flex-direction: column;
+}
+
+#layoutContainer.Fluid.ToggleButton.TabOnLeft {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#layoutContainer.Fluid.ToggleButton.TabOnTop {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#layoutContainer.Fluid.ToggleButton.TabOnRight {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#layoutContainer.Fluid.ToggleButton.TabOnBottom {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#layoutContainer.Fluid.ToggleButton.TabInCenter {
+    border-radius: 0;
+}
+
+#buttonContainer.Tiny.IconAndText {
+    padding-left: 4px;
+}
+
+#buttonContainer.Small.IconAndText {
+    padding-left: 6px;
+    padding-right: 4px;
+}
+
+#buttonContainer.Normal.IconAndText {
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+#buttonContainer.Large.IconAndText {
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+
+.Fluid.FieldIcon {
+    display: none;
+}
+
+/*** ANIMATED icon ***/
+
+.Fluid.Tiny.Animated.FieldIcon {
+}
+
+.Fluid.Small.Animated.FieldIcon {
+}
+
+.Fluid.Normal.Animated.FieldIcon {
+}
+
+.Fluid.Large.Animated.FieldIcon {
+}
+
+
+/*** STATIC icon ***/
+
+.Fluid.Tiny.Static.FieldIcon {
+    margin: 2px;
+}
+
+.Fluid.Small.Static.FieldIcon {
+    margin: 2px;
+}
+
+.Fluid.Normal.Static.FieldIcon {
+    margin: 3px;
+}
+
+.Fluid.Large.Static.FieldIcon {
+    margin: 4px;
+}
+
+/*** buttonLabel ***/
+
+.Fluid.FieldName {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.Fluid.Tiny.FieldName {
+    padding: 2px 4px;
+}
+
+.Fluid.Small.FieldName {
+    padding: 2px 4px;
+}
+
+.Fluid.Normal.FieldName {
+    padding: 3px 6px;
+}
+
+.Fluid.Large.FieldName {
+    padding: 5px 8px;
+}
+
+/*** infoContainer ***/
+
+#nodeInfo.Fluid.ToggleButton {
+    align-self: center;
+    flex-direction: row;
+    display: none;
+}

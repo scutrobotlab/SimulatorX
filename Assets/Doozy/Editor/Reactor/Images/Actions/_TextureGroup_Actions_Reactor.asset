@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Actions_Reactor
+  m_EditorClassIdentifier: 
+  GroupCategory: Reactor
+  GroupName: Actions
+  RemovePrefixFromTextureName: 
+  Textures:
+  - TextureName: Fade
+    TextureReference: {fileID: 2800000, guid: d758b620a2474a149b4d48c04397151c, type: 3}
+  - TextureName: Move
+    TextureReference: {fileID: 2800000, guid: bc2f9cadf2e47a24ab7fe1c140436e82, type: 3}
+  - TextureName: Rotate
+    TextureReference: {fileID: 2800000, guid: a3cf37e214ecd8347b7135e113dd1e28, type: 3}
+  - TextureName: Scale
+    TextureReference: {fileID: 2800000, guid: 530ac95b9dc0912489eb46c762672199, type: 3}

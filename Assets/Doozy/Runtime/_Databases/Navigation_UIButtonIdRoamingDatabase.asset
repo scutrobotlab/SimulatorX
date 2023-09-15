@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0345cf30bdf045e1a4c1e9fc0ac1b91a, type: 3}
+  m_Name: Navigation_UIButtonIdRoamingDatabase
+  m_EditorClassIdentifier: 
+  Name: Navigation
+  Database:
+    Items:
+    - Category: Navigation
+      Name: Back
+    - Category: Navigation
+      Name: Cancel
+    - Category: Navigation
+      Name: Next
+    - Category: Navigation
+      Name: Ok
+    - Category: None
+      Name: None

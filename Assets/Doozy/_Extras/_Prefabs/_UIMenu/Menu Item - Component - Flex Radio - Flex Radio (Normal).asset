@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Flex Radio - Flex Radio (Normal)
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 7879663211819685611, guid: 590aa787ef801a24890ad8f4c107cb62, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Flex Radio
+  PrefabName: Flex Radio (Normal)
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - normal
+  - radio
+  - toggle
+  InfoTag: Normal
+  Icon:
+  - {fileID: 2800000, guid: c10cf92c8cc18a848a309ca6fd76e9cf, type: 3}

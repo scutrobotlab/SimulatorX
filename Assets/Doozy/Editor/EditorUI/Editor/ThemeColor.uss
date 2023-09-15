@@ -1,0 +1,9 @@
+﻿.EditorThemeColor#LayoutContainer {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.EditorThemeColor#Color {
+    width: 64px;
+    height: 20px;
+}

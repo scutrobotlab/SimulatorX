@@ -1,0 +1,22 @@
+#layoutContainer.FluidCircularGauge {
+    width: 200px;
+    height: 200px;
+}
+
+#body.FluidCircularGauge {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#fillBackground.FluidCircularGauge {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#fill.FluidCircularGauge {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}

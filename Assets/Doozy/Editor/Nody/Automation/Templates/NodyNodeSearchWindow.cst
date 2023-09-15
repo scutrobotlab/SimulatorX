@@ -1,0 +1,78 @@
+// Copyright (c) 2015 - 2021 Doozy Entertainment. All Rights Reserved.
+// This code can only be used under the standard Unity Asset Store End User License Agreement
+// A Copy of the EULA APPENDIX 1 is available at http://unity3d.com/company/legal/as_terms
+
+//.........................
+//.....Generated Class.....
+//.........................
+//.......Do not edit.......
+//.........................
+
+using System;
+using System.Collections.Generic;
+using Doozy.Editor.EditorUI;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+// ReSharper disable MemberCanBePrivate.Global
+// ReSharper disable MemberCanBePrivate.Local
+// ReSharper disable UnusedAutoPropertyAccessor.Local
+// ReSharper disable ClassNeverInstantiated.Local
+
+namespace Doozy.Editor.Nody
+{
+    public class NodyNodeSearchWindow : ScriptableObject, ISearchWindowProvider
+    {
+        private Texture2D transparentIcon { get; set; }
+        public FlowGraphView graphView { get; private set; }
+
+        public NodyNodeSearchWindow SetGraphView(FlowGraphView view)
+        {
+            graphView = view;
+            
+            // Transparent icon to trick search window into indenting items
+            transparentIcon = new Texture2D(1, 1);
+            transparentIcon.SetPixel(0, 0, new Color(0, 0, 0, 0));
+            transparentIcon.Apply();
+            
+            return this;
+        }
+
+        private void OnDestroy()
+        {
+            if (transparentIcon == null)
+                return;
+            DestroyImmediate(transparentIcon);
+            transparentIcon = null;
+        }
+
+        public List<SearchTreeEntry> CreateSearchTree(SearchWindowContext context)
+        {
+            var tree = new List<SearchTreeEntry>()
+            {
+                new SearchTreeGroupEntry(new GUIContent("Create Node", EditorTextures.Nody.Icons.Infinity), 0),
+//SearchTreeEntry//
+            };
+            return tree;
+        }
+        
+        public bool OnSelectEntry(SearchTreeEntry searchTreeEntry, SearchWindowContext context)
+        {
+            if (!(searchTreeEntry.userData is NodeTypeInfo nodeInfo))
+                return false;
+            
+//CreateNode//
+                
+            return false;
+        }
+
+        private class NodeTypeInfo
+        {
+            public Type type { get; }
+            
+            public NodeTypeInfo(Type type)
+            {
+                this.type = type;
+            }
+        }
+    }
+}

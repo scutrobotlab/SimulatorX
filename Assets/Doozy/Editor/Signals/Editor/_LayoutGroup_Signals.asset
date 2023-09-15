@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4bc019f47b0491b90c5b4ce696fa31d, type: 3}
+  m_Name: _LayoutGroup_Signals
+  m_EditorClassIdentifier: 
+  GroupName: Signals
+  Layouts:
+  - UxmlReference: {fileID: 9197481963319205126, guid: 0b224bf166527fe47bcd8ed46ab1da03, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 57675ec8f75131f4fafcbc6ad7527399, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: 8784df8335a41ed40b4ab5a06e4e5f05, type: 3}
+  - UxmlReference: {fileID: 9197481963319205126, guid: f924af6bf19f36d4c9b49531f16221ea, type: 3}

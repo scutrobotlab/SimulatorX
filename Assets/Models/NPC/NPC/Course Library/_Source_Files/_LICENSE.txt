@@ -1,0 +1,7 @@
+﻿ASSET LICENSE INFORMATION
+
+
+Assets for this project were generously provided by our partner, Synty Studios, and are not for commercial use. If you would like to use any of the assets from this package in commercial projects, please purchase one of their asset packs from Synty Studios’ Asset Store page: https://assetstore.unity.com/publishers/5217.
+
+
+Music and sound effects were also generously provided by cabled_mess and Cron Audio. For use in commercial projects, please purchase asset packages from their respective asset store pages: https://assetstore.unity.com/publishers/20154 and https://assetstore.unity.com/publishers/25175.

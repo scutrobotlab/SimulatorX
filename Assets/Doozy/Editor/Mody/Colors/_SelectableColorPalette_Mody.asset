@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866e8c8661bc423691f27ec91ab289ad, type: 3}
+  m_Name: _SelectableColorPalette_Mody
+  m_EditorClassIdentifier: 
+  PaletteName: Mody
+  SelectableColors:
+  - ColorName: Action
+    Normal:
+      ColorOnDark: {r: 0.86666673, g: 0.5882353, b: 0.21176472, a: 1}
+      ColorOnLight: {r: 0.5411765, g: 0.34901962, b: 0.098039225, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.6933334, g: 0.42264062, b: 0.16941181, a: 1}
+      ColorOnLight: {r: 0.4329412, g: 0.22614379, b: 0.07843137, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.5546667, g: 0.3381125, b: 0.13552944, a: 1}
+      ColorOnLight: {r: 0.38964707, g: 0.20352942, b: 0.07058823, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6240001, g: 0.38037655, b: 0.15247063, a: 1}
+      ColorOnLight: {r: 0.4896471, g: 0.3035294, b: 0.17058823, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.86666673, g: 0.5882353, b: 0.21176472, a: 0.6}
+      ColorOnLight: {r: 0.5411765, g: 0.34901962, b: 0.098039225, a: 0.6}
+  - ColorName: Module
+    Normal:
+      ColorOnDark: {r: 0.11372549, g: 0.9137255, b: 0.7137255, a: 1}
+      ColorOnLight: {r: 0.011764706, g: 0.49803922, b: 0.37254903, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.09098043, g: 0.7309804, b: 0.49631372, a: 1}
+      ColorOnLight: {r: 0.009411764, g: 0.3984314, b: 0.25579086, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.07278435, g: 0.5847843, b: 0.39705098, a: 1}
+      ColorOnLight: {r: 0.008470587, g: 0.35858825, b: 0.23021178, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.08188239, g: 0.65788233, b: 0.44668233, a: 1}
+      ColorOnLight: {r: 0.10847059, g: 0.45858824, b: 0.3302118, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.11372549, g: 0.9137255, b: 0.7137255, a: 0.6}
+      ColorOnLight: {r: 0.011764706, g: 0.49803922, b: 0.37254903, a: 0.6}
+  - ColorName: StateActive
+    Normal:
+      ColorOnDark: {r: 0.54901963, g: 0.89019614, b: 0.5058824, a: 1}
+      ColorOnLight: {r: 0.30980393, g: 0.5019608, b: 0.2784314, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.48669285, g: 0.71215695, b: 0.40470594, a: 1}
+      ColorOnLight: {r: 0.27043134, g: 0.4015686, b: 0.22274509, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.3893543, g: 0.5697256, b: 0.32376474, a: 1}
+      ColorOnLight: {r: 0.2433882, g: 0.36141172, b: 0.20047058, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.43802357, g: 0.64094126, b: 0.36423534, a: 1}
+      ColorOnLight: {r: 0.3433882, g: 0.46141174, b: 0.3004706, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.54901963, g: 0.89019614, b: 0.5058824, a: 0.6}
+      ColorOnLight: {r: 0.30980393, g: 0.5019608, b: 0.2784314, a: 0.6}
+  - ColorName: StateCooldown
+    Normal:
+      ColorOnDark: {r: 0.43529415, g: 0.69803923, b: 0.98823535, a: 1}
+      ColorOnLight: {r: 0.28235295, g: 0.45882356, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.3482353, g: 0.60627455, b: 0.79058826, a: 1}
+      ColorOnLight: {r: 0.22588237, g: 0.40376472, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.27858824, g: 0.48501962, b: 0.6324706, a: 1}
+      ColorOnLight: {r: 0.20329413, g: 0.36338824, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.31341177, g: 0.5456471, b: 0.71152943, a: 1}
+      ColorOnLight: {r: 0.30329412, g: 0.46338826, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.43529415, g: 0.69803923, b: 0.98823535, a: 0.6}
+      ColorOnLight: {r: 0.28235295, g: 0.45882356, b: 0.6, a: 0.6}
+  - ColorName: StateDisabled
+    Normal:
+      ColorOnDark: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 1}
+      ColorOnLight: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.28235295, g: 0.28235295, b: 0.28235295, a: 1}
+      ColorOnLight: {r: 0.40156865, g: 0.40156865, b: 0.40156865, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.22588237, g: 0.22588237, b: 0.22588237, a: 1}
+      ColorOnLight: {r: 0.36141178, g: 0.36141178, b: 0.36141178, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.25411767, g: 0.25411767, b: 0.25411767, a: 1}
+      ColorOnLight: {r: 0.46141177, g: 0.46141177, b: 0.46141177, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.3529412, g: 0.3529412, b: 0.3529412, a: 0.6}
+      ColorOnLight: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.6}
+  - ColorName: StateIdle
+    Normal:
+      ColorOnDark: {r: 0.9294118, g: 0.7686275, b: 0.21176472, a: 1}
+      ColorOnLight: {r: 0.5647059, g: 0.454902, b: 0.1254902, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.74352944, g: 0.5521569, b: 0.16941182, a: 1}
+      ColorOnLight: {r: 0.45176473, g: 0.3112157, b: 0.10039216, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.59482354, g: 0.44172555, b: 0.13552946, a: 1}
+      ColorOnLight: {r: 0.40658826, g: 0.28009412, b: 0.090352945, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6691765, g: 0.49694124, b: 0.15247063, a: 1}
+      ColorOnLight: {r: 0.5065883, g: 0.38009414, b: 0.19035295, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.9294118, g: 0.7686275, b: 0.21176472, a: 0.6}
+      ColorOnLight: {r: 0.5647059, g: 0.454902, b: 0.1254902, a: 0.6}
+  - ColorName: Trigger
+    Normal:
+      ColorOnDark: {r: 0.86666673, g: 0.4431373, b: 0.6431373, a: 1}
+      ColorOnLight: {r: 0.5294118, g: 0.2784314, b: 0.4156863, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.6933333, g: 0.35450977, b: 0.5578039, a: 1}
+      ColorOnLight: {r: 0.42352945, g: 0.22274514, b: 0.35660133, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.55466664, g: 0.2836078, b: 0.44624314, a: 1}
+      ColorOnLight: {r: 0.3811765, g: 0.20047063, b: 0.32094118, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.624, g: 0.3190588, b: 0.5020235, a: 1}
+      ColorOnLight: {r: 0.4811765, g: 0.30047062, b: 0.4209412, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.86666673, g: 0.4431373, b: 0.6431373, a: 0.6}
+      ColorOnLight: {r: 0.5294118, g: 0.2784314, b: 0.4156863, a: 0.6}

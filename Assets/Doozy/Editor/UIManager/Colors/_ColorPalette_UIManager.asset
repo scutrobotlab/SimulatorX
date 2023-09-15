@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeb8e764fd22413493ff9a0053f321d0, type: 3}
+  m_Name: _ColorPalette_UIManager
+  m_EditorClassIdentifier: 
+  PaletteName: UIManager
+  Colors:
+  - ColorName: VisualComponent
+    ThemeColor:
+      ColorOnDark: {r: 0.1882353, g: 0.8862745, b: 0.4862745, a: 1}
+      ColorOnLight: {r: 0.09803922, g: 0.4, b: 0.21960784, a: 1}
+  - ColorName: AudioComponent
+    ThemeColor:
+      ColorOnDark: {r: 0.9921569, g: 0.7490196, b: 0.03137255, a: 1}
+      ColorOnLight: {r: 0.49803922, g: 0.34901962, b: 0.019607844, a: 1}
+  - ColorName: InputComponent
+    ThemeColor:
+      ColorOnDark: {r: 1, g: 0.5686275, b: 0, a: 1}
+      ColorOnLight: {r: 0.6, g: 0.3411765, b: 0, a: 1}
+  - ColorName: LayoutComponent
+    ThemeColor:
+      ColorOnDark: {r: 0.56078434, g: 0.90196085, b: 0.7294118, a: 1}
+      ColorOnLight: {r: 0.30980393, g: 0.50980395, b: 0.40000004, a: 1}
+  - ColorName: ListenerComponent
+    ThemeColor:
+      ColorOnDark: {r: 0.9921569, g: 0.54509807, b: 0.9333334, a: 1}
+      ColorOnLight: {r: 0.59, g: 0.3241502, b: 0.55501974, a: 1}
+  - ColorName: Settings
+    ThemeColor:
+      ColorOnDark: {r: 0.89019614, g: 0.64705884, b: 0, a: 1}
+      ColorOnLight: {r: 0.4901961, g: 0.35686275, b: 0, a: 1}
+  - ColorName: UIComponent
+    ThemeColor:
+      ColorOnDark: {r: 0.38039216, g: 0.5686275, b: 0.98039216, a: 1}
+      ColorOnLight: {r: 0.23137255, g: 0.32941177, b: 0.6, a: 1}
+  - ColorName: UIMenuItemBackground
+    ThemeColor:
+      ColorOnDark: {r: 0.12, g: 0.12, b: 0.12, a: 1}
+      ColorOnLight: {r: 0.96, g: 0.96, b: 0.96, a: 1}

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94087bd7a2546bc94c3596839dca04a, type: 3}
+  m_Name: _MicroAnimationGroup_Effects_Nody
+  m_EditorClassIdentifier: 
+  GroupCategory: Nody
+  GroupName: Effects
+  MicroAnimations:
+  - AnimationName: BackFlowIndicator
+    Textures:
+    - {fileID: 2800000, guid: 9bfba9e760a1b774b9247b56ebec6299, type: 3}
+    - {fileID: 2800000, guid: cdc38e49ff6871b4d83b3e1fcbf55444, type: 3}
+    - {fileID: 2800000, guid: 38a25f707b8bc01448cb9daeea42e6c8, type: 3}
+    - {fileID: 2800000, guid: 68b3f0cecb967624b9bb3673fa2cdca5, type: 3}
+    - {fileID: 2800000, guid: aceb68f376a57e14086aa8537a4ab98c, type: 3}
+    - {fileID: 2800000, guid: 9c495a3edef1a894080f5b5a21b1e69f, type: 3}
+    - {fileID: 2800000, guid: 53c3e85026e2a1f4abb424899aa46850, type: 3}
+    - {fileID: 2800000, guid: d555fb56e18b9fc41aad66990fd78758, type: 3}
+    - {fileID: 2800000, guid: 60325fdf12b83254c8afe4c8a941fb95, type: 3}
+    - {fileID: 2800000, guid: d25138cb82964154cb77ff5f9e20f152, type: 3}
+    - {fileID: 2800000, guid: 3c54eb716f1851f4e8d32271df2471f5, type: 3}
+    - {fileID: 2800000, guid: ef6e64a4536086c4e80802b4168c1dea, type: 3}
+    - {fileID: 2800000, guid: 73942809127b82a4596f420f21895b46, type: 3}
+    - {fileID: 2800000, guid: e756148d33156f94ba1941d20da9520a, type: 3}
+    - {fileID: 2800000, guid: da8cdb8a1f4bc7143989bd50e118a570, type: 3}
+    - {fileID: 2800000, guid: 1a43ab69103b42f4d9bcbd4e43449aeb, type: 3}
+    - {fileID: 2800000, guid: ab43c05a6887a174ab33b47fee460af3, type: 3}
+    - {fileID: 2800000, guid: 1bc8d9c81eb8adb48894afabb569015c, type: 3}
+    - {fileID: 2800000, guid: a7f7c6ede493db64f9bd4f1c6fb095d2, type: 3}
+    - {fileID: 2800000, guid: 0f8722ff02dff7249b60ca20fd33f74b, type: 3}
+    - {fileID: 2800000, guid: d6ea570c2db46ff4190aa7dad3cededa, type: 3}
+    - {fileID: 2800000, guid: 66c681d5a7e6c1742a87cd587be4e121, type: 3}
+    - {fileID: 2800000, guid: 9954546c0301739408c46412b3adbb38, type: 3}
+    - {fileID: 2800000, guid: 12d4be73c85daf642a8c6fe9f1c036b6, type: 3}
+  - AnimationName: NodeStateActive
+    Textures:
+    - {fileID: 2800000, guid: 056ef0ba0ce0df7418cc46a6310a724a, type: 3}
+    - {fileID: 2800000, guid: 510fb4cdc32b65344ab3980f86ec017b, type: 3}
+    - {fileID: 2800000, guid: d8e18a7a80b768f4bad79b5a28174d80, type: 3}
+    - {fileID: 2800000, guid: 31fbe93e785687a4db5e961f75431334, type: 3}
+    - {fileID: 2800000, guid: c4c0ca10b79c2bf4a87f2b3607fb5e98, type: 3}
+    - {fileID: 2800000, guid: 27f0620dcee6849419ff76f6597d1672, type: 3}
+    - {fileID: 2800000, guid: 006c8dae406f2eb449175fc54ecf8eec, type: 3}
+    - {fileID: 2800000, guid: 12fd07858943d9a4485217bf62c8fde0, type: 3}
+    - {fileID: 2800000, guid: 4f3d169b5535dd4419aa08978df48509, type: 3}
+    - {fileID: 2800000, guid: 145a49f1c95dd064987b21eea715285f, type: 3}
+    - {fileID: 2800000, guid: b0a8c98f5119f4f49b084ad104b745e1, type: 3}
+    - {fileID: 2800000, guid: 9770ef2dadf1da94bb37ba256a62369c, type: 3}
+    - {fileID: 2800000, guid: 07388caec20be20499a04ca5ddd19c0c, type: 3}
+    - {fileID: 2800000, guid: d9307e33a366a20408a8367efbdcec1d, type: 3}
+    - {fileID: 2800000, guid: cf95f2ff04076e143811b31ada80420a, type: 3}
+    - {fileID: 2800000, guid: 0930af7ef4d970148b411ec633431b45, type: 3}
+    - {fileID: 2800000, guid: 8cdb96554cca31b4f85ee18f08a8a4aa, type: 3}
+    - {fileID: 2800000, guid: cbac6fccc678ccc42a2f89e063ec3609, type: 3}
+    - {fileID: 2800000, guid: 5da2fbd660dcd994393c61be73841ecd, type: 3}
+    - {fileID: 2800000, guid: 404d2e12088d79540a33ea901c888f76, type: 3}
+    - {fileID: 2800000, guid: f33b52756376ce7448b5d12955c3151e, type: 3}
+    - {fileID: 2800000, guid: 75b69a46c735ee94ab2abb0bf04d1563, type: 3}
+    - {fileID: 2800000, guid: e531f114a73e40643ba70b0f59bad6fe, type: 3}
+    - {fileID: 2800000, guid: f16b30a17aef9aa46addc5492b67156f, type: 3}
+  - AnimationName: NodeStateRunning
+    Textures:
+    - {fileID: 2800000, guid: 92aecaf017935bb46bcf93da17988193, type: 3}
+    - {fileID: 2800000, guid: b5ca4cd3a9a44b84fa59f23935341573, type: 3}
+    - {fileID: 2800000, guid: 179ad7a14c6614946b0673a4da645e7f, type: 3}
+    - {fileID: 2800000, guid: 9606448c062698144bac435da6843340, type: 3}
+    - {fileID: 2800000, guid: 4dcea5fe64f42a94381fb0e0a1bc92df, type: 3}
+    - {fileID: 2800000, guid: a08524c832f7ce14da69423d584bf551, type: 3}
+    - {fileID: 2800000, guid: 2e72ddf72cee91647bc7cdf5b7d83eb9, type: 3}
+    - {fileID: 2800000, guid: 7b7150d1b185a3c44a28402cbdd02503, type: 3}
+    - {fileID: 2800000, guid: be8a37c447509624da800bef3a7106d6, type: 3}
+    - {fileID: 2800000, guid: dd447428581ffd044b80f825d372a0ac, type: 3}
+    - {fileID: 2800000, guid: d77e8dc01a200964591b6d4c5262efdc, type: 3}
+    - {fileID: 2800000, guid: 32fb5e3e9fb7b0947b5bceb036dc6a38, type: 3}
+    - {fileID: 2800000, guid: eeb4a33bfc5bf614186de3c525b87251, type: 3}
+    - {fileID: 2800000, guid: 128ef4b711998fd4aaa03d38802f84c4, type: 3}
+    - {fileID: 2800000, guid: 747ecb430edc5cc47a6df4a5b3f3aacb, type: 3}
+    - {fileID: 2800000, guid: 5113092cd217e5245a8054730fe6492c, type: 3}
+    - {fileID: 2800000, guid: f5ae34246fb140341a6af2e519df5391, type: 3}
+    - {fileID: 2800000, guid: fe61419625df47c42a020e4ab5377c03, type: 3}
+    - {fileID: 2800000, guid: ea639923f8d248d43a8937447c9085ad, type: 3}
+    - {fileID: 2800000, guid: 968fce7affbd5314a959674abc55513a, type: 3}
+    - {fileID: 2800000, guid: f6a3f3b57bf76d24a8d88c7ffbd97c12, type: 3}
+    - {fileID: 2800000, guid: 0f11bde74589749419f9b8488c0cffab, type: 3}
+    - {fileID: 2800000, guid: ecd1d12f95d4a4b409d684aa345be36e, type: 3}
+    - {fileID: 2800000, guid: 1659ecd4f06354a4f982a46f3c969458, type: 3}

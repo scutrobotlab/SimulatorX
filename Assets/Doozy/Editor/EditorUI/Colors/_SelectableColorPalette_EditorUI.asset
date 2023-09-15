@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 866e8c8661bc423691f27ec91ab289ad, type: 3}
+  m_Name: _SelectableColorPalette_EditorUI
+  m_EditorClassIdentifier: 
+  PaletteName: EditorUI
+  SelectableColors:
+  - ColorName: Red
+    Normal:
+      ColorOnDark: {r: 0.85, g: 0.31, b: 0.45, a: 1}
+      ColorOnLight: {r: 0.51, g: 0.14, b: 0.17, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.68, g: 0.24800006, b: 0.40640002, a: 1}
+      ColorOnLight: {r: 0.408, g: 0.11199999, b: 0.16626665, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.544, g: 0.19840005, b: 0.32512003, a: 1}
+      ColorOnLight: {r: 0.3672, g: 0.10079999, b: 0.14963998, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.612, g: 0.22320005, b: 0.36576003, a: 1}
+      ColorOnLight: {r: 0.46719998, g: 0.20079999, b: 0.24963999, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.85, g: 0.31, b: 0.45, a: 0.6}
+      ColorOnLight: {r: 0.51, g: 0.14, b: 0.17, a: 0.6}
+  - ColorName: Pink
+    Normal:
+      ColorOnDark: {r: 0.87, g: 0.44, b: 0.64, a: 1}
+      ColorOnLight: {r: 0.52, g: 0.23, b: 0.4, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.696, g: 0.35199994, b: 0.5584, a: 1}
+      ColorOnLight: {r: 0.41599998, g: 0.18400002, b: 0.35026664, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.5568, g: 0.28159994, b: 0.44671997, a: 1}
+      ColorOnLight: {r: 0.3744, g: 0.16560002, b: 0.31523997, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6264, g: 0.31679994, b: 0.50255996, a: 1}
+      ColorOnLight: {r: 0.47439998, g: 0.26560003, b: 0.41523996, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.87, g: 0.44, b: 0.64, a: 0.6}
+      ColorOnLight: {r: 0.52, g: 0.23, b: 0.4, a: 0.6}
+  - ColorName: Purple
+    Normal:
+      ColorOnDark: {r: 0.71, g: 0.33, b: 0.94, a: 1}
+      ColorOnLight: {r: 0.42, g: 0.14, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.508, g: 0.264, b: 0.752, a: 1}
+      ColorOnLight: {r: 0.296, g: 0.11199999, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.40640002, g: 0.2112, b: 0.6016, a: 1}
+      ColorOnLight: {r: 0.2664, g: 0.10079999, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.45720002, g: 0.2376, b: 0.67679995, a: 1}
+      ColorOnLight: {r: 0.3664, g: 0.20079999, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.71, g: 0.33, b: 0.94, a: 0.6}
+      ColorOnLight: {r: 0.42, g: 0.14, b: 0.6, a: 0.6}
+  - ColorName: DeepPurple
+    Normal:
+      ColorOnDark: {r: 0.52, g: 0.44, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.22, g: 0.16, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.35920006, g: 0.35200006, b: 0.78400004, a: 1}
+      ColorOnLight: {r: 0.13386665, g: 0.12799999, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.28736004, g: 0.28160006, b: 0.6272, a: 1}
+      ColorOnLight: {r: 0.120479986, g: 0.11519999, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.32328007, g: 0.31680006, b: 0.7056, a: 1}
+      ColorOnLight: {r: 0.22048, g: 0.21519999, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.52, g: 0.44, b: 0.98, a: 0.6}
+      ColorOnLight: {r: 0.22, g: 0.16, b: 0.6, a: 0.6}
+  - ColorName: Indigo
+    Normal:
+      ColorOnDark: {r: 0.44, g: 0.53, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.22, g: 0.27, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.35200006, g: 0.47440004, b: 0.78400004, a: 1}
+      ColorOnLight: {r: 0.17600001, g: 0.26213336, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.28160006, g: 0.37952003, b: 0.6272, a: 1}
+      ColorOnLight: {r: 0.15840001, g: 0.23592003, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.31680006, g: 0.42696005, b: 0.7056, a: 1}
+      ColorOnLight: {r: 0.25840002, g: 0.33592004, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.44, g: 0.53, b: 0.98, a: 0.6}
+      ColorOnLight: {r: 0.22, g: 0.27, b: 0.6, a: 0.6}
+  - ColorName: Blue
+    Normal:
+      ColorOnDark: {r: 0.38, g: 0.57, b: 0.98, a: 1}
+      ColorOnLight: {r: 0.23, g: 0.33, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.304, g: 0.528, b: 0.78400004, a: 1}
+      ColorOnLight: {r: 0.18400002, g: 0.30240002, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.24319999, g: 0.4224, b: 0.6272, a: 1}
+      ColorOnLight: {r: 0.16560002, g: 0.27216002, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.27359998, g: 0.4752, b: 0.7056, a: 1}
+      ColorOnLight: {r: 0.26560003, g: 0.37216002, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.38, g: 0.57, b: 0.98, a: 0.6}
+      ColorOnLight: {r: 0.23, g: 0.33, b: 0.6, a: 0.6}
+  - ColorName: LightBlue
+    Normal:
+      ColorOnDark: {r: 0.44, g: 0.7, b: 0.99, a: 1}
+      ColorOnLight: {r: 0.28, g: 0.46, b: 0.6, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.35200006, g: 0.6086667, b: 0.792, a: 1}
+      ColorOnLight: {r: 0.22399998, g: 0.40319997, b: 0.48000002, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.28160006, g: 0.48693338, b: 0.6336, a: 1}
+      ColorOnLight: {r: 0.20159999, g: 0.36287996, b: 0.432, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.31680006, g: 0.54780006, b: 0.71279997, a: 1}
+      ColorOnLight: {r: 0.30159998, g: 0.46288, b: 0.532, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.44, g: 0.7, b: 0.99, a: 0.6}
+      ColorOnLight: {r: 0.28, g: 0.46, b: 0.6, a: 0.6}
+  - ColorName: Cyan
+    Normal:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 1, a: 1}
+      ColorOnLight: {r: 0.29, g: 0.46, b: 0.45, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.43999997, g: 0.758, b: 0.8, a: 1}
+      ColorOnLight: {r: 0.232, g: 0.368, b: 0.34306666, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.35199997, g: 0.6064, b: 0.64, a: 1}
+      ColorOnLight: {r: 0.20879999, g: 0.3312, b: 0.30876, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.39599997, g: 0.6822, b: 0.72, a: 1}
+      ColorOnLight: {r: 0.30879998, g: 0.4312, b: 0.40876, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 1, a: 0.6}
+      ColorOnLight: {r: 0.29, g: 0.46, b: 0.45, a: 0.6}
+  - ColorName: Teal
+    Normal:
+      ColorOnDark: {r: 0.56, g: 0.9, b: 0.73, a: 1}
+      ColorOnLight: {r: 0.31, g: 0.51, b: 0.4, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.44800004, g: 0.71999997, b: 0.5568, a: 1}
+      ColorOnLight: {r: 0.248, g: 0.408, b: 0.30133334, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.35840005, g: 0.576, b: 0.44544, a: 1}
+      ColorOnLight: {r: 0.2232, g: 0.3672, b: 0.2712, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.40320003, g: 0.64799994, b: 0.50112003, a: 1}
+      ColorOnLight: {r: 0.3232, g: 0.46719998, b: 0.3712, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.56, g: 0.9, b: 0.73, a: 0.6}
+      ColorOnLight: {r: 0.31, g: 0.51, b: 0.4, a: 0.6}
+  - ColorName: Green
+    Normal:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 0.51, a: 1}
+      ColorOnLight: {r: 0.31, g: 0.5, b: 0.27, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.46879998, g: 0.712, b: 0.408, a: 1}
+      ColorOnLight: {r: 0.27426666, g: 0.39999998, b: 0.21599999, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.37504, g: 0.5696, b: 0.32639998, a: 1}
+      ColorOnLight: {r: 0.24684, g: 0.35999998, b: 0.1944, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.42191997, g: 0.6408, b: 0.3672, a: 1}
+      ColorOnLight: {r: 0.34684, g: 0.45999998, b: 0.2944, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.55, g: 0.89, b: 0.51, a: 0.6}
+      ColorOnLight: {r: 0.31, g: 0.5, b: 0.27, a: 0.6}
+  - ColorName: LightGreen
+    Normal:
+      ColorOnDark: {r: 0.76, g: 0.98, b: 0.29, a: 1}
+      ColorOnLight: {r: 0.38, g: 0.5, b: 0.15, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.6736, g: 0.78400004, b: 0.23199996, a: 1}
+      ColorOnLight: {r: 0.34399998, g: 0.39999998, b: 0.120000005, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.53888, g: 0.6272, b: 0.18559997, a: 1}
+      ColorOnLight: {r: 0.3096, g: 0.35999998, b: 0.108, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.60624003, g: 0.7056, b: 0.20879997, a: 1}
+      ColorOnLight: {r: 0.4096, g: 0.45999998, b: 0.208, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.76, g: 0.98, b: 0.29, a: 0.6}
+      ColorOnLight: {r: 0.38, g: 0.5, b: 0.15, a: 0.6}
+  - ColorName: Lime
+    Normal:
+      ColorOnDark: {r: 0.9, g: 0.99, b: 0.33, a: 1}
+      ColorOnLight: {r: 0.48, g: 0.51, b: 0.14, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.78319997, g: 0.792, b: 0.26400006, a: 1}
+      ColorOnLight: {r: 0.408, g: 0.39813334, b: 0.11199999, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.62656, g: 0.6336, b: 0.21120004, a: 1}
+      ColorOnLight: {r: 0.3672, g: 0.35832, b: 0.10079999, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.70487994, g: 0.71279997, b: 0.23760006, a: 1}
+      ColorOnLight: {r: 0.46719998, g: 0.45832, b: 0.20079999, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.9, g: 0.99, b: 0.33, a: 0.6}
+      ColorOnLight: {r: 0.48, g: 0.51, b: 0.14, a: 0.6}
+  - ColorName: Yellow
+    Normal:
+      ColorOnDark: {r: 0.97, g: 0.91, b: 0.25, a: 1}
+      ColorOnLight: {r: 0.53, g: 0.48, b: 0.13, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.776, g: 0.6512, b: 0.2, a: 1}
+      ColorOnLight: {r: 0.42399997, g: 0.35466665, b: 0.10399999, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.6208, g: 0.52096, b: 0.16, a: 1}
+      ColorOnLight: {r: 0.38159996, g: 0.31919998, b: 0.09359999, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6984, g: 0.58608, b: 0.18, a: 1}
+      ColorOnLight: {r: 0.48159996, g: 0.41919997, b: 0.19359998, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.97, g: 0.91, b: 0.25, a: 0.6}
+      ColorOnLight: {r: 0.53, g: 0.48, b: 0.13, a: 0.6}
+  - ColorName: Amber
+    Normal:
+      ColorOnDark: {r: 1, g: 0.77, b: 0, a: 1}
+      ColorOnLight: {r: 0.6, g: 0.43, b: 0, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.8, g: 0.5333333, b: 0, a: 1}
+      ColorOnLight: {r: 0.48000002, g: 0.28800002, b: 0, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.64, g: 0.42666665, b: 0, a: 1}
+      ColorOnLight: {r: 0.432, g: 0.2592, b: 0, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.72, g: 0.47999996, b: 0, a: 1}
+      ColorOnLight: {r: 0.532, g: 0.35920003, b: 0.1, a: 1}
+    Disabled:
+      ColorOnDark: {r: 1, g: 0.77, b: 0, a: 0.6}
+      ColorOnLight: {r: 0.6, g: 0.43, b: 0, a: 0.6}
+  - ColorName: Orange
+    Normal:
+      ColorOnDark: {r: 0.89, g: 0.58, b: 0.16, a: 1}
+      ColorOnLight: {r: 0.54, g: 0.33, b: 0.09, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.712, g: 0.4102667, b: 0.12799998, a: 1}
+      ColorOnLight: {r: 0.432, g: 0.222, b: 0.07199999, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.5696, g: 0.32821336, b: 0.10239998, a: 1}
+      ColorOnLight: {r: 0.3888, g: 0.1998, b: 0.06479999, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6408, g: 0.36924002, b: 0.115199976, a: 1}
+      ColorOnLight: {r: 0.48880002, g: 0.2998, b: 0.16479999, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.89, g: 0.58, b: 0.16, a: 0.6}
+      ColorOnLight: {r: 0.54, g: 0.33, b: 0.09, a: 0.6}
+  - ColorName: DeepOrange
+    Normal:
+      ColorOnDark: {r: 0.86, g: 0.36, b: 0.33, a: 1}
+      ColorOnLight: {r: 0.55, g: 0.18, b: 0.05, a: 1}
+    Highlighted:
+      ColorOnDark: {r: 0.688, g: 0.26400006, b: 0.26400006, a: 1}
+      ColorOnLight: {r: 0.44, g: 0.08666668, b: 0.04000001, a: 1}
+    Pressed:
+      ColorOnDark: {r: 0.5504, g: 0.21120004, b: 0.21120004, a: 1}
+      ColorOnLight: {r: 0.396, g: 0.07800001, b: 0.03600001, a: 1}
+    Selected:
+      ColorOnDark: {r: 0.6192, g: 0.23760006, b: 0.23760006, a: 1}
+      ColorOnLight: {r: 0.496, g: 0.17800002, b: 0.136, a: 1}
+    Disabled:
+      ColorOnDark: {r: 0.86, g: 0.36, b: 0.33, a: 0.6}
+      ColorOnLight: {r: 0.55, g: 0.18, b: 0.05, a: 0.6}

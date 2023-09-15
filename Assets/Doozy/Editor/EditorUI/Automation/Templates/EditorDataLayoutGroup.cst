@@ -1,0 +1,18 @@
+﻿        public static class //GROUP_NAME//
+        {
+            private static EditorDataLayoutGroup s_layoutGroup;
+            private static EditorDataLayoutGroup layoutGroup =>
+                s_layoutGroup != null
+                    ? s_layoutGroup
+                    : s_layoutGroup = EditorDataLayoutDatabase.GetLayoutGroup("//GROUP_NAME//");
+
+            public static VisualTreeAsset GetVisualTreeAsset(LayoutName layoutName) =>
+                layoutGroup.GetVisualTreeAsset(layoutName.ToString());
+
+            public enum LayoutName
+            {
+//NAMES//                     
+            }
+            
+//CACHE//
+        }

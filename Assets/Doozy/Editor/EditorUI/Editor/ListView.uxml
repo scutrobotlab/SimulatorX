@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="ListView" name="LayoutContainer">
+
+        <engine:VisualElement class="ListView" name="HeaderContainer">
+
+            <engine:VisualElement class="ListView" name="NameAndDescription">
+                <engine:Label class="ListView" name="Name"/>
+                <engine:Label class="ListView" name="Description"/>
+            </engine:VisualElement>
+
+            <engine:VisualElement class="ListView" name="Toolbar"/>
+
+        </engine:VisualElement>
+
+        <engine:VisualElement class="ListView" name="ListContainer">
+            
+            <engine:VisualElement class="ListView" name="ListHeader">
+                <engine:VisualElement class="ListView" name="ColumnNamesContainer"/>
+                <engine:VisualElement class="ListView" name="PlusButtonContainer"/>
+            </engine:VisualElement>
+            <engine:VisualElement class="ListView" name="ListContent"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement class="ListView" name="FooterContainer">
+            <engine:Label class="ListView" name="FooterLabel"/>
+        </engine:VisualElement>
+
+    </engine:VisualElement>
+    
+</engine:UXML>

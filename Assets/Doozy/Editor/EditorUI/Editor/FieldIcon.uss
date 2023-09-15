@@ -1,0 +1,52 @@
+﻿.FieldIcon.Fluid {
+    padding: 0;
+    margin: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/*** ANIMATED ICON ***/
+
+.Tiny.Animated.FieldIcon.Fluid {
+    width: 14px;
+    height: 14px;
+}
+
+.Small.Animated.FieldIcon.Fluid {
+    width: 20px;
+    height: 20px;
+}
+
+.Normal.Animated.FieldIcon.Fluid {
+    width: 26px;
+    height: 26px;
+}
+
+.Large.Animated.FieldIcon.Fluid {
+    width: 34px;
+    height: 34px;
+}
+
+/*** STATIC ICON ***/
+
+.Tiny.Static.FieldIcon.Fluid {
+    width: 12px;
+    height: 12px;
+}
+
+.Small.Static.FieldIcon.Fluid {
+    width: 16px;
+    height: 16px;
+}
+
+.Normal.Static.FieldIcon.Fluid {
+    width: 20px;
+    height: 20px;
+}
+
+.Large.Static.FieldIcon.Fluid {
+    width: 26px;
+    height: 26px;
+}

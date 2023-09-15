@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Icons_Nody
+  m_EditorClassIdentifier: 
+  GroupCategory: Nody
+  GroupName: Icons
+  RemovePrefixFromTextureName: 
+  Textures:
+  - TextureName: ActivateLoadedScenesNode
+    TextureReference: {fileID: 2800000, guid: 1153988de200696438b2562e977ac4f6, type: 3}
+  - TextureName: ApplicationQuitNode
+    TextureReference: {fileID: 2800000, guid: f763f607f3e4c884397dbb7efa19d4d0, type: 3}
+  - TextureName: BackButtonNode
+    TextureReference: {fileID: 2800000, guid: 955ccfd1911a27b419fd78148ce83c2d, type: 3}
+  - TextureName: CustomNode
+    TextureReference: {fileID: 2800000, guid: fa7265820ce29884695cb0c3d9a2fde6, type: 3}
+  - TextureName: DebugNode
+    TextureReference: {fileID: 2800000, guid: c8c956a8839a5fa40a0a145f8933d723, type: 3}
+  - TextureName: EnterNode
+    TextureReference: {fileID: 2800000, guid: 5b487252d2b7db349ad805b0f325e0de, type: 3}
+  - TextureName: ExitNode
+    TextureReference: {fileID: 2800000, guid: 1868828cfc59ff24aae1c75a369ba9db, type: 3}
+  - TextureName: FlowController
+    TextureReference: {fileID: 2800000, guid: 60a0a0bfe8317d141b56ad54118b9b79, type: 3}
+  - TextureName: FlowGraph
+    TextureReference: {fileID: 2800000, guid: 8c2a634552b77554bbeff4973d49aae3, type: 3}
+  - TextureName: GameEventNode
+    TextureReference: {fileID: 2800000, guid: 16bf8f45aee40344fbac93baf4221434, type: 3}
+  - TextureName: GroupNode
+    TextureReference: {fileID: 2800000, guid: 759aaabddbf3fa2479ea8c8823672e02, type: 3}
+  - TextureName: Infinity
+    TextureReference: {fileID: 2800000, guid: 840e0e2ca204c724bb3e50c518d0ce60, type: 3}
+  - TextureName: LoadSceneNode
+    TextureReference: {fileID: 2800000, guid: d63da1e8650e5ef42956d8144633bb19, type: 3}
+  - TextureName: MarkerNode
+    TextureReference: {fileID: 2800000, guid: 9a3a4941a362b8a40bbb47467d997f9c, type: 3}
+  - TextureName: Minimap
+    TextureReference: {fileID: 2800000, guid: c08ba8b9506237c47a90bef2b7bbfb23, type: 3}
+  - TextureName: Nody
+    TextureReference: {fileID: 2800000, guid: 98bf9b0b4a3b9a14a879b434c7e2f70b, type: 3}
+  - TextureName: One
+    TextureReference: {fileID: 2800000, guid: c170dd8d77bfa624782cbfb149bfdbc3, type: 3}
+  - TextureName: PivotNode
+    TextureReference: {fileID: 2800000, guid: 242643dafbd3afc4395db0b10854eaad, type: 3}
+  - TextureName: PortalNode
+    TextureReference: {fileID: 2800000, guid: d5d7280f5f3b786459a495cfeadef2a2, type: 3}
+  - TextureName: RandomNode
+    TextureReference: {fileID: 2800000, guid: 79a37da35546d9d44a8261edbda89c08, type: 3}
+  - TextureName: SignalNode
+    TextureReference: {fileID: 2800000, guid: 9a98ff84a6291d54ba7dc3edfccff170, type: 3}
+  - TextureName: SoundNode
+    TextureReference: {fileID: 2800000, guid: e2bda762ef466fc45b6befc7bb6297eb, type: 3}
+  - TextureName: StartNode
+    TextureReference: {fileID: 2800000, guid: 68fa1f3c7238de24988862f4fc274a33, type: 3}
+  - TextureName: StickyNoteNode
+    TextureReference: {fileID: 2800000, guid: a0b7247e632d12e428ebd856e73b634d, type: 3}
+  - TextureName: SwitchBackNode
+    TextureReference: {fileID: 2800000, guid: 614a96bc06c38f240bf83814acb690d4, type: 3}
+  - TextureName: TimescaleNode
+    TextureReference: {fileID: 2800000, guid: 7ff7bb8964de0484e8e19f381eef2fa6, type: 3}
+  - TextureName: UINode
+    TextureReference: {fileID: 2800000, guid: 262aa926471ea004590defa045e431b4, type: 3}
+  - TextureName: UnloadSceneNode
+    TextureReference: {fileID: 2800000, guid: 12ebf93db73ff7e4fa5c4fca6664fcf1, type: 3}
+  - TextureName: WaitNode
+    TextureReference: {fileID: 2800000, guid: 204616f3a5c88be43b0c44fefad9fa9d, type: 3}

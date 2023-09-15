@@ -1,0 +1,12 @@
+﻿.EditorColorInfo#LayoutContainer {
+    flex-direction: row;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.EditorColorInfo#ColorName {
+    min-width: 120px;
+    flex-grow: 1;
+}

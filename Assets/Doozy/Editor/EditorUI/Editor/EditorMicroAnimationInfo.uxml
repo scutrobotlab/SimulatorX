@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="EMAnimationInfo" name="LayoutContainer">
+
+        <engine:VisualElement class="EMAnimationInfo" name="ContentContainer">
+
+            <engine:Image class="EMAnimationInfo" name="PreviewImageContainer">
+                <engine:Image class="EMAnimationInfo" name="PreviewImage"/>
+            </engine:Image>
+
+            <engine:VisualElement class="EMAnimationInfo" name="DetailsContainer">
+
+                <engine:VisualElement style="flex-direction: row">
+
+                    <engine:VisualElement style="flex-direction: column">
+                        <engine:Label class="EMAnimationInfo FieldName" text="Animation Name"/>
+                        <engine:Label class="EMAnimationInfo" name="AnimationName" binding-path="AnimationName"/>
+                    </engine:VisualElement>
+                    <editor:VisualSplitter style="flex-grow: 1"/>
+                    <engine:VisualElement style="flex-direction: column">
+                        <engine:Label class="EMAnimationInfo" name="NumberOfFrames"/>
+                        <engine:Label class="EMAnimationInfo" name="TextureSize"/>
+                    </engine:VisualElement>
+
+                </engine:VisualElement>
+
+                <engine:VisualElement class="EMAnimationInfo" name="Player"/>
+
+            </engine:VisualElement>
+
+        </engine:VisualElement>
+
+        <engine:Label class="EMAnimationInfo" name="Path"/>
+
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,11 @@
+﻿.EditorUI.Window#layoutContainer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.EditorUI.Window#sideMenuContainer {
+}
+
+.EditorUI.Window#contentContainer {
+    flex-grow: 1;
+}

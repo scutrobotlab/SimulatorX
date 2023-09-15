@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 127e2596c2724451a208e95cdea4db08, type: 3}
+  m_Name: _StyleGroup_Nody
+  m_EditorClassIdentifier: 
+  GroupName: Nody
+  Styles:
+  - UssReference: {fileID: 7433441132597879392, guid: 64edbb5662de45c4d8c8d03c30ec1e65, type: 3}
+  - UssReference: {fileID: 7433441132597879392, guid: 3009d1b0942badc45a73069e12c0efad, type: 3}
+  - UssReference: {fileID: 7433441132597879392, guid: 75f21e4422556014a870dc1cba84b7b0, type: 3}
+  - UssReference: {fileID: 7433441132597879392, guid: 7f9b8f88ae307eb4891b4532c3b115b0, type: 3}
+  - UssReference: {fileID: 7433441132597879392, guid: 86f804466ebcb1a4fb84718426b4a852, type: 3}

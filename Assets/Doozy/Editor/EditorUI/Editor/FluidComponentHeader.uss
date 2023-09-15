@@ -1,0 +1,323 @@
+﻿#layoutContainer.Fluid.ComponentHeader
+{
+    flex-direction: row;
+}
+
+#iconContainer.Fluid.ComponentHeader
+{
+    border-radius: 4px 12px 4px 12px;
+    justify-content: center;
+    margin-right: 3px;
+    display: none;
+}
+
+#iconContainer.Large.Fluid.ComponentHeader
+{
+    height: 40px;
+    width: 40px;
+}
+
+#iconContainer.Normal.Fluid.ComponentHeader
+{
+    height: 36px;
+    width: 36px;
+}
+
+#iconContainer.Small.Fluid.ComponentHeader
+{
+    height: 32px;
+    width: 32px;
+}
+
+#iconContainer.Tiny.Fluid.ComponentHeader
+{
+    height: 26px;
+    width: 26px;
+}
+
+#icon.Fluid.ComponentHeader
+{
+    align-self: center;
+}
+
+#icon.Large.Static.Fluid.ComponentHeader
+{
+    height: 24px;
+    width: 24px;
+}
+
+#icon.Normal.Static.Fluid.ComponentHeader
+{
+    height: 20px;
+    width: 20px;
+}
+
+#icon.Small.Static.Fluid.ComponentHeader
+{
+    height: 16px;
+    width: 16px;
+}
+
+#icon.Tiny.Static.Fluid.ComponentHeader
+{
+    height: 12px;
+    width: 12px;
+}
+
+#icon.Large.Animated.Fluid.ComponentHeader
+{
+    height: 38px;
+    width: 38px;
+}
+
+#icon.Normal.Animated.Fluid.ComponentHeader
+{
+    height: 34px;
+    width: 34px;
+}
+
+#icon.Small.Animated.Fluid.ComponentHeader
+{
+    height: 30px;
+    width: 30px;
+}
+
+#icon.Tiny.Animated.Fluid.ComponentHeader
+{
+    height: 26px;
+    width: 26px;
+}
+
+/*** RotatedIcon ***/
+#rotatedIcon.Fluid.ComponentHeader
+{
+    align-self: center;
+}
+
+#rotatedIcon.Large.Static.Fluid.ComponentHeader
+{
+    height: 48px;
+    width: 48px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#rotatedIcon.Normal.Static.Fluid.ComponentHeader
+{
+    height: 44px;
+    width: 44px;
+    margin-top: 16px;
+    margin-right: 18px;
+}
+
+#rotatedIcon.Small.Static.Fluid.ComponentHeader
+{
+    height: 40px;
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 16px;
+}
+
+#rotatedIcon.Tiny.Static.Fluid.ComponentHeader
+{
+    height: 36px;
+    width: 36px;
+    margin-top: 8px;
+    margin-right: 14px;
+}
+
+#rotatedIcon.Large.Animated.Fluid.ComponentHeader
+{
+    height: 80px;
+    width: 80px;
+    margin-top: 32px;
+    margin-right: 12px;
+}
+
+#rotatedIcon.Normal.Animated.Fluid.ComponentHeader
+{
+    height: 72px;
+    width: 72px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#rotatedIcon.Small.Animated.Fluid.ComponentHeader
+{
+    height: 66px;
+    width: 66px;
+    margin-top: 28px;
+    margin-right: 8px;
+}
+
+#rotatedIcon.Tiny.Animated.Fluid.ComponentHeader
+{
+    height: 58px;
+    width: 58px;
+    margin-top: 26px;
+    margin-right: 6px;
+}
+
+/*** BarContainer ***/
+#barContainer.Fluid.ComponentHeader
+{
+    align-items: flex-start;
+    align-self: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    flex-direction: row;
+    flex: 1;
+    height: 32px;
+    overflow: hidden;
+}
+
+#barContainer.Large.Fluid.ComponentHeader
+{
+    height: 32px;
+}
+
+#barContainer.Normal.Fluid.ComponentHeader
+{
+    height: 30px;
+}
+
+#barContainer.Small.Fluid.ComponentHeader
+{
+    height: 28px;
+}
+
+#barContainer.Tiny.Fluid.ComponentHeader
+{
+    height: 24px;
+}
+
+#barLeftContainer.Fluid.ComponentHeader
+{
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 6px;
+    flex-grow: 1;
+}
+
+#barRightContainer.Fluid.ComponentHeader
+{
+    align-self: center;
+    align-items: flex-end;
+    flex-direction: row;
+    padding-left: 3px;
+    padding-right: 6px;
+    display: none;
+    flex-shrink: 0;
+}
+
+/*** SecondaryIcon ***/
+#secondaryIcon.Fluid.ComponentHeader
+{
+    align-self: center;
+    margin-right: 6px;
+    margin-left: 2px;
+    display: none;
+}
+
+#secondaryIcon.Large.Static.Fluid.ComponentHeader
+{
+    height: 20px;
+    width: 20px;
+}
+
+#secondaryIcon.Normal.Static.Fluid.ComponentHeader
+{
+    height: 18px;
+    width: 18px;
+}
+
+#secondaryIcon.Small.Static.Fluid.ComponentHeader
+{
+    height: 16px;
+    width: 16px;
+}
+
+#secondaryIcon.Tiny.Static.Fluid.ComponentHeader
+{
+    height: 14px;
+    width: 14px;
+}
+
+#secondaryIcon.Large.Animated.Fluid.ComponentHeader
+{
+    height: 26px;
+    width: 26px;
+}
+
+#secondaryIcon.Normal.Animated.Fluid.ComponentHeader
+{
+    height: 24px;
+    width: 24px;
+}
+
+#secondaryIcon.Small.Animated.Fluid.ComponentHeader
+{
+    height: 22px;
+    width: 22px;
+}
+
+#secondaryIcon.Tiny.Animated.Fluid.ComponentHeader
+{
+    height: 20px;
+    width: 20px;
+}
+
+/*** ComponentName ***/
+#componentNameLabel.Fluid.ComponentHeader
+{
+    align-self: center;
+}
+
+#componentNameLabel.Large.Fluid.ComponentHeader
+{
+    font-size: 16px;
+}
+
+#componentNameLabel.Normal.Fluid.ComponentHeader
+{
+    font-size: 15px;
+}
+
+#componentNameLabel.Small.Fluid.ComponentHeader
+{
+    font-size: 14px;
+}
+
+#componentNameLabel.Tiny.Fluid.ComponentHeader
+{
+    font-size: 12px;
+}
+
+/*** ComponentType ***/
+#componentTypeLabel.Fluid.ComponentHeader
+{
+    margin-left: 2px;
+    align-self: center;
+}
+
+#componentTypeLabel.Large.Fluid.ComponentHeader
+{
+    font-size: 15px;
+}
+
+#componentTypeLabel.Normal.Fluid.ComponentHeader
+{
+    font-size: 14px;
+}
+
+#componentTypeLabel.Small.Fluid.ComponentHeader
+{
+    font-size: 13px;
+}
+
+#componentTypeLabel.Tiny.Fluid.ComponentHeader
+{
+    font-size: 12px;
+}
+

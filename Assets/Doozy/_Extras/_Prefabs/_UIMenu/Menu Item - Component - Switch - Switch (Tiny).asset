@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Switch - Switch (Tiny)
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1805975097206224669, guid: 11dc91d651410f3439e5a5a1e9409e58, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Switch
+  PrefabName: Switch (Tiny)
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - tiny
+  - switch
+  - toggle
+  InfoTag: Tiny
+  Icon:
+  - {fileID: 2800000, guid: 17e64e9f2175d0441bb5ed52f1083224, type: 3}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Container - Tab Layouts - Tab Layout (Right Bottom)
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6694128702566370315, guid: d7a1c71796a5cc14cb36a64e6fa5b074, type: 3}
+  PrefabType: 1
+  PrefabTypeName: Container
+  PrefabCategory: Tab Layouts
+  PrefabName: Tab Layout (Right Bottom)
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - layout
+  - tab
+  InfoTag: Right Bottom
+  Icon:
+  - {fileID: 2800000, guid: 08c94773a10426d4d8d262f45d30df99, type: 3}

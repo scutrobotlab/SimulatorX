@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d288afe0ab014990ab5266d96a7a88fc, type: 3}
+  m_Name: Menu Item - Component - Icon Button Direction - Circle Chevron Up
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 4959086443150211921, guid: de61dfea006a54c4f98e9acd5bf7fc76, type: 3}
+  PrefabType: 0
+  PrefabTypeName: Component
+  PrefabCategory: Icon Button Direction
+  PrefabName: Circle Chevron Up
+  InstantiateMode: 0
+  LockInstantiateMode: 1
+  Colorize: 0
+  Tags:
+  - icon
+  - circle
+  - button
+  - chevron
+  - up
+  InfoTag: 
+  Icon:
+  - {fileID: 2800000, guid: 81df3cb612589ae42addc59c264b7cf9, type: 3}

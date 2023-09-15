@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428030cc818471d8f638d630a326074, type: 3}
+  m_Name: EditorDataFontDatabase
+  m_EditorClassIdentifier: 
+  DatabaseName: Editor Fonts
+  DatabaseDescription: Collection of Fonts used in the Editor
+  Database:
+  - {fileID: 11400000, guid: 6e2a3c511a847b54cae35ad2fbfac0b7, type: 2}
+  - {fileID: 11400000, guid: 26b28be502eee434b96cdab057b206a2, type: 2}
+  - {fileID: 11400000, guid: 979ccf864c067644682352d59683505b, type: 2}

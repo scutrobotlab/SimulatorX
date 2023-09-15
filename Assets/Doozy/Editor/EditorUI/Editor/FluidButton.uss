@@ -1,0 +1,98 @@
+﻿#layoutContainer {
+    border-radius: 4px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-width: 1px;
+}
+
+#buttonContainer {
+    overflow: hidden;
+    padding: 2px;
+}
+
+#buttonContainer.Horizontal {
+    flex-direction: row;
+}
+
+#buttonContainer.Vertical {
+    flex-direction: column;
+}
+
+.Fluid.FieldIcon {
+    display: none;
+}
+
+/*** ANIMATED buttonIcon ***/
+
+.Fluid.Tiny.Animated.FieldIcon {
+}
+
+.Fluid.Small.Animated.FieldIcon {
+}
+
+.Fluid.Normal.Animated.FieldIcon {
+}
+
+.Fluid.Large.Animated.FieldIcon {
+}
+
+
+/*** STATIC buttonIcon ***/
+
+.Fluid.Tiny.Static.FieldIcon {
+    margin: 2px;
+}
+
+.Fluid.Small.Static.FieldIcon {
+    margin: 2px;
+}
+
+.Fluid.Normal.Static.FieldIcon {
+    margin: 3px;
+}
+
+.Fluid.Large.Static.FieldIcon {
+    margin: 4px;
+}
+
+
+/*** buttonLabel ***/
+
+.Fluid.FieldName {
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.Fluid.FieldName.Animated {
+    -unity-text-align: middle-left;
+}
+
+.Fluid.FieldName.Static {
+    -unity-text-align: middle-left;
+}
+
+.Fluid.Tiny.FieldName {
+    padding: 1px 4px;
+}
+
+.Fluid.Small.FieldName {
+    padding: 1px 4px;
+}
+
+.Fluid.Normal.FieldName {
+    padding: 2px 6px;
+}
+
+.Fluid.Large.FieldName {
+    padding: 4px 8px;
+}
+
+/*** infoContainer ***/
+
+#nodeInfo.Fluid.ToggleButton {
+    align-self: center;
+    flex-direction: row;
+    display: none;
+}

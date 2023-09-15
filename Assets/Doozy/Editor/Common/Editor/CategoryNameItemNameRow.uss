@@ -1,0 +1,37 @@
+﻿.CategoryNameItem.NameRow#layoutContainer {
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    flex-direction: row;
+    margin: 3px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.CategoryNameItem.NameRow#leftContainer {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.CategoryNameItem.NameRow#middleContainer {
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.CategoryNameItem.NameRow#nameLabel {
+    flex-grow: 1;
+}
+
+.CategoryNameItem.NameRow#nameTextField {
+    flex-grow: 1;
+    display: none;
+}
+
+.CategoryNameItem.NameRow#rightContainer {
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,266 @@
+﻿LangCode	SCN	EN	TCN
+^copyright	版权	Copyright	版權
+^nickname	用户名	Nickname	用戶名
+^server_token	服务器口令	Server Token	服務器口令
+^server_password	服务器密码	Server Password	服務器密碼
+^play_locally	本地跑图	Play locally	本地跑圖
+^exit	退出	Exit	退出
+^cancel	取消	Cancel	取消
+^create_a_room	创建房间	Create a room	創建房間
+^software_introduction	软件使用说明	Introduction	軟件使用說明
+^watch_a_replay	观看比赛回放	Watch a replay	觀看比賽回放
+^select_a_competition_record_file	选择比赛记录文件	Select a competition record file	選擇比賽記錄文件
+^competition_record	比赛记录	Competition Record	比賽記錄
+^test_version_watermark_annotation	画面与内容质量不代表最终品质。	The effect does not represent the final version.	畫面與內容質量不代表最終品質。
+^release_version_watermark_annotation	发布版本。	Release Version.	發布版本。
+^fullscreen	全屏	Full Screen	全屏
+^join_room_failed	加入房间失败	Failed to join a room	加入房間失敗
+^connecting	连接中，点击取消	Connecting	連接中，點擊取消
+^connect_server	连接服务器	Connect Server	連接服務器
+^input_nickname	输入用户名	Input Nickname	輸入用戶名
+^input_token	输入口令	Input Token	輸入口令
+^insider_is_disabled	无法启用 RMUC2022 Insider Alpha	Unable to enable RMUC2022 Insider Alpha	無法啟用 RMUC2022 Insider Alpha
+^please_use_insider	请使用 Insider 发布版本	Please Use Insider Version	請使用 Insider 發布版本
+^local_player	本地玩家	LocalPlayer	本地玩家
+^failed_to_join_a_room	加入房间失败	Failed to join a room	加入房間失敗
+^game_has_begun	该房间比赛已开始	The room competition has begun	該房間比賽已開始
+^no_spare_room	无空闲房间	No spare room	無空閑房間
+^no_spare_room_desc	请检查密码是否正确或稍后再试	Please check whether the password is correct or try again later	請檢查密碼是否正確或稍後再試
+^no_corresponding_room	未找到对应房间	No corresponding room found	未找到對應房間
+^no_corresponding_room_desc	请检查口令是否正确	Please check whether the password is correct	請檢查口令是否正確
+^loading	载入中	Loading	載入中
+^start	开始比赛	Start	開始比賽
+^leave	离开房间	Leave	離開房間
+^exercise_room	练习房间	Exercise Room	練習房間
+^red_team	红方	Red Team	紅方
+^blue_team	蓝方	Blue Team	藍方
+^waiting	等待中	Waiting	等待中
+^judge	裁判	Judge	裁判
+^spectator	观众	Spectator	觀眾
+^red_1_hero	红方 一号英雄	R1 Hero	紅方 一號英雄
+^red_2_engineer	红方 二号工程	R2 Engineer	紅方 二號工程
+^red_3_standard	红方 三号步兵	R3 Standard	紅方 三號步兵
+^red_4_standard	红方 四号步兵	R4 Standard	紅方 四號步兵
+^red_5_standard	红方 五号步兵	R5 Standard	紅方 五號步兵
+^red_5_balancing_standard	红方 五号平衡步兵	R5 Standard BAL	紅方 五號平衡步兵
+^red_6_balancing_standard	红方 六号平衡步兵	R6 Standard BAL	紅方 六號平衡步兵
+^red_6_aerial	红方 云台手	R6 Aerial	紅方 雲臺手
+^blue_1_hero	蓝方 一号英雄	B1 Hero	藍方 一號英雄
+^blue_2_engineer	蓝方 二号工程	B2 Engineer	藍方 二號工程
+^blue_3_standard	蓝方 三号步兵	B3 Standard	藍方 三號步兵
+^blue_4_standard	蓝方 四号步兵	B4 Standard	藍方 四號步兵
+^blue_5_standard	蓝方 五号步兵	B5 Standard	藍方 五號步兵
+^blue_5_balancing_standard	蓝方 五号平衡步兵	B5 Standard BAL	藍方 五號平衡步兵
+^blue_6_balancing_standard	蓝方 六号平衡步兵	B6 Standard BAL	藍方 六號平衡步兵
+^blue_6_aerial	蓝方 云台手	B6 Aerial	藍方 雲臺手
+^in_the_resurrection	复活中	In the resurrection	復活中
+^dead	阵亡	Dead	陣亡
+^ready	已就绪	Ready	已就緒
+^not_ready	未就绪	Not Ready	未就緒
+^tie	平局	Tie	平局
+^victory	胜利	Victory	勝利
+^failure	失败	Failure	失敗
+^blue_win	蓝方胜利	Blue Victory	藍方勝利
+^red_win	红方胜利	Red Victory	紅方勝利
+^penalty	判罚	Penalty	判罰
+^send_off	罚下	Send Off	罰下
+^not_choose_mechanism_types_title	底盘和发射机构类型未选择	Chassis and launcher types not selected	底盤和發射機構類型未選擇
+^not_choose_mechanism_types_desc	请在 P 键面板设置	Please set it in the P key panel	請在 P 鍵面板設置
+^transmitter_lose_power_title	发射机构已断电	The transmitter has lost power	發射機構已斷電
+^transmitter_lose_power_desc	请回到己方补给区解锁	Please return to your supply area and unlock	請回到己方補給區解鎖
+^pay_attention_to_the_mining_title	注意落矿	Pay attention to the mining	註意落礦
+^pay_attention_to_the_ power_rune	注意打符	Pay attention to the Power Rune	註意打符
+^press_esc_to_exit	按esc退出	Press esc to exit	按esc退出
+^not_select	未选择	Not select	未選擇
+^power_preferred	功率优先	Power Preferred	功率優先
+^armor_preferred	血量优先	Armor Preferred	血量優先
+^balanced_chassis	平衡底盘	Balanced Chassis	平衡底盤
+^burst_preferred	爆发优先	Burst Preferred	爆發優先
+^cooldown_preferred	冷却优先	Cool Preferred	冷卻優先
+^velocity_preferred	弹速优先	Velocity Preferred	彈速優先
+^gun_velocity	机构射速	Velocity	機構射速
+^emission_quantity	发弹量	Launch	發彈量
+^super_capacitor	超级电容	Capacitor	超級電容
+^hero	英雄	Hero	英雄
+^engineer	工程	Engineer	工程
+^standard	步兵	Standard	步兵
+^outpost	前哨站	Outpost	前哨站
+^sentry	哨兵	Sentry	哨兵
+^balanced_standard	平衡步兵	Balanced Standard	平衡步兵
+^aerial	无人机	Aerial	無人機
+^judged_by_base	按基地血量判定	Judged by base health	按基地血量判定
+^judged_by_sentry	按哨兵血量判定	Judged by sentry health	按哨兵血量判定
+^judged_by_outpost	按前哨站血量判定	Judged by outpost health	按前哨站血量判定
+^judged_by_total_damage	按总伤害量判定	Judged by total damage	按總傷害量判定
+^collision	故意冲撞	Collision	故意沖撞
+^restricted_zone	进入禁区	Restricted zone	進入禁區
+^interfere_with_the_resurrection	干扰复活	Resurrection	幹擾復活
+^red_send_off	红牌罚下	Sent Off	紅牌罰下
+^determine_failure	阵营判负	Failure	陣營判負
+^end_game	终止比赛	End Game	終止比賽
+^will_end_game	将结束比赛	Will end	將結束比賽
+^violation	违规	Violation	違規
+^over_heat_title	枪口过热	Over Heat	槍口過熱
+^over_heat_desc	发射机构超过热量上限	The transmitter exceeded its heat limit	發射機構超過熱量上限
+^red	红	Red	紅
+^blue	蓝	Blue	藍
+^base_can_be_attacked	基地无敌状态解除	The base can be attacked	基地無敵狀態解除
+^natural_economic_growth	经济自然增长	Natural economic growth	經濟自然增長
+^customization_title	机器人自定义	Robot Customization	機器人自定義
+^q_chassis	底盘参数	Chassis	底盤參數
+^q_launch	发射机构	Launch	發射機構
+^q_aimbot	辅助瞄准	Aimbot	輔助瞄準
+^q_engineer	工程参数	Engineer	工程參數
+^q_spinning	小陀螺速度	Spinning	小陀螺速度
+^q_super_battery	超级电容强度	Super Battery	超級電容強度
+^q_velocity	移动速度	Velocity	移動速度
+^q_sensor_drift	传感器温漂	Sensor Drift	傳感器溫漂
+^q_muzzle_velocity	初速波动	Muzzle Velocity	初速波動
+^q_hbj	水平弹道波动	HBJ	水平彈道波動
+^q_vbj	垂直弹道波动	VBJ	垂直彈道波動
+^q_stability	识别灵敏度	Stability	識別靈敏度
+^q_ballistic	弹道解算水平	Ballistic	彈道解算水平
+^q_prediction	运动预测水平	Prediction	運動預測水平
+^q_engineer_set	工程取矿模式	Engineer Set	工程取礦模式
+^q_exchanging	工程兑矿模式	Exchanging	工程兌礦模式
+^slow	慢	Slow	慢
+^fast	快	Fast	快
+^negative	负	Neg	負
+^positive	正	Pos	正
+^small	小	Small	小
+^large	大	Large	大
+^low	低	Low	低
+^high	高	High	高
+^simple	简单	Simple	簡單
+^complex	复杂	Complex	復雜
+^times	倍	times	倍
+^degree_pre_min	度每分钟	dpm	度每分鐘
+^none	无	None	無
+^straight	直线	Straight	直線
+^parabolic	抛物线	Parabolic	拋物線
+^curve	曲线	Curve	曲線
+^destroy	击毁	Destroy	擊毀
+^excess_heat_death	超热量死亡	Excess heat death	超熱量死亡
+^disabled	不可用	Disabled	不可用
+^need_to_update_warning	请更新客户端版本	Update the client version	請更新客戶端版本
+^same_name_warning	房间内有同名用户	There is a user with the same name in the room	房間內有同名用戶
+^reset_all	重置全部	Reset All	重置全部
+^network_unavailable_title	网络异常	Network unavailable	網絡異常
+^network_unavailable_desc	请检查网络配置	Check the network configuration	請檢查網絡配置
+^join_voice_chat	加入语音	Join Chat	加入語音
+^leave_voice_chat	离开语音	Leave Chat	離開語音
+^network_quality	网络质量	Net quality	網絡質量
+^network_unknown	未知	Unknown	未知
+^network_excellent	优秀	Excellent	優秀
+^network_good	较好	Good	較好
+^network_poor	一般	Poor	一般
+^network_bad	较差	Bad	較差
+^network_very_bad	很差	Very Bad	很差
+^network_down	失效	Down	失效
+^red_7_auto_standard	红方 哨兵	AUT	紅方 哨兵
+^blue_7_auto_standard	蓝方 哨兵	AUT	藍方 哨兵
+^mute	静音	Mute	靜音
+^grade_0	零级	Grade 0	零級
+^grade_1	一级	Grade 1	一級
+^grade_2	二级	Grade 2	二級
+^grade_3	三级	Grade 3	三級
+^grade_4	四级	Grade 4	四級
+^create_new_room	创建新房间	Create New Room	創建新房間
+^join_exist_room	加入现有房间	Join Exist Room	加入現有房間
+^exchangeable_projectiles	当前可兑换发弹量	Exchangeable Projectiles	當前可兌換發彈量
+^balancing_standard5	五 普通	B5 Standard BAL	四 普通
+^balancing_standard6	六 普通	B6 Standard BAL	六 普通
+^leg_balancing_standard5	轮腿	B5 Leg Standard BAL	輪腿
+^leg_balancing_standard6	轮腿	B6 Leg Standard BAL	輪腿
+^auto_sentry	自动哨兵	AutoSentry	自動哨兵
+^revive	复活	revive	复活
+^dart	飞镖	Dart	飛鏢
+^DartError	飞镖误差	DartError	飞镖误差
+^Revive	复活	Revive	复活
+^setting.gameplay.enable_tutorial	按键提示	Enable Tutorial	按鍵提示
+^setting.gameplay.enable_tutorial.desc	在游戏UI中显示操作教程	Show tutorial in game UI	在遊戲UI中顯示操作教程
+^setting.gameplay.enable_console	启用控制台	Enable Console	啟用控制台
+^setting.gameplay.enable_console.desc	在游戏中启用控制台	Enable console in game	啟用控制台
+^setting.gameplay.language	语言	Language	語言
+^setting.gameplay.language.desc	游戏语言	Game language	遊戲語言
+^setting.audio.volume	音量	Volume	音量
+^setting.audio.volume.desc	游戏内音量，包括背景音乐音量和音效音量	Game volume, including background music volume and sound effect volume	遊戲內音量，包括背景音樂音量和音效音量
+^setting.visuals.window_mode	窗口模式	Window Mode	窗口模式
+^setting.visuals.window_mode.desc	游戏窗口模式	Game window mode	遊戲窗口模式
+^setting.title.general	通用	General	通用
+^setting.title.keybindings	按键绑定	Keybindings	按鍵綁定
+^setting.title.keybindings.keyboard	键盘	Keyboard	鍵盤
+^setting.title.keybindings.gamepad	手柄	Gamepad	手柄
+^setting.title.display	显示	Display	顯示
+^setting.title.gameplay	游戏	Gameplay	遊戲
+^setting.title.audio	音频	Audio	音頻
+^setting.title.visuals	图形	Graphics	圖形
+^setting.title.controls	控制	Controls	控制
+^setting.controls.roles	角色	Roles	角色
+^setting.controls.roles.desc	操纵机器人角色	Control robot roles	操縱機器人角色
+^setting.title.keybindings.buttonconfig	操控方式	Button Config	操控方式
+^settings.input.buttonConfig.toggle	开关	Toggle	開關
+^settings.input.buttonConfig.push	按下	Push	按下
+^setting.controls.functionA	升降兑换机构	Exchange Mechanism	升降兌換機構
+^setting.controls.functionA.desc	适用于工程机器人；升降兑换矿石所用机构	Suitable for engineering robots, lifting and exchanging ore used mechanism	適用於工程機器人，升降兌換礦石所用機構
+^setting.controls.functionB	弹舱开关	Ammo Bay Switch	彈艙開關
+^setting.controls.functionB.desc	适用于步兵机器人；控制弹舱盖的开关	Suitable for infantry robots, control the switch of the ammo bay cover	適用於步兵機器人，控制彈艙蓋的開關
+^setting.controls.functionC	小陀螺/开关飞镖舱门	Small Gyro / Switch Dart Bay Door	小陀螺/開關飛鏢艙門
+^setting.controls.functionC.1	小陀螺	Small Gyro	小陀螺
+^setting.controls.functionC.2	开关飞镖舱门	Switch Dart Bay Door	開關飛鏢艙門
+^setting.controls.functionC.desc	适用于步兵机器人、平衡步兵机器人、英雄机器人；控制小陀螺的开启以实现旋转体无敌。或适用于飞镖，控制飞镖舱门开关	Suitable for infantry robots, balance infantry robots, hero robots, control the opening of the small gyro to achieve the invincible of the rotating body. Or suitable for darts, control the switch of the dart bay door	適用於步兵機器人、平衡步兵機器人、英雄機器人，控制小陀螺的開啟以實現旋轉體無敵。或適用於飛鏢，控制飛鏢艙門開關
+^setting.controls.functionD	云台反转	Turret Reverse	雲臺反轉
+^setting.controls.functionD.desc	适用于步兵机器人、平衡步兵机器人、英雄机器人、工程机器人；一键转向180度	Suitable for infantry robots, balance infantry robots, hero robots, engineering robots. One key turn 180	適用於步兵機器人、平衡步兵機器人、英雄機器人、工程機器人。一鍵轉向180度
+^setting.controls.functionE	切换视角/切换飞镖目标/发射飞镖	Switch View/Switch Dart Target/Fire Dart	切換視角/切換飛鏢目標/發射飛鏢
+^setting.controls.functionE.1	切换视角	Switch View	切換視角
+^setting.controls.functionE.2	切换飞镖目标	Switch Dart Target	切換飛鏢目標
+^setting.controls.functionE.3	发射飞镖	Fire Dart	發射飛鏢
+^setting.controls.functionE.desc	适用于工程机器人；切换工程摄像机视角。或适用于飞镖；未开启飞镖舱门时，控制切换飞镖目标（前哨站、基地，默认前哨站），已开启飞镖舱门后控制发射飞镖	Suitable for engineering robots, switch engineering camera perspective. Or suitable for darts; when the dart bay door is not opened, control the switch dart target (outpost, base, default outpost), and control the fire dart after the dart bay door is opened	適用於工程機器人，切換工程攝像機視角。或適用於飛鏢；未開啟飛鏢艙門時，控制切換飛鏢目標（前哨站、基地，預設前哨站），已開啟飛鏢艙門後控制發射飛鏢
+^setting.controls.functionF	伸出机构	Extend Mechanism	伸出機構
+^setting.controls.functionF.desc	适用于工程机器人；伸出取矿机构	Suitable for engineering robots, extend mining mechanism	適用於工程機器人，伸出取礦機構
+^setting.controls.functionG	切换发射模式	Switch Fire Mode	切換發射模式
+^setting.controls.functionG.desc	适用于步兵机器人、平衡步兵机器人、云台手；在连发、单发之间切换发射模式。默认为单发	Suitable for infantry robots, balance infantry robots, turret operators, switch between burst and single fire mode. The default is single fire	適用於步兵機器人、平衡步兵機器人、雲臺手，切換發射模式。預設為單發
+^setting.controls.functionH	一键侧身	One Key Lean	一鍵側身
+^setting.controls.functionH.desc	适用于平衡步兵机器人；一键侧身以使用无装甲板侧朝图传方向，规避弹丸。注意，侧身时尽可在侧方向移动，但不可在前后方向移动	Suitable for balance infantry robots, one key lean to use the unarmored side to face the direction of the image transmission, avoid bullets. Note that when leaning, you can move in the lateral direction, but you cannot move in the front and back directions	適用於平衡步兵機器人，一鍵側身以使用無裝甲板側朝圖傳方向，規避彈丸。注意，側身時盡可在側方向移動，但不可在前後方向移動
+^setting.controls.functionI	关闭面板	Close Panel	關閉面板
+^setting.controls.functionI.desc	关闭当前面板	Close the current panel	關閉當前面板
+^setting.controls.functionJ	超级电容	Super Capacitor	超級電容
+^setting.controls.functionJ.desc	适用于步兵机器人、平衡步兵机器人、英雄机器人；控制超级电容开关以临时提高功率	Suitable for infantry robots, balance infantry robots, hero robots, control the super capacitor switch to temporarily increase the power	適用於步兵機器人、平衡步兵機器人、英雄機器人，控制超級電容開關以臨時提高功率
+^setting.controls.functionK	步兵兑换面板	Infantry Exchange Panel	步兵兌換面板
+^setting.controls.functionK.desc	适用于步兵机器人、平衡步兵机器人；呼出弹丸兑换面板	Suitable for infantry robots, balance infantry robots, hero robots, call out the bullet exchange panel	適用於步兵機器人、平衡步兵機器人、英雄機器人，呼出彈丸兌換面板
+^setting.controls.functionL	英雄兑换面板	Hero Exchange Panel	英雄兌換面板
+^setting.controls.functionL.desc	适用于英雄机器人；呼出弹丸兑换面板	Suitable for hero robots, call out the bullet exchange panel	適用於英雄機器人，呼出彈丸兌換面板
+^setting.controls.functionM	轮腿切换	Legs Switch	輪腿切換
+^setting.controls.functionM.desc	适用于轮腿平衡步兵机器人；可切换轮腿站立模式和普通模式，可用于增大射界和跳台阶等	Suitable for wheeled leg balance infantry robots, can switch between wheeled leg standing mode and normal mode, can be used to increase the shooting range and jump the steps	適用於輪腿平衡步兵機器人，可切換輪腿站立模式和普通模式，可用於增大射界和跳臺階等
+^setting.controls.functionN	小地图	Mini Map	小地圖
+^setting.controls.functionN.desc	适用于云台手；呼出小地图以呼叫哨兵支援，或发出位置指令	Suitable for turret operators, call out the mini map to call the sentry support, or issue a position command	適用於雲臺手，呼出小地圖以呼叫哨兵支援，或發出位置指令
+^modal.rebind.waiting	{0}\n等待输入: {1}	{0}\nWaiting for input: {1}	{0}\n等待輸入: {1}
+^setting.controls.primaryaxis	移动	Move	移動
+^setting.controls.primaryaxis.desc	控制机器人移动	Control robot movement	控制機器人移動
+^setting.controls.secondaryaxis	次要移动	Secondary Move	次要移動
+^setting.controls.secondaryaxis.desc	控制云台飞行	Control turret flight	控制雲臺飛行
+^setting.controls.fire	开火	Fire	開火
+^setting.controls.fire.desc	控制机器人发射弹丸	Control robot firing bullets	控制機器人發射彈丸
+^setting.controls.secondaryfire	自瞄	Auto Aim	自瞄
+^setting.controls.secondaryfire.desc	控制机器人自动瞄准	Control robot automatic aiming	控制機器人自動瞄準
+^ui.splash.press	按下	Press	按下
+^ui.splash.anykey	任意键	Any Key	任意鍵
+^ui.splash.continue	继续	Continue	繼續
+^ui.splash.loading	加载中	Loading	加載中
+^role.hero	英雄	Hero Robot	英雄
+^role.infantry.normal	步兵	Infantry Robot	步兵
+^role.infantry.balance.leg	轮腿平衡步兵	Wheeled Leg Balance Infantry	輪腿平衡步兵
+^role.infantry.balance.normal	普通平衡步兵	Normal Balance Infantry	普通平衡步兵
+^role.infantry.balance.wheel	四轮平衡步兵	Four Wheel Balance Infantry	四輪平衡步兵
+^role.engineer	工程机器人	Engineer Robot	工程機器人
+^role.sentry	哨兵机器人	Sentry Robot	哨兵機器人
+^role.drone	无人机	Drone	無人機
+^power_rune_activated	{0} 已激活 {1}	{0} activated {1}	{0} 已激活 {1}
+^small_power_rune	小能量机关	Small Power Rune	小能量機關
+^large_power_rune	大能量机关	Large Power Rune	大能量機關
+^power_rune_available	{0} 进入可激活状态	{0} enters the activatable state	{0} 進入可激活狀態
+^power_rune_unavailable	{0} 进入不可激活状态	{0} enters the unactivatable state	{0} 進入不可激活狀態
+^occupy_control_area	{0} 占领控制区， {1} 前哨站转速减半	{0} occupies the control area, {1} the sentry rotation speed is halved	{0} 佔領控制區， {1} 前哨站轉速減半
+^leave_control_area	{0} 前哨站转速恢复	{0} the sentry rotation speed is restored	{0} 前哨站轉速恢復
+^server_addr	服务器地址	Server Address	伺服器地址
+^server_addr_invalid	服务器地址无效	Server Address Invalid	伺服器地址無效

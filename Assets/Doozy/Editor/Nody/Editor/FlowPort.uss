@@ -1,0 +1,19 @@
+/*type label*/
+#type {
+    display: none;
+}
+
+#connector.connectorBox {
+    margin: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.port > #connector > #cap {
+    height: 8px;
+    width: 8px;
+    border-radius: 3px;
+    position: absolute;
+}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a32318dec4495cb166bf98e60f7c0d, type: 3}
+  m_Name: _TextureGroup_Player_Reactor
+  m_EditorClassIdentifier: 
+  GroupCategory: Reactor
+  GroupName: Player
+  RemovePrefixFromTextureName: 
+  Textures:
+  - TextureName: Duration
+    TextureReference: {fileID: 2800000, guid: 4c2dd34a7c37814429169644bf4f3d71, type: 3}
+  - TextureName: FirstFrame
+    TextureReference: {fileID: 2800000, guid: cebe9f69d350c8246b69c1107d738969, type: 3}
+  - TextureName: IconCooldown
+    TextureReference: {fileID: 2800000, guid: c133fbac4377b7943824386892a6ff46, type: 3}
+  - TextureName: IconDelayBetweenLoops
+    TextureReference: {fileID: 2800000, guid: fb362e6be17f2de459dfd242715b8800, type: 3}
+  - TextureName: IconDuration
+    TextureReference: {fileID: 2800000, guid: f913bcc92c201be4e97fb6f2e5db2c00, type: 3}
+  - TextureName: IconStartDelay
+    TextureReference: {fileID: 2800000, guid: 8cf9c12adf21431439a344a768e724c3, type: 3}
+  - TextureName: LastFrame
+    TextureReference: {fileID: 2800000, guid: 63f3fbce396207044ae28ad99cf2e30f, type: 3}
+  - TextureName: Loop
+    TextureReference: {fileID: 2800000, guid: cf14dd86581899141be5f7761115d326, type: 3}
+  - TextureName: OneShot
+    TextureReference: {fileID: 2800000, guid: 2cfcb3227439dfd459cd85b8a59b5a1f, type: 3}
+  - TextureName: Pause
+    TextureReference: {fileID: 2800000, guid: 0b0c99d81b146eb4c82a1c7da429c15d, type: 3}
+  - TextureName: PingPong
+    TextureReference: {fileID: 2800000, guid: 96cd66d30f6a0fa4885ae700c2b2d717, type: 3}
+  - TextureName: PingPongOnce
+    TextureReference: {fileID: 2800000, guid: 469fcfade036ca443b98d869235e223f, type: 3}
+  - TextureName: Play
+    TextureReference: {fileID: 2800000, guid: 4b9173a9647028f4191b01f4870a2c58, type: 3}
+  - TextureName: PlayForward
+    TextureReference: {fileID: 2800000, guid: 79adc9501c294cc41923d458fe83ed57, type: 3}
+  - TextureName: PlayReverse
+    TextureReference: {fileID: 2800000, guid: af52cf9216b000b4293941f2663cebf6, type: 3}
+  - TextureName: Reverse
+    TextureReference: {fileID: 2800000, guid: 4e4c238f9d5288b47b435f3a9929ef84, type: 3}
+  - TextureName: Shake
+    TextureReference: {fileID: 2800000, guid: e6f3a0928bc9c9346b828325e972dafa, type: 3}
+  - TextureName: Spring
+    TextureReference: {fileID: 2800000, guid: 62629c17ca917ae4f89fef07b9a04b5d, type: 3}
+  - TextureName: Stop
+    TextureReference: {fileID: 2800000, guid: 2afbdb8d753ccca45a85fab598ee9666, type: 3}

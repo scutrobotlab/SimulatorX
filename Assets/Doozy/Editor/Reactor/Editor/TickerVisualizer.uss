@@ -1,0 +1,49 @@
+﻿.TickerVisualizer#LayoutContainer {
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 2px;
+    height: 48px;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.TickerVisualizer#ReactorIconContainer {
+    justify-content: center;
+}
+
+.TickerVisualizer#ReactorIcon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    width: 32px;
+    height: 32px;
+}
+
+.TickerVisualizer#HeartIconContainer {
+    justify-content: center;
+    flex-shrink: 0;
+    left: -8px;
+}
+
+.TickerVisualizer#HeartIcon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
+    width: 28px;
+    height: 28px;
+}
+
+.TickerVisualizer#LabelsContainer {
+    justify-content: center;
+}
+
+.TickerVisualizer#TickerName {
+    -unity-text-align: middle-left;
+    font-size: 14px;
+}
+
+.TickerVisualizer#State {
+    -unity-text-align: middle-left;
+    font-size: 12px;
+}

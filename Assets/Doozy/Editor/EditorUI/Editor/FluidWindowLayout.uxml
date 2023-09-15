@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+    <engine:VisualElement class="FluidWindowLayout" name="LayoutContainer">
+        <engine:VisualElement style="flex-direction: row; flex-grow: 1">
+            <engine:VisualElement class="FluidWindowLayout" name="MenuContainer"/>
+            <engine:VisualElement style="flex-direction: column; flex-grow: 1">
+                <engine:VisualElement class="FluidWindowLayout" name="HeaderContainer"/>
+                <engine:VisualElement class="FluidWindowLayout" name="ContentContainer"/>
+                <engine:VisualElement class="FluidWindowLayout" name="FooterContainer">
+                    <engine:Label class="Tiny FieldName Fluid" name="FooterLabel"/>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
