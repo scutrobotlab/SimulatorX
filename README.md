@@ -5,7 +5,8 @@
 Official Website: [simulatorx.org](https://simulatorx.org)
 
 ## Powered By
-![Unity](https://blog-api.unity.com/sites/default/files/styles/focal_crop_ratio_16_9/public/2023-08/09-2023_Blog_Thumbnail-image_Penguin_Option-3%20%28600x338%29.png?imwidth=1920&h=c66d06c9&itok=0XtYMZLe)
+![Unity](https://cdn-icons-png.flaticon.com/128/5969/5969347.png)
+
 ![Rider](https://resources.jetbrains.com/storage/products/rider/img/meta/rider_logo_300x300.png)![Blender](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/300px-Blender_logo_no_text.svg.png)
 
 ## Downloads
