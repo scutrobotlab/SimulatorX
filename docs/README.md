@@ -7,7 +7,7 @@ actions:
     type: primary
     size: large
   - text: 在线演示
-    link: /online/
+    link: https://online.sim.scutbot.cn
     type: primary
     ghost: true
     size: large
