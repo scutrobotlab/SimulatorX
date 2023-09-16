@@ -1,4 +1,4 @@
-# SimulatorX [![License: GPL3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](https://opensource.org/license/gpl-3-0/) [![Unity Project](https://img.shields.io/badge/Engine-Unity-aqua.svg)](https://unity3d.com) [![Scutbot](https://img.shields.io/badge/我们是-华南虎-red.svg)](https://www.scutbot.cn)
+# SimulatorX [![License: GPL3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](https://opensource.org/license/gpl-3-0/) [![Unity Project](https://img.shields.io/badge/Engine-Unity-aqua.svg)](https://unity3d.com) [![Scutbot](https://img.shields.io/badge/因为我们是-虎-red.svg)](https://www.scutbot.cn)
 华南虎战队 `RMUC 2023` 比赛模拟器 开源
 
 # See
