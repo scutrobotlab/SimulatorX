@@ -1,9 +1,14 @@
 ![Demo4](https://github.com/scutrobotlab/SimulatorX/blob/docs/docs/.vuepress/public/static/images/demo-04.png?raw=true)
 
 # SimulatorX [![License: GPL3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](https://opensource.org/license/gpl-3-0/) [![Unity Project](https://img.shields.io/badge/Engine-Unity-aqua.svg)](https://unity3d.com) [![Scutbot](https://img.shields.io/badge/因为我们是-虎-red.svg)](https://www.scutbot.cn)
-华南虎战队 `RMUC 2023` 比赛模拟器 开源
 
-# Please See Official Website: [simulatorx.org](https://simulatorx.org)
+这是华南理工大学华南虎战队 2023 赛季 SimulatorX 模拟器的开源技术报告。本文档主要对模拟器及其支持软件的基础信息进行分享。
+# 详细的资料请移步官方开源网站： [simulatorx.org](https://simulatorx.org)
+我们建议您先阅读以下内容，以便于更好地理解官方网站中的文档内容：
+- [GitHub Wiki RM2022_SimulatiorX](https://github.com/scutrobotlab/RM2022_SimulatorX)
+- [RM2022 华南理工大学 华南虎 RMUC 模拟器开源](https://bbs.robomaster.com/forum.php?mod=viewthread&tid=22206)
+其他的相关资料：
+- [SimulatorX 2023UC 发布会视频](https://www.bilibili.com/video/BV1FP41147NX/?share_source=copy_web&vd_source=4511493d03a23ab2d4ade49f2c3695a8)
 
 ## Powered By
 ![Unity](https://cdn-icons-png.flaticon.com/128/5969/5969347.png)
