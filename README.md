@@ -82,7 +82,7 @@ Flux的Action在服务器端流动，实现功能后同步至客户端进行效�
 ## Architecture | 架构说明
 
 ## RoadMap | 优化方向
-![Uploading whiteboard_exported_image.png…]()
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/ff5f6a3f-4114-4e2a-b905-30a378828932)
 
 ## Demo | 演示
 ![Demo](https://github.com/scutrobotlab/SimulatorX/blob/docs/docs/.vuepress/public/static/images/demo.png?raw=true)
