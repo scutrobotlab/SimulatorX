@@ -9,7 +9,7 @@
 
 ## 服务端软件
 - 下载服务端软件 [simulatorx-linux-server.tar.gz](https://github.com/scutrobotlab/SimulatorX/releases/download/1.2.3.1-release/simulatorx-linux-server-1.2.3.1-release.tar.gz)
-::: tip 对于 Windows 服务端，应当下载 [SimulatorX Windows Server](https://github.com/scutrobotlab/SimulatorX/releases/download/1.2.3.1-release/SimulatorX-Windows-Server-1.2.3.1-Release.zip)
+::: tip 对于 Windows 服务端，应当下载 [SimulatorX Windows Server]
 :::
 - 解压安装
 - 运行 `simulatorx-server.exe`
