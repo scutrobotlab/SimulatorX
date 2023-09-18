@@ -9,6 +9,7 @@
 - [RM2022 华南理工大学 华南虎 RMUC 模拟器开源](https://bbs.robomaster.com/forum.php?mod=viewthread&tid=22206)
 
 其他的相关资料：
+- [RoboMaster 论坛 RM2023模拟器开源](https://bbs.robomaster.com/forum.php?mod=viewthread&tid=22792)
 - [SimulatorX 2023UC 发布会视频](https://www.bilibili.com/video/BV1FP41147NX/?share_source=copy_web&vd_source=4511493d03a23ab2d4ade49f2c3695a8)
 
 ## Powered By
