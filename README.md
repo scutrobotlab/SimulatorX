@@ -37,6 +37,19 @@
 - `Assets/Textures` 项目贴图
 - `Assets/Resources/Language` 项目语言包
 
+## Build | 项目打包
+
+**服务端(Server)：**
+- 打开unity编辑器
+- 在上方菜单栏中找到"Build“
+![image](https://github.com/scutrobotlab/SimulatorX/assets/110646299/09daccb8-ce6a-4105-b131-e25e00c30250)
+- 展开后选择服务端运行的平台打包
+
+**客户端(Client)：**
+- 同上，找到”Build“
+- 选择”Build Windows Client“
+
+
 ## Architecture | 原理架构说明
 
 **基本原理**
