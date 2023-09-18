@@ -39,7 +39,8 @@
 
 **基本原理**
 
-![image](https://github.com/scutrobotlab/SimulatorX/assets/110836123/b5ba0260-b9ae-4bed-999c-46143281f55f)
+![image](https://github.com/scutrobotlab/SimulatorX/assets/68735689/2825fe02-3f5f-4570-8764-7b4a8d4c5e9b)
+
 
 **Flux：**
 由于不好区分 Store 和 View，我们将这两个合到了一起，由 Dispatcher，Store，Action 三种成分构成。
