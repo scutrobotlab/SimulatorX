@@ -21,7 +21,7 @@
 - Rider
 
 ## Platform | 平台
-- Windows (服务端/客户端)】
+- Windows (服务端/客户端)
 - Linux (服务端/客户端)
 - Android (客户端)
 
