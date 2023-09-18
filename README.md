@@ -7,6 +7,7 @@
 我们建议您先阅读以下内容，以便于更好地理解官方网站中的文档内容：
 - [GitHub Wiki RM2022_SimulatiorX](https://github.com/scutrobotlab/RM2022_SimulatorX)
 - [RM2022 华南理工大学 华南虎 RMUC 模拟器开源](https://bbs.robomaster.com/forum.php?mod=viewthread&tid=22206)
+
 其他的相关资料：
 - [SimulatorX 2023UC 发布会视频](https://www.bilibili.com/video/BV1FP41147NX/?share_source=copy_web&vd_source=4511493d03a23ab2d4ade49f2c3695a8)
 
@@ -90,7 +91,7 @@ Flux的Action在服务器端流动，实现功能后同步至客户端进行效�
 未来版本 将使用插件进行更高效，精细的建模，创建更精美的贴图以及使用高清渲染管线(HDRP)。
 
 ## RoadMap | 优化方向
-![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/ff5f6a3f-4114-4e2a-b905-30a378828932)
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/05826c7b-15b5-4294-8105-189625d976c3)
 
 ## Demo | 演示
 ![Demo](https://github.com/scutrobotlab/SimulatorX/blob/docs/docs/.vuepress/public/static/images/demo.png?raw=true)
