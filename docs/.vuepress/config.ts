@@ -46,7 +46,7 @@ export default defineUserConfig({
                 prefix: "/architecture/",
                 text: "软件架构",
                 icon: "ic:round-design-services",
-                children: ["visual.md", "network.md", "vehicle-sim.md", "model.md", "workflow.md"]
+                children: ["visual.md", "network.md", "vehicle-sim.md", "model.md", "workflow.md","structure.md"]
             },
             {
                 link: "/future.md",
