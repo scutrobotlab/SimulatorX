@@ -1,4 +1,7 @@
 # 场地模型
+
+![img_v2_9a89c1e5-57c8-4d8b-a952-ecf1e8f7bacg](https://github.com/scutrobotlab/SimulatorX/assets/104719627/14d91b41-2b8b-4689-b0d0-5ac2c888eeae)
+
 ## 使用blender进行场地建模
 
 ## 使用substancePainter创建模型的贴图纹理
