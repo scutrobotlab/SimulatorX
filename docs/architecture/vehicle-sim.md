@@ -1,8 +1,30 @@
-# 车辆仿真
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/d01a4040-05ec-4c91-bf74-3dff8ed28b1b)# 车辆仿真
 ## 运动控制
 机器人运动模型主要包括地面机器人和空中机器人。地面机器人又分为普通底盘机器人与平衡底盘机器人。
 ### 普通底盘机器人
 普通底盘机器人运动的重点其实就是麦克纳姆轮底盘。在2022版本中，SimulatorX 中模拟麦克纳姆轮的方式是计算出驱动合力，再一次性加给底盘刚体。为了模拟一些真车的物理特性和防止翻车，在此基础上又增加了很多魔法，最后演变成了以bug止bug的复杂情况。
+```
+// Magic!
+wheel.motorTorque = axis.magnitude != 0 ? 1e-7f : 0;
+wheel.brakeTorque = axis.magnitude != 0 ? 0 : 1e7f;
+
+// Magic!
+if (inputMagnitude < 2.8e-2f)
+    Rigidbody.velocity = new Vector3(0, velocity.y, 0);
+else Rigidbody.AddForce(
+    -velocity * (1 / inputMagnitude * 2816 * velocity.magnitude * wheelsGroundedMultiplier));
+    
+/// <summary>
+/// 阻止车辆撞击场地后打滑旋转。
+/// </summary>
+/// <param name="collision"></param>
+public void OnCollisionEnter(Collision collision)
+{
+    var other = collision.gameObject;
+    _collideWith.Add(other.name);
+    Rigidbody.constraints = RigidbodyConstraints.FreezeRotationY;
+}
+```
 在2023版本中，我们也进行了从整体施力到四轮独立、仿真麦轮作用的尝试，应用了电控的控制算法，并且试图将各类物理参数调整至现实水平。
 ### 平衡底盘机器人
 平衡底盘也是2023赛季新加入的功能，我们进行了基于现实电控算法控制的二轮平衡底盘控制算法尝试，对普通平衡步和轮腿平衡步都进行了仿真的尝试。但是由于物理引擎仿真的性能的不足，无法开发出和赛场上一样神勇的平衡步兵，只开发出了一个看起来不太聪明的低配版（请见b站的二周年bug合集）。更为遗憾的是，原来使用整体施力的旧二轮平衡底盘也出现了一定影响游戏稳定性的bug，由于时间的紧迫也成为了模拟器本赛季未解之谜之一。
@@ -13,6 +35,15 @@
 ### 等级性能系统
 在2022版本中，使用ScriptableObject对等级性能表进行了改进，做出了可编辑的等级性能表。
 于是在去年的优化基础上，我们进行了各项等级数值的调整，并且对应的进行了一些逻辑上的更新。
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/59521a46-4818-45fe-97a2-4093ccd42c93)
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/ca5231cc-75b8-4206-abe8-95228c32864a)
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/2e396d3b-564a-4f6c-946a-a4e8d34571c1)
+
 ## 电控视觉相关
 在2022版本中，在底盘跟随和云台控制方面，SimulatorX 引入了 PID 算法，虽然最终呈现效果没有很大区别，但可以更方便的与现有视觉控制算法整合。视觉方面，除了直线预测，SimulatorX 引入了针对神符击打的曲线预测，预测的参数也可以更灵活地调整，在不同预测水平之间切换。
+预测流程图如下：
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/2d1810dd-22d4-406a-8e68-9f73d5458f8b)
+其中，关于能量机关预测所有思想流程图如下：
+![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/31ecbb62-4a89-4876-9137-1f0eaf752081)
+
 在2023版本中，在底盘算法方面，进行了其他电控算法的引入尝试，此处不再赘述。在视觉方面，为了适配更多赛场上可能出现的极限情况，我们调整了视觉算法，使其能够实现远距离吊射和近距离冲塔瞄准等。
