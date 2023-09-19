@@ -1,4 +1,5 @@
-![image](https://github.com/scutrobotlab/SimulatorX/assets/104719627/d01a4040-05ec-4c91-bf74-3dff8ed28b1b)# 车辆仿真
+# 车辆仿真
+
 ## 运动控制
 机器人运动模型主要包括地面机器人和空中机器人。地面机器人又分为普通底盘机器人与平衡底盘机器人。
 ### 普通底盘机器人
