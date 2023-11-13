@@ -26,7 +26,11 @@
 
 ::: info Best Practice
 ```bash
+# 开源版服务器
 simulatorx-server -p 5333 -n "华南猫"
+
+# 官服版私有服务器
+simulatorx-server -p 5333 -n "华南猫-02" -P "喵呜" -e scutrobot.moe -t simulatorx-s-12345678
 ```
 :::
 
